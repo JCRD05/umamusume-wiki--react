@@ -1,19 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import dbService from '../../services/db'
-
-const Tierlist = ({tierlist}) => {
-    return(
-        tierlist.map(element => 
-            <tr key={element.tier}>
-                <td className={`tier-${element.tier}`}>{element.tier}</td>
-                <td className='tier-members'>
-                    
-                </td>
-            </tr>
-        )
-    )
-}
+import Tierlist from '../Tierlist'
 
 const TierlistPage = () => {
     const [traineeTiers, setTraineeTiers] = useState([])
@@ -30,14 +18,13 @@ const TierlistPage = () => {
             .then(returnedData => {
                 setTraineeTiers(returnedData[0])
                 setSupportsTiers(returnedData[1])
-                setIsLoading(false)
             })
             .catch(error => {
                 if(!axios.isCancel(error)) {
                    console.error(error) 
-                   setIsLoading(false)
                 }
             })
+            .finally(() => setIsLoading(false))
 
         return() => controller.abort()
     },[]) 
@@ -61,7 +48,7 @@ const TierlistPage = () => {
                         </div>
                     </div>
                     
-                    <img src="../assets/images/miscellaneous/oguricap-chibi.png" alt="" className="floating-chibi"></img>
+                    <img src="/assets/images/miscellaneous/oguricap-chibi.png" alt="" className="floating-chibi"></img>
                 </div>
 
                 <div className="tierlist-column">
@@ -80,8 +67,8 @@ const TierlistPage = () => {
                                 ? null
                                 :
                                     activeTierlist === 'trainee' 
-                                    ? <Tierlist tierlist={traineeTiers}></Tierlist> 
-                                    : <Tierlist tierlist={supportsTiers}></Tierlist>
+                                    ? <Tierlist tierlist={traineeTiers} className={activeTierlist}></Tierlist> 
+                                    : <Tierlist tierlist={supportsTiers} className={activeTierlist}></Tierlist>
                             }
                         </tbody>
                     </table>
