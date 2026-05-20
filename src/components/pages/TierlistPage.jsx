@@ -29,11 +29,6 @@ const TierlistPage = () => {
         return() => controller.abort()
     },[]) 
 
-    console.log(traineeTiers)
-    console.log(supportsTiers)
-    console.log(activeTierlist)
-    console.log(isLoading)
-
     return(
         <div>
             <section className="tierlist-container">
