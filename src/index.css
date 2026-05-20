@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url('/assets/images/background/bg-standard.jpeg');
+    background-image: url('public/assets/images/background/bg-standard.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body {
 
 /* Variante de fondo para la página de inicio */
 body.bg-racetrack {
-    background-image: url('/assets/images/background/bg-racetrack.jpg');
+    background-image: url('public/assets/images/background/bg-racetrack.jpg');
 }
 
 /* ============================================================

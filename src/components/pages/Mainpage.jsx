@@ -1,4 +1,14 @@
+import { useEffect } from "react";
+
 const MainPage = () => {
+    useEffect(() => {
+        document.body.classList.add('bg-racetrack');
+
+        return () => {
+        document.body.classList.remove('bg-racetrack');
+        };
+    }, []);
+
     return(
         <div>
             <section className="welcome-card">
