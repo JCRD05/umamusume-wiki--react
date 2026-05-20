@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import dbService from '../../services/db'
-import DataSheet from '../DataSheet'
+import TierDataSheet from '../dataSheets/TierDataSheet'
 
 const TraineePage = () => {
     const [trainees, setTrainees] = useState([])
@@ -20,9 +20,6 @@ const TraineePage = () => {
             })
             .finally(() => setIsLoading(false))
     }, [])
-
-    console.log(trainees)
-    console.log(isLoading)
 
     const renderTrainees = () => {
         const currentTrainees = trainees.filter(trainee => trainee.name.toLowerCase().includes(search.toLowerCase().trim()))
@@ -79,7 +76,7 @@ const TraineePage = () => {
                         {
                             isLoading
                             ? null
-                            : <DataSheet data={renderTrainees()} className={'trainee'}></DataSheet>
+                            : <TierDataSheet data={renderTrainees()} className={'trainee'}></TierDataSheet>
                         }
                     </tbody>
                 </table>

@@ -39,8 +39,8 @@ const EventPage = () => {
                     </ul>
                 </section>
 
-                <section class="reward-analysis">
-                    <div class="analysis-text">
+                <section className="reward-analysis">
+                    <div className="analysis-text">
                         <h4>Is Rice Shower (Day I Dreamed Of) any good?</h4>
                         <p>As a Wit card, this card isn't the best option unless you have no other options or are just starting out. 
                             Shatterproof is not a very good skill and it only has 5% race bonus, making this a harder fit in Trackblazer decks. 
@@ -50,7 +50,7 @@ const EventPage = () => {
                            It's still worth fully uncapping it to maximize the bonus points even if you don't level up and use it.
                         </p>
                     </div>
-                    <div class="analysis-card-img">
+                    <div className="analysis-card-img">
                         Aqui va la imagen peche
                     </div>
                 </section>

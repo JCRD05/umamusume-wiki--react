@@ -1,4 +1,4 @@
-const DataSheet = ({data, className}) => {
+const TierDataSheet = ({data, className}) => {
     return(
         data.map(element => 
             <tr key={element.name}>
@@ -20,4 +20,4 @@ const DataSheet = ({data, className}) => {
     )
 }
 
-export default DataSheet
+export default TierDataSheet

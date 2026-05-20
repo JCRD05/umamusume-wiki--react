@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import dbService from '../../services/db'
-import DataSheet from '../DataSheet'
+import TierDataSheet from '../dataSheets/TierDataSheet'
 
 const SupportPage = () => {
     const [supports, setSupports] = useState([])
@@ -21,19 +21,16 @@ const SupportPage = () => {
             .finally(() => setIsLoading(false))
     }, [])
 
-    console.log(supports)
-    console.log(isLoading)
-
     const renderSupports = () => {
-        const currentSupports = supports.filter(trainee => trainee.name.toLowerCase().includes(search.toLowerCase().trim()))
+        const currentSupports = supports.filter(support => support.name.toLowerCase().includes(search.toLowerCase().trim()))
         
         if(sortCriteria === 'Sort By: Default') {
             return currentSupports
         } else if(sortCriteria === 'Sort By: Rarity') {
-            const rarities = { 'SSR': 1, 'SR': 2, 'R': 3};
+            const rarities = { 'SSR': 1, 'SR': 2, 'R': 3}
             return currentSupports.toSorted((a, b) => rarities[a.rarity] - rarities[b.rarity])
         } else if(sortCriteria == 'Sort By: Tier') {
-            const tiers = { 'SS': 1, 'S': 2, 'A': 3, 'B': 4, 'C': 5};
+            const tiers = { 'SS': 1, 'S': 2, 'A': 3, 'B': 4, 'C': 5}
             return currentSupports.toSorted((a, b) => tiers[a.tier] - tiers[b.tier])
         } 
     }
@@ -82,7 +79,7 @@ const SupportPage = () => {
                         {
                             isLoading
                             ? null
-                            : <DataSheet data={renderSupports()} className={'support'}></DataSheet>
+                            : <TierDataSheet data={renderSupports()} className={'support'}></TierDataSheet>
                         }
                     </tbody>
                 </table>
