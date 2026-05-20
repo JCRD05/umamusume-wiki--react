@@ -1,0 +1,863 @@
+/* ============================================================
+   GLOBAL STYLES — Umamusume Fan Site (React)
+   Unifica: index, skills, supports, tierlist, trainee,
+            banner y events en un único archivo global.
+   ============================================================ */
+
+/* --- RESET & BASE --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('/assets/images/background/bg-standard.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 80px;
+}
+
+/* Variante de fondo para la página de inicio */
+body.bg-racetrack {
+    background-image: url('/assets/images/background/bg-racetrack.jpg');
+}
+
+/* ============================================================
+   NAVBAR (compartida por todas las páginas)
+   ============================================================ */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    background: linear-gradient(to right, #345EF8, #4870ff);
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+    height: 70px;
+    border-bottom: 4px solid #ff69b4;
+}
+
+.logo img {
+    height: 50px;
+    filter: drop-shadow(2px 2px 0px #fff);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-left: 0;
+}
+
+.navbar ul li {
+    height: 100%;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0 20px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.navbar ul li:first-child {
+    margin-right: auto;
+    padding-left: 0;
+}
+
+.navbar ul li img:first-child {
+    max-height: 50px;
+    width: auto;
+    margin-right: 10px;
+    filter: drop-shadow(2px 2px 0px #fff)
+}
+
+.navbar ul li a::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    background-image: url('../assets/images/miscellaneous/UmamusumetaCarratIcon.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar ul li:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Botón Events — último ítem resaltado en rosa */
+.navbar ul li:last-child {
+    background-color: #ff69b4;
+    font-size: 1.6rem;
+    padding: 0 30px;
+}
+
+/* ============================================================
+   FOOTER (compartida)
+   ============================================================ */
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 20;
+}
+
+/* ============================================================
+   CABECERA DE PÁGINA — ribbon + barra de búsqueda
+   (Skills, Supports, Trainee, Banner)
+   ============================================================ */
+.page-header {
+    width: 100%;
+    max-width: 1150px;
+    margin: 40px auto 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.title-ribbon {
+    color: white;
+    padding: 12px 60px 12px 30px;
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+}
+
+.title-ribbon h1 {
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 900;
+}
+
+/* Colores de ribbon según sección */
+.title-ribbon.skills    { background-color: #00ccff; }
+.title-ribbon.supports  { background-color: #ff9d00; }
+.title-ribbon.banner    { background-color: #ff9d00; }
+.title-ribbon.trainee   { background-color: #7a58ff; }
+
+.page-description {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto 30px auto;
+    padding: 0 45px;
+}
+
+.page-description p {
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 600;
+    max-width: 850px;
+    line-height: 1.4;
+}
+
+/* ============================================================
+   BARRA DE BÚSQUEDA (cápsula integrada)
+   ============================================================ */
+.search-bar,
+.search-group {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 2px 2px 2px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.sort-dropdown {
+    border: none;
+    background: transparent;
+    font-weight: 600;
+    color: #333;
+    outline: none;
+    padding-right: 10px;
+    border-right: 1px solid #ddd;
+    height: 100%;
+    cursor: pointer;
+}
+
+.search-bar input,
+.search-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0 15px;
+    width: 220px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.search-btn {
+    color: white;
+    border: none;
+    height: 100%;
+    padding: 0 25px;
+    border-radius: 40px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.search-btn:hover { filter: brightness(1.1); }
+
+/* Color del botón según sección */
+.search-btn.skills   { background: linear-gradient(to right, #00ccff, #33dbff); }
+.search-btn.supports { background: #ff9d00; }
+.search-btn.banner   { background: #ff9d00; }
+.search-btn.trainee  { background: #7a58ff; }
+
+/* ============================================================
+   CONTENEDOR CÁPSULA BLANCA (tabla de datos)
+   ============================================================ */
+.data-container,
+.data-table-container {
+    background-color: white;
+    width: 92%;
+    max-width: 1100px;
+    margin: 30px auto 50px auto;
+    border-radius: 100px;
+    padding: 60px;
+}
+
+/* Variantes de borde según sección */
+.data-container.skills    { border: 2px solid #b3efff; }
+.data-container.trainee   { border: 2px solid #a0c4ff; }
+.data-table-container.supports { border: 2px solid #ffcc80; }
+.data-table-container.banner   {
+    border: 2px solid #ffcc80;
+    border-radius: 50px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* ============================================================
+   TABLAS DE DATOS (Skills, Supports, Trainee)
+   ============================================================ */
+.data-table,
+.supports-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th,
+.supports-table th {
+    text-align: left;
+    color: #8b5a2b;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+}
+
+.data-table td,
+.supports-table td {
+    padding: 20px 0;
+    border-bottom: 1px solid #f5f5f5;
+    vertical-align: middle;
+}
+
+.cell-flex {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.table-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 15px;
+    border: 1px solid #ddd;
+}
+
+/* Imagen de support (portrait) */
+.supports-table .table-img {
+    width: 65px;
+    height: 85px;
+    border-radius: 8px;
+    border: none;
+}
+
+.name {
+    display: block;
+    font-weight: 800;
+    color: #8b5a2b;
+    font-size: 1.2rem;
+}
+
+.desc {
+    font-size: 0.9rem;
+    color: #777;
+    font-weight: 600;
+}
+
+/* Columnas compactas (Trainee) */
+.data-table th:nth-child(2),
+.data-table td:nth-child(2),
+.data-table th:nth-child(3),
+.data-table td:nth-child(3) {
+    width: 1%;
+    white-space: nowrap;
+    text-align: center;
+    padding-left: 40px;
+}
+
+/* ============================================================
+   BADGES DE TIER
+   ============================================================ */
+.tier-badge {
+    padding: 6px 15px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    display: inline-block;
+    min-width: 45px;
+    text-align: center;
+}
+
+.tier-badge.ss { background-color: #ff4d4d; }
+.tier-badge.s  { background-color: #ffae42; }
+.tier-badge.a  { background-color: #4da6ff; }
+.tier-badge.b  { background-color: #8d59ff; }
+.tier-badge.c  { background-color: #26e400; }
+
+/* Variante cuadrada (Trainee) */
+.tier-badge.square { border-radius: 4px; }
+
+/* ============================================================
+   IMAGEN DE TRAINEE
+   ============================================================ */
+.trainee-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid #5d4037;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.trainee-image:hover {
+    transform: scale(1.1);
+}
+
+/* ============================================================
+   PÁGINA DE INICIO (index)
+   ============================================================ */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 150px);
+    padding: 20px;
+    perspective: 1000px;
+}
+
+.welcome-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 1000px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.character-container {
+    position: absolute;
+    left: -180px;
+    bottom: -50px;
+    z-index: 10;
+}
+
+.hero-character {
+    width: 620px;
+    height: auto;
+    display: block;
+    filter: drop-shadow(15px 10px 15px rgba(0, 0, 0, 0.3));
+}
+
+.content-container {
+    width: 750px;
+    background-color: white;
+    border: 10px solid #76c900;
+    border-radius: 60px;
+    padding: 80px 50px 50px 180px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-header {
+    position: absolute;
+    top: -45px;
+    left: 0;
+    z-index: 20;
+}
+
+.welcome-label {
+    background-color: #76c900;
+    color: white;
+    font-size: 2.6rem;
+    font-weight: 900;
+    padding: 10px 60px;
+    border-radius: 35px;
+    display: block;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.welcome-text p {
+    color: #8b5a2b;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: left;
+}
+
+/* ============================================================
+   TIER LIST
+   ============================================================ */
+.tierlist-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.info-column {
+    flex: 1;
+    position: relative;
+}
+
+.info-card {
+    background: white;
+    border: 6px solid #76c900;
+    border-radius: 45px;
+    padding: 50px 30px 40px 30px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.label-box {
+    position: absolute;
+    top: -25px;
+    z-index: 2;
+    background: #76c900;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.description-text p {
+    color: #8b5a2b;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.floating-chibi {
+    position: absolute;
+    bottom: -100px;
+    right: -40px;
+    width: 200px;
+    z-index: 5;
+}
+
+.tierlist-figure {
+    background-color: #0b0e15;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.responsive-tierlist {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.tierlist-column {
+    flex: 1.5;
+    width: 92%;
+    max-width: 1100px;
+    margin: 0 auto 20px auto;
+}
+
+/* Tabs */
+.tabs-container {
+    display: flex;
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.tab {
+    flex: 1;
+    padding: 18px 0;
+    text-align: center;
+    font-weight: 800;
+    color: #777;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tab.active {
+    background-color: #b45ca8;
+    color: white;
+}
+
+/* Tabla tier list */
+.tierlist-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    margin-top: 10px;
+}
+
+#tierlist-body tr td:first-child {
+    border-radius: 50px 0 0 50px;
+    color: white;
+    font-weight: 900;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 80px;
+    border: none;
+}
+
+#tierlist-body tr td:last-child {
+    background-color: #f0f0f0;
+    border-radius: 0 50px 50px 0;
+    padding: 10px 25px;
+    border: none;
+}
+
+.tier-ss { background-color: #ff6161; }
+.tier-s  { background-color: #ffb84e; }
+.tier-a  { background-color: #718fac; }
+.tier-b  { background-color: #8d75c2; }
+.tier-c  { background-color: #90c485; }
+
+.tier-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Imágenes dentro de tierlist */
+.tierlist-table .trainee-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.tierlist-table .support-image {
+    width: 65px;
+    height: 85px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.tierlist-table .trainee-image:hover {
+    transform: scale(1.15) translateY(-5px);
+    border-color: #b45ca8;
+    z-index: 10;
+}
+
+.tierlist-table .support-image:hover {
+    transform: scale(1.15) translateY(-5px);
+    border-color: #76c900;
+    z-index: 10;
+}
+
+/* ============================================================
+   BANNER PAGE
+   ============================================================ */
+.banners-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.banners-table th {
+    text-align: center;
+    color: #8b5a2b;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 15px;
+    border-bottom: 3px solid #ffcc80;
+}
+
+.data-body tr td {
+    padding: 30px 15px;
+    border-bottom: 1px solid #f5f5f5;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.banner-image {
+    width: 320px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    border: 3px solid #eee;
+    transition: transform 0.3s ease;
+}
+
+.banner-image:hover {
+    transform: scale(1.02);
+}
+
+.names-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.name:nth-child(2) {
+    border-top: 2px solid #ffcc80;
+    margin-top: 5px;
+    padding-top: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+.data-body tr td:last-child {
+    font-weight: 700;
+    color: #8b5a2b;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+/* ============================================================
+   EVENTS PAGE
+   ============================================================ */
+.events-page-container {
+    background-color: white;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 60px 40px;
+    border: 1px solid #4059ff;
+    border-radius: 120px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status-ribbon {
+    background: #ff69b4;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    transform: skewX(-15deg);
+    padding: 10px 60px;
+    font-size: 1.8rem;
+    position: relative;
+    margin: -30px auto 30px auto;
+    z-index: 10;
+}
+
+.event-title-badge {
+    background: #c0df16;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    border-radius: 120px;
+    padding: 10px 30px;
+    font-size: 1.4rem;
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.event-banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.event-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+.rewards-list {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.rewards-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-weight: 600;
+    border-bottom: 1px dashed #ccc;
+}
+
+.reward-analysis {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.analysis-text h4 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/* Tabla de evaluación de scores */
+.score-evaluation-container {
+    width: 100%;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.evaluation-table {
+    width: 100%;
+    max-width: 600px;
+    background-color: #f8f8f8;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(52, 94, 248, 0.2);
+}
+
+.table-main-title {
+    background: #345EF8;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.rank-header th {
+    background-color: #a3b7ff;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #ff2bf8;
+    text-align: center;
+}
+
+.rank-scores td {
+    color: #1a1a2e;
+    background-color: #f8f8f8;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 800;
+    border-bottom: 1px solid #345EF8;
+}
+
+.section-divider td {
+    background-color: #c0df16;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    border-top: 1px solid #345EF8;
+    border-bottom: 1px solid #345EF8;
+}
+
+.evaluation-table td {
+    color: #000;
+    padding: 12px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.points-cell {
+    text-align: right;
+    font-weight: bold;
+    color: #ff41a0;
+}
+
+/* Indicadores de stats */
+.stat-box {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.speed   { background: #00d2ff; }
+.stamina { background: #ff4b2b; }
+.power   { background: #ffb400; }
+.guts    { background: #ff00cc; }
+.wit     { background: #00ff88; }
+
+.analysis-card-img img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.event-bonuses h5 {
+    color: #ff69b4;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.bonus-content p,
+.event-details p {
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 600px) {
+    .evaluation-table { font-size: 0.85rem; }
+    .navbar ul li   { padding: 0 12px; font-size: 0.85rem; }
+    .welcome-card     { width: 100%; flex-direction: column; }
+    .character-container { position: static; }
+    .content-container   { width: 100%; padding: 40px 20px; }
+}
