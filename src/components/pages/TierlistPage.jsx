@@ -35,7 +35,7 @@ const TierlistPage = () => {
                 <div className="info-column">
                     <div className="info-card">
                         <header className="label-box">
-                            <span className="welcome-label">Optimist trainees!</span>
+                            <span className="header-label">Optimist trainees!</span>
                         </header>
                         
                         <div className="description-text">
