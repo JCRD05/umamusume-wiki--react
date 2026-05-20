@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import dbService from '../../services/db'
+import BannerDataSheet from '../dataSheets/BannerDataSheet'
 
 const BannerPage = () => {
     const [banners, setBanners] = useState([])
@@ -21,10 +22,7 @@ const BannerPage = () => {
             })
             .finally(() => setIsLoading(false))
     }, [])
-
-    console.log(banners)
-    console.log(isLoading)
-
+    
     return(
         <div>
             <section className="page-header">
@@ -49,21 +47,7 @@ const BannerPage = () => {
                         {
                             isLoading
                             ? null
-                            :
-                                banners.map(element => 
-                                    <tr key={`${element.trainees}-${element.supports}`}>
-                                        <td>
-                                            <div className="cell-flex">
-                                                <img src={element.image} className="banner-image" title={element.name}></img>
-                                                <div className="names-group">
-                                                    <span className="name">{element.trainees}</span>
-                                                    <span className="name">{element.supports}</span>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>{element.availability}</td>
-                                    </tr>
-                                )
+                            : <BannerDataSheet data={banners}></BannerDataSheet>
                         }
                     </tbody>
                 </table>
