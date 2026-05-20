@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url('public/assets/images/background/bg-standard.jpeg');
+    background-image: url('/assets/images/background/bg-standard.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body {
 
 /* Variante de fondo para la página de inicio */
 body.bg-racetrack {
-    background-image: url('public/assets/images/background/bg-racetrack.jpg');
+    background-image: url('/assets/images/background/bg-racetrack.jpg');
 }
 
 /* ============================================================
@@ -127,6 +127,7 @@ header {
 }
 
 .title-ribbon {
+    background-color: black; 
     color: white;
     padding: 12px 60px 12px 30px;
     clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
@@ -137,6 +138,7 @@ header {
     font-style: italic;
     font-weight: 900;
 }
+
 
 /* Colores de ribbon según sección */
 .title-ribbon.skills    { background-color: #00ccff; }
@@ -328,11 +330,11 @@ header {
     text-align: center;
 }
 
-.tier-badge.ss { background-color: #ff4d4d; }
-.tier-badge.s  { background-color: #ffae42; }
-.tier-badge.a  { background-color: #4da6ff; }
-.tier-badge.b  { background-color: #8d59ff; }
-.tier-badge.c  { background-color: #26e400; }
+.tier-badge.ss { background-color: #ff6161; }
+.tier-badge.s  { background-color: #ffb84e; }
+.tier-badge.a  { background-color: #718fac; }
+.tier-badge.b  { background-color: #8d75c2; }
+.tier-badge.c  { background-color: #90c485; }
 
 /* Variante cuadrada (Trainee) */
 .tier-badge.square { border-radius: 4px; }
@@ -545,7 +547,11 @@ main {
     margin-top: 10px;
 }
 
-#tierlist-body tr td:first-child {
+.tierlist-body tr {
+    transition: transform 0.2s;
+}
+
+.tierlist-body tr td:first-child {
     border-radius: 50px 0 0 50px;
     color: white;
     font-weight: 900;
@@ -555,12 +561,14 @@ main {
     border: none;
 }
 
-#tierlist-body tr td:last-child {
+.tierlist-body tr td:last-child {
     background-color: #f0f0f0;
     border-radius: 0 50px 50px 0;
     padding: 10px 25px;
     border: none;
 }
+
+
 
 .tier-ss { background-color: #ff6161; }
 .tier-s  { background-color: #ffb84e; }

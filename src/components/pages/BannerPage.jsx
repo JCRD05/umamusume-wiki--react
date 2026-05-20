@@ -26,7 +26,7 @@ const BannerPage = () => {
     return(
         <div>
             <section className="page-header">
-                <div className="title-ribbon">
+                <div className="title-ribbon banner">
                     <h1>Upcoming Banners</h1>
                 </div>
             </section>

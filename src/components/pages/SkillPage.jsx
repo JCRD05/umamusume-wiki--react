@@ -38,7 +38,7 @@ const SkillPage = () => {
     return(
         <div>
             <section className="page-header">
-                <div className="title-ribbon">
+                <div className="title-ribbon skills">
                     <h1>Skills</h1>
                 </div>
                 
@@ -57,7 +57,7 @@ const SkillPage = () => {
                             className="search-input"
                             onChange={event => setSearch(event.target.value)}/>
                         <button 
-                            className="search-btn">Search 🔍</button>
+                            className="search-btn skills">Search 🔍</button>
                     </div>
                 </div>
             </section>

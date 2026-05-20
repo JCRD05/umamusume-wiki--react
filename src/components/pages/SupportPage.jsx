@@ -38,7 +38,7 @@ const SupportPage = () => {
     return(
         <div>
             <section className="page-header">
-                <div className="title-ribbon">
+                <div className="title-ribbon supports">
                     <h1>Support Cards</h1>
                 </div>
                 
@@ -57,7 +57,7 @@ const SupportPage = () => {
                             placeholder="Search Support Cards..."
                             onChange={event => setSearch(event.target.value)}/>
                         <button 
-                            className="search-btn">Search 🔍</button>
+                            className="search-btn supports">Search 🔍</button>
                     </div>
                 </div>
             </section>

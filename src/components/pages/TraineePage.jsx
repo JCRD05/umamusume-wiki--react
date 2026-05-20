@@ -38,7 +38,7 @@ const TraineePage = () => {
     return(
         <div>
             <section className="page-header">
-                <div className="title-ribbon">
+                <div className="title-ribbon trainee">
                     <h1>Trainees</h1>
                 </div>
                 <div className="search-group">
@@ -55,7 +55,7 @@ const TraineePage = () => {
                         placeholder="Search Trainee..."
                         onChange={event => setSearch(event.target.value)}/>
                     <button 
-                        className="search-btn">Search 🔍</button>
+                        className="search-btn trainee">Search 🔍</button>
                 </div>
             </section>
 

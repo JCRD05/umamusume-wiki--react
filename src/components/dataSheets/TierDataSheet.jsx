@@ -13,7 +13,7 @@ const TierDataSheet = ({data, className}) => {
                 </td>
                 <td>{element.rarity}</td>
                 <td>
-                    <span className={`tier-badge-${element.tier.toLowerCase()}`}>{element.tier}</span>
+                    <span className={`tier-badge ${element.tier.toLowerCase()}`}>{element.tier}</span>
                 </td>
             </tr>
         )
