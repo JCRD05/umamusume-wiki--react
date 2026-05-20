@@ -1,8 +1,8 @@
 import Tab from "./Tab"
 
 const Navbar = ({eventHandler}) => {
-    const carratIcon = '/assets/icons/UmamusumetaCarratIcon.png'
-    const logo = '/assets/icons/Logo.png'
+    const carratIcon = '/assets/images/miscellaneous/UmamusumetaCarratIcon.png'
+    const logo = '/assets/images/miscellaneous/Logo.png'
 
     return(
         <header>
