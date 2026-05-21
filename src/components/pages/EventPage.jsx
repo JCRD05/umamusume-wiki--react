@@ -1,3 +1,6 @@
+    const eventBanner = '/assets/images/events/event-banner.png'
+    const eventCard = '/assets/images/events/Rice Shower (Day I Dreamed Of).png'
+
 const EventPage = () => {
     return (
         <section className="events-page-container">
@@ -7,7 +10,9 @@ const EventPage = () => {
                 "The Promised Hour: Silks & Three Riddles" is here!
             </div>
 
-            <figure className="event-banner"></figure>
+            <figure className="event-banner">
+                <img src={eventBanner} alt="Event banner" />
+            </figure>
 
             <article className="event-details">
                 <p>
@@ -47,12 +52,13 @@ const EventPage = () => {
                             It also has low specialty priority, but is somewhat offset by its 10% Training Effectiveness from the perk.
                         </p>
                         <p>
-                           It's still worth fully uncapping it to maximize the bonus points even if you don't level up and use it.
+                           It's still worth fully uncapping it to maximize the event bonus even if you don't end up using it.
                         </p>
                     </div>
                     <div className="analysis-card-img">
-                        Aqui va la imagen peche
+                        <img src={eventCard} alt="SSR Rice Shower (Day I Dreamed Of)" />
                     </div>
+
                 </section>
 
 
