@@ -12,4 +12,11 @@ const addData = (name, data) => {
     return request.then(response => response.data)
 }
 
-export default { getData, addData }
+const editData = (data, path) => {
+    const request = axios.put(`${baseUrl}/${path}`, data)
+    return request.then(response => response.data)
+}
+
+const deleteData = path => axios.delete(`${baseUrl}/${path}`)
+
+export default { getData, addData, editData, deleteData }

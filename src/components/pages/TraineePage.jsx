@@ -102,6 +102,18 @@ const TraineePage = ({isAdmin}) => {
             .catch(error => console.error(error))
     }
 
+    const checkUpdatedTrainee = updatedTrainee => {
+        const newTrainees = trainees.map(trainee => trainee.id === updatedTrainee.id ? updatedTrainee : trainee)
+
+        setTrainees(newTrainees)
+    }
+
+    const checkDeleteTrainee = id => {
+        const newTrainees = trainees.filter(trainee => trainee.id !== id)
+
+        setTrainees(newTrainees)
+    }
+
     console.log(newTrainee)
 
     return(
@@ -160,7 +172,10 @@ const TraineePage = ({isAdmin}) => {
                             : <TierDataSheet 
                                 data={renderTrainees()} 
                                 className={'trainee'}
-                                isAdmin={isAdmin}></TierDataSheet>
+                                isAdmin={isAdmin}
+                                type={'trainee'}
+                                onEditSuccess={checkUpdatedTrainee}
+                                onDeleteSuccess={checkDeleteTrainee}></TierDataSheet>
                         }
                     </tbody>
                 </table>

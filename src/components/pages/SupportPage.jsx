@@ -102,6 +102,18 @@ const SupportPage = ({isAdmin}) => {
             .catch(error => console.error(error))
     }
 
+    const checkUpdateSupport = updatedSupport => {
+        const newSupports = supports.map(support => support.id === updatedSupport.id ? updatedSupport : support)
+
+        setSupports(newSupports)
+    }
+
+    const checkDeleteSupport = id => {
+        const newSupports = supports.filter(support => support.id !== id)
+
+        setSupports(newSupports)
+    }
+
     return(
         <div>
             <section className="page-header">
@@ -161,7 +173,10 @@ const SupportPage = ({isAdmin}) => {
                             : <TierDataSheet 
                                 data={renderSupports()} 
                                 className={'support'} 
-                                isAdmin={isAdmin}></TierDataSheet>
+                                isAdmin={isAdmin}
+                                type={'supports'}
+                                onEditSuccess={checkUpdateSupport}
+                                onDeleteSuccess={checkDeleteSupport}></TierDataSheet>
                         }
                     </tbody>
                 </table>

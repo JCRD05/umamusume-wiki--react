@@ -1,12 +1,15 @@
 import { useState } from "react"
+import dbService from '../../services/db'
 
-const TierDataSheet = ({data, className, isAdmin}) => {
+const TierDataSheet = ({data, className, isAdmin, type, onEditSuccess, onDeleteSuccess}) => {
     const [rowInEdition, setRowInEdition] = useState(null)
     const [rowToDelete, setRowToDelete] = useState(null)
-    const [draft, setDraft] = useState({})
-
-    const editTrainee = () => {}
-    const deleteTrainee = () => {}
+    const [draft, setDraft] = useState({
+        name: '',
+        rarity: '',
+        tier: '',
+        image: ''
+    })
 
     const renderAdminButtons = (element) => {
         if(isAdmin === false) return null
@@ -15,7 +18,7 @@ const TierDataSheet = ({data, className, isAdmin}) => {
             return(
                 <div>
                     <button
-                        onClick={editTrainee}>💾</button>
+                        onClick={() => editTrainee(element.id)}>💾</button>
                     <button
                         onClick={() => setRowInEdition(null)}>❌</button>
                 </div>
@@ -24,7 +27,7 @@ const TierDataSheet = ({data, className, isAdmin}) => {
             return(
                 <div>
                     <button
-                        onClick={deleteTrainee}>🗑️</button>
+                        onClick={() => deleteTrainee(element.id)}>🗑️</button>
                     <button
                         onClick={() => setRowToDelete(null)}>❌</button>
                 </div>
@@ -38,7 +41,8 @@ const TierDataSheet = ({data, className, isAdmin}) => {
                             setDraft({
                                 name: element.name,
                                 rarity: element.rarity,
-                                tier: element.tier
+                                tier: element.tier,
+                                image: element.image
                             })
                         }}>✏️</button>
                     <button
@@ -48,8 +52,46 @@ const TierDataSheet = ({data, className, isAdmin}) => {
         }
     }
 
+    const handleDraftChange = (event) => {
+        const { name, value} = event.target
+
+        setDraft({
+            ...draft,
+            [name]: value
+        })
+    }
+
+    const editTrainee = (id) => {
+        if(draft.name == '' || draft.rarity == '' || draft.tier == '' ) {
+            return window.alert('please fill out all the form fields')
+        }
+
+        dbService
+            .editData(draft, `${type}/${id}`)
+            .then(() => {
+                setDraft({
+                    name: '',
+                    rarity: '',
+                    tier: ''
+                })
+                setRowInEdition(null)
+                onEditSuccess({ id:id, ...draft})
+            })
+            .catch(error => console.error(error))
+    }
+    const deleteTrainee = (id) => {
+        dbService
+            .deleteData(`${type}/${id}`)
+            .then(() => {
+                onDeleteSuccess(id)
+                setRowToDelete(null)
+            })
+            .catch(error => console.error(error))
+    }
+
     console.log(draft)
     console.log(rowInEdition, rowToDelete)
+    console.log(type)
     
     return(
         data.map(element => 
@@ -59,7 +101,11 @@ const TierDataSheet = ({data, className, isAdmin}) => {
                         rowInEdition === element.id
                         ?
                             <input
-                                placeholder="input a name" />
+                                type='text'
+                                placeholder="input a name"
+                                name='name'
+                                value={draft.name}
+                                onChange={handleDraftChange} />
                         :
                             <div className='cell-flex'>
                                 <img 
@@ -75,7 +121,11 @@ const TierDataSheet = ({data, className, isAdmin}) => {
                         rowInEdition === element.id 
                         ?
                             <input
-                                placeholder="Input a rarity"/>
+                                type='text'
+                                placeholder="Input a rarity"
+                                name='rarity'
+                                value={draft.rarity}
+                                onChange={handleDraftChange} />
                         : element.rarity
 
                     }
@@ -84,7 +134,12 @@ const TierDataSheet = ({data, className, isAdmin}) => {
                     {
                         rowInEdition === element.id
                         ? 
-                            <input/>
+                            <input
+                                type='text'
+                                placeholder="Input a tier"
+                                name='tier'
+                                value={draft.tier}
+                                onChange={handleDraftChange}/>
                         : <span className={`tier-badge ${element.tier.toLowerCase()}`}>{element.tier}</span>
                     }
                     {
