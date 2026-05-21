@@ -57,7 +57,7 @@ const App = () => {
             case 'banners': return <BannerPage></BannerPage>
             case 'trainees': return <TraineePage isAdmin={isAdmin}></TraineePage>
             case 'supports': return <SupportPage isAdmin={isAdmin}></SupportPage>
-            case 'skills': return <SkillPage isAdmin={isAdmin}></SkillPage>
+            case 'skills': return <SkillPage></SkillPage>
             case 'events': return <EventPage></EventPage>
         }
     }

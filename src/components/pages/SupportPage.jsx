@@ -8,6 +8,12 @@ const SupportPage = ({isAdmin}) => {
     const [isLoading, setIsLoading] = useState(true)
     const [search, setSearch] = useState('')
     const [sortCriteria, setSortCriteria] = useState('Sort By: Default')
+    const [isAdding, setIsAdding] = useState(false)
+    const [newSupport, setNewSupport] =  useState({
+        name: '',
+        rarity: '',
+        tier: ''
+    })
 
     useEffect(() => {
         const controller = new AbortController
@@ -33,6 +39,67 @@ const SupportPage = ({isAdmin}) => {
             const tiers = { 'SS': 1, 'S': 2, 'A': 3, 'B': 4, 'C': 5}
             return currentSupports.toSorted((a, b) => tiers[a.tier] - tiers[b.tier])
         } 
+    }
+
+    const renderAddSection = () => {
+        return (
+            <div>
+                <form onSubmit={addSupport}>
+                    <input
+                        type='text'
+                        placeholder='Support name'
+                        name='name'
+                        value={newSupport.name}
+                        onChange={handleNewSupportChange}/>
+
+                    <input
+                        type='text'
+                        placeholder='Support rarity'
+                        name='rarity'
+                        value={newSupport.rarity}
+                        onChange={handleNewSupportChange} />
+
+                    <input
+                        type='text'
+                        placeholder='Support tier'
+                        name='tier'
+                        value={newSupport.tier}
+                        onChange={handleNewSupportChange} />
+
+                    <button
+                        type='submit'>Add</button>
+                </form>
+            </div>
+        )
+    }
+
+    const handleNewSupportChange = (event) => {
+        const { name, value} = event.target
+
+        setNewSupport({
+            ...newSupport,
+            [name]: value
+        })
+    }
+
+    const addSupport = (event) => {
+        event.preventDefault()
+
+        if(newSupport.name == '' || newSupport.rarity == '' || newSupport.tier == '' ) {
+            return window.alert('please fill out all the form fields')
+        }
+        
+        dbService
+            .addData('supports', newSupport)
+            .then(returnedSupport => {
+                setSupports(supports.concat(returnedSupport))
+                setNewSupport({
+                    name: '',
+                    rarity: '',
+                    tier: ''
+                })
+            })
+            .catch(error => console.error(error))
     }
 
     return(
@@ -67,6 +134,18 @@ const SupportPage = ({isAdmin}) => {
             </section>
 
             <section className="data-container supports">
+                {
+                    isAdmin
+                    ? 
+                        <button
+                            onClick={() => setIsAdding(!isAdding)}>
+                                {isAdding ? '❌' :'✚'}</button>
+                    : null
+                }
+
+                {
+                    isAdding ? renderAddSection() : null
+                } 
                 <table className="data-table">
                     <thead>
                         <tr>

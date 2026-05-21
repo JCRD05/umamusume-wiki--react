@@ -11,7 +11,7 @@ const TierDataSheet = ({data, className, isAdmin}) => {
     const renderAdminButtons = (element) => {
         if(isAdmin === false) return null
 
-        if(rowInEdition === element.name) {
+        if(rowInEdition === element.id) {
             return(
                 <div>
                     <button
@@ -20,7 +20,7 @@ const TierDataSheet = ({data, className, isAdmin}) => {
                         onClick={() => setRowInEdition(null)}>❌</button>
                 </div>
             )
-        } else if(rowToDelete === element.name) {
+        } else if(rowToDelete === element.id) {
             return(
                 <div>
                     <button
@@ -34,7 +34,7 @@ const TierDataSheet = ({data, className, isAdmin}) => {
                 <div>
                     <button
                         onClick={() => {
-                            setRowInEdition(element.name)
+                            setRowInEdition(element.id)
                             setDraft({
                                 name: element.name,
                                 rarity: element.rarity,
@@ -42,7 +42,7 @@ const TierDataSheet = ({data, className, isAdmin}) => {
                             })
                         }}>✏️</button>
                     <button
-                        onClick={() => setRowToDelete(element.name)}>🗑️</button>
+                        onClick={() => setRowToDelete(element.id)}>🗑️</button>
                 </div>
             )
         }
@@ -56,7 +56,7 @@ const TierDataSheet = ({data, className, isAdmin}) => {
             <tr key={element.name}>
                 <td>
                     {
-                        rowInEdition === element.name
+                        rowInEdition === element.id
                         ?
                             <input
                                 placeholder="input a name" />
@@ -72,7 +72,7 @@ const TierDataSheet = ({data, className, isAdmin}) => {
                 </td>
                 <td>
                     {
-                        rowInEdition === element.name 
+                        rowInEdition === element.id 
                         ?
                             <input
                                 placeholder="Input a rarity"/>
@@ -82,7 +82,7 @@ const TierDataSheet = ({data, className, isAdmin}) => {
                 </td>
                 <td>
                     {
-                        rowInEdition === element.name
+                        rowInEdition === element.id
                         ? 
                             <input/>
                         : <span className={`tier-badge ${element.tier.toLowerCase()}`}>{element.tier}</span>

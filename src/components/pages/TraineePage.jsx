@@ -8,6 +8,12 @@ const TraineePage = ({isAdmin}) => {
     const [isLoading, setIsLoading] = useState(true)
     const [search, setSearch] = useState('')
     const [sortCriteria, setSortCriteria] = useState('Sort By: Default')
+    const [isAdding, setIsAdding] = useState(false)
+    const [newTrainee, setNewTrainee] =  useState({
+        name: '',
+        rarity: '',
+        tier: ''
+    })
 
     useEffect(() => {
         const controller = new AbortController
@@ -34,6 +40,69 @@ const TraineePage = ({isAdmin}) => {
             return currentTrainees.toSorted((a, b) => tiers[a.tier] - tiers[b.tier])
         } 
     }
+
+    const renderAddSection = () => {
+        return (
+            <div>
+                <form onSubmit={addTrainee}>
+                    <input
+                        type='text'
+                        placeholder='Trainee name'
+                        name='name'
+                        value={newTrainee.name}
+                        onChange={handleNewTraineeChange}/>
+
+                    <input
+                        type='text'
+                        placeholder='Trainee rarity'
+                        name='rarity'
+                        value={newTrainee.rarity}
+                        onChange={handleNewTraineeChange} />
+
+                    <input
+                        type='text'
+                        placeholder='Trainee tier'
+                        name='tier'
+                        value={newTrainee.tier}
+                        onChange={handleNewTraineeChange} />
+
+                    <button
+                        type='submit'>Add</button>
+                </form>
+            </div>
+        )
+    }
+
+    const handleNewTraineeChange = (event) => {
+        const { name, value} = event.target
+
+        setNewTrainee({
+            ...newTrainee,
+            [name]: value
+        })
+    }
+
+    const addTrainee = (event) => {
+        event.preventDefault()
+
+        if(newTrainee.name == '' || newTrainee.rarity == '' || newTrainee.tier == '' ) {
+            return window.alert('please fill out all the form fields')
+        }
+        
+        dbService
+            .addData('trainee', newTrainee)
+            .then(returnedTrainee => {
+                setTrainees(trainees.concat(returnedTrainee))
+                setNewTrainee({
+                    name: '',
+                    rarity: '',
+                    tier: ''
+                })
+            })
+            .catch(error => console.error(error))
+    }
+
+    console.log(newTrainee)
 
     return(
         <div>
@@ -66,8 +135,15 @@ const TraineePage = ({isAdmin}) => {
             <section className="data-container trainee">
                 {
                     isAdmin
-                    ? <button>✚</button>
+                    ? 
+                        <button
+                            onClick={() => setIsAdding(!isAdding)}>
+                                {isAdding ? '❌' :'✚'}</button>
                     : null
+                }
+
+                {
+                    isAdding ? renderAddSection() : null
                 } 
                 <table className="data-table">
                     <thead className="data-head">
