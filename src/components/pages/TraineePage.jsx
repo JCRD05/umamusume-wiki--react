@@ -3,7 +3,7 @@ import axios from 'axios'
 import dbService from '../../services/db'
 import TierDataSheet from '../dataSheets/TierDataSheet'
 
-const TraineePage = () => {
+const TraineePage = ({isAdmin}) => {
     const [trainees, setTrainees] = useState([])
     const [isLoading, setIsLoading] = useState(true)
     const [search, setSearch] = useState('')
@@ -64,6 +64,11 @@ const TraineePage = () => {
             </section>
 
             <section className="data-container trainee">
+                {
+                    isAdmin
+                    ? <button>✚</button>
+                    : null
+                } 
                 <table className="data-table">
                     <thead className="data-head">
                         <tr>
@@ -76,7 +81,10 @@ const TraineePage = () => {
                         {
                             isLoading
                             ? null
-                            : <TierDataSheet data={renderTrainees()} className={'trainee'}></TierDataSheet>
+                            : <TierDataSheet 
+                                data={renderTrainees()} 
+                                className={'trainee'}
+                                isAdmin={isAdmin}></TierDataSheet>
                         }
                     </tbody>
                 </table>

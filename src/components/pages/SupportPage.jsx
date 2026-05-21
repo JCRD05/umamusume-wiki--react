@@ -3,7 +3,7 @@ import axios from 'axios'
 import dbService from '../../services/db'
 import TierDataSheet from '../dataSheets/TierDataSheet'
 
-const SupportPage = () => {
+const SupportPage = ({isAdmin}) => {
     const [supports, setSupports] = useState([])
     const [isLoading, setIsLoading] = useState(true)
     const [search, setSearch] = useState('')
@@ -79,7 +79,10 @@ const SupportPage = () => {
                         {
                             isLoading
                             ? null
-                            : <TierDataSheet data={renderSupports()} className={'support'}></TierDataSheet>
+                            : <TierDataSheet 
+                                data={renderSupports()} 
+                                className={'support'} 
+                                isAdmin={isAdmin}></TierDataSheet>
                         }
                     </tbody>
                 </table>

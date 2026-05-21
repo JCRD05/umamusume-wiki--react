@@ -1,19 +1,95 @@
-const TierDataSheet = ({data, className}) => {
+import { useState } from "react"
+
+const TierDataSheet = ({data, className, isAdmin}) => {
+    const [rowInEdition, setRowInEdition] = useState(null)
+    const [rowToDelete, setRowToDelete] = useState(null)
+    const [draft, setDraft] = useState({})
+
+    const editTrainee = () => {}
+    const deleteTrainee = () => {}
+
+    const renderAdminButtons = (element) => {
+        if(isAdmin === false) return null
+
+        if(rowInEdition === element.name) {
+            return(
+                <div>
+                    <button
+                        onClick={editTrainee}>💾</button>
+                    <button
+                        onClick={() => setRowInEdition(null)}>❌</button>
+                </div>
+            )
+        } else if(rowToDelete === element.name) {
+            return(
+                <div>
+                    <button
+                        onClick={deleteTrainee}>🗑️</button>
+                    <button
+                        onClick={() => setRowToDelete(null)}>❌</button>
+                </div>
+            )
+        } else {
+            return(
+                <div>
+                    <button
+                        onClick={() => {
+                            setRowInEdition(element.name)
+                            setDraft({
+                                name: element.name,
+                                rarity: element.rarity,
+                                tier: element.tier
+                            })
+                        }}>✏️</button>
+                    <button
+                        onClick={() => setRowToDelete(element.name)}>🗑️</button>
+                </div>
+            )
+        }
+    }
+
+    console.log(draft)
+    console.log(rowInEdition, rowToDelete)
+    
     return(
         data.map(element => 
             <tr key={element.name}>
                 <td>
-                    <div className='cell-flex'>
-                        <img 
-                            className={`list-image ${className}`}
-                            src={element.image} 
-                            title={element.name}/>
-                        <span className="list-name">{element.name}</span>
-                    </div>
+                    {
+                        rowInEdition === element.name
+                        ?
+                            <input
+                                placeholder="input a name" />
+                        :
+                            <div className='cell-flex'>
+                                <img 
+                                    className={`list-image ${className}`}
+                                    src={element.image} 
+                                    title={element.name}/>
+                                <span className="list-name">{element.name}</span>
+                            </div>
+                    }
                 </td>
-                <td>{element.rarity}</td>
                 <td>
-                    <span className={`tier-badge ${element.tier.toLowerCase()}`}>{element.tier}</span>
+                    {
+                        rowInEdition === element.name 
+                        ?
+                            <input
+                                placeholder="Input a rarity"/>
+                        : element.rarity
+
+                    }
+                </td>
+                <td>
+                    {
+                        rowInEdition === element.name
+                        ? 
+                            <input/>
+                        : <span className={`tier-badge ${element.tier.toLowerCase()}`}>{element.tier}</span>
+                    }
+                    {
+                        renderAdminButtons(element)
+                    }
                 </td>
             </tr>
         )

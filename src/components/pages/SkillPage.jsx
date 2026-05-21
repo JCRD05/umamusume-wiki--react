@@ -3,7 +3,7 @@ import axios from 'axios'
 import dbService from '../../services/db'
 import SkillDataSheet from '../dataSheets/SkillDataSheet'
 
-const SkillPage = () => {
+const SkillPage = ({isAdmin}) => {
     const [skills, setSkills] = useState([])
     const [isLoading, setIsLoading] = useState(true)
     const [search, setSearch] = useState('')
@@ -79,7 +79,9 @@ const SkillPage = () => {
                         {
                             isLoading
                             ? null
-                            : <SkillDataSheet data={renderSkills()}></SkillDataSheet>
+                            : <SkillDataSheet 
+                                data={renderSkills()} 
+                                isAdmin={isAdmin}></SkillDataSheet>
                         }
                     </tbody>
                 </table>

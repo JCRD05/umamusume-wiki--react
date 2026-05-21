@@ -1,4 +1,4 @@
-const SkillDataSheet = ({data}) => {
+const SkillDataSheet = ({data, isAdmin}) => {
     return(
         data.map(element => 
             <tr key={element.name}>
