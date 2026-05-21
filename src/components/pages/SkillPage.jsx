@@ -79,7 +79,7 @@ const SkillPage = () => {
                         {
                             isLoading
                             ? null
-                            : <SkillDataSheet data={renderSkills()}></SkillDataSheet>
+                            : <SkillDataSheet data={renderSkills()} ></SkillDataSheet>
                         }
                     </tbody>
                 </table>

@@ -1,2430 +1,2681 @@
 {
-    "trainee-tierlist": [
+  "trainee-tierlist": [
     {
-            "tier": "SS",
-            "members":
-            [
-                { 
-                    "name": "Oguri Cap (Starlight Beat)", 
-                    "image": "/assets/images/trainees/Oguri Cap (Starlight Beat).png"
-                },
-                { 
-                    "name": "Oguri Cap (Ashen Miracle)", 
-                    "image": "/assets/images/trainees/Oguri Cap (Ashen Miracle).png"
-                },
-                { 
-                    "name": "Seiun Sky (Reeling in the Big One)", 
-                    "image": "/assets/images/trainees/Seiun Sky (Reeling in the Big One).png"
-                },
-                { 
-                    "name": "Maruzensky (Hot☆Summer Night)", 
-                    "image": "/assets/images/trainees/Maruzensky (Hot☆Summer Night).png"
-                },
-                { 
-                    "name": "Taiki Shuttle (Wild Frontier)", 
-                    "image": "/assets/images/trainees/Taiki Shuttle (Wild Frontier).png"
-                },
-                { 
-                    "name": "Mihono Bourbon (CODE: ICING)", 
-                    "image": "/assets/images/trainees/Mihono Bourbon (CODE ICING).png"
-                },
-                { 
-                    "name": "Kitasan Black (Gilded Shrine to Glory)", 
-                    "image": "/assets/images/trainees/Kitasan Black (Gilded Shrine to Glory).png"
-                }
-            ]
+      "tier": "SS",
+      "members": [
+        {
+          "name": "Oguri Cap (Starlight Beat)",
+          "image": "/assets/images/trainees/Oguri Cap (Starlight Beat).png"
         },
         {
-            "tier": "S",
-            "members":
-            [
-                { 
-                    "name": "Silence Suzuka (Innocent Silence)", 
-                    "image": "/assets/images/trainees/Silence Suzuka (Innocent Silence).png"
-                },
-                { 
-                    "name": "Maruzensky (Formula R)", 
-                    "image": "/assets/images/trainees/Maruzensky (Formula R).png"
-                },
-                {
-                    "name": "Seiun Sky (Soirée des Chatons)",
-                    "image": "/assets/images/trainees/Seiun Sky (Soirée des Chatons).png"
-                },
-                { 
-                    "name": "Mayano Top Gun (Scramble Zone)", 
-                    "image": "/assets/images/trainees/Mayano Top Gun (Scramble Zone).png"
-                },
-                { 
-                    "name": "Manhattan Cafe (Creeping Shadow)", 
-                    "image": "/assets/images/trainees/Manhattan Cafe (Creeping Shadow).png"
-                },
-                { 
-                    "name": "Narita Taishin (Nevertheless)", 
-                    "image": "/assets/images/trainees/Narita Taishin (Nevertheless).png" 
-                },
-                { 
-                    "name": "Tamamo Cross (Fast as Lightning)", 
-                    "image": "/assets/images/trainees/Tamamo Cross (Fast as Lightning).png"
-                },
-                { 
-                    "name": "Gold Ship (Red Strife)", 
-                    "image": "/assets/images/trainees/Gold Ship (Red Strife).png"
-                },
-                { 
-                    "name": "Sakura Bakushin O (Blossom in Learning)", 
-                    "image": "/assets/images/trainees/Sakura Bakushin O (Blossom in Learning).png"
-                },
-                { 
-                    "name": "El Condor Pasa (El Numero 1)", 
-                    "image": "/assets/images/trainees/El Condor Pasa (El Numero 1).png"
-                },
-                { 
-                    "name": "Mayano Top Gun (Sunlight Bouquet)", 
-                    "image": "/assets/images/trainees/Mayano Top Gun (Sunlight Bouquet).png"
-                },
-                { 
-                    "name": "Symboli Rudolf (Emperor's Path)", 
-                    "image": "/assets/images/trainees/Symboli Rudolf (Emperor's Path).png"
-                },
-                { 
-                    "name": "Mejiro Ryan (Down the Line)", 
-                    "image": "/assets/images/trainees/Mejiro Ryan (Down the Line).png"
-                },
-                { 
-                    "name": "Mejiro Dober (Off the Line)", 
-                    "image": "/assets/images/trainees/Mejiro Dober (Off the Line).png"
-                },
-                { 
-                    "name": "Mejiro McQueen (Frontline Elegance)", 
-                    "image": "/assets/images/trainees/Mejiro McQueen (Frontline Elegance).png"
-                },
-                { 
-                    "name": "Super Creek (Murmuring Stream)", 
-                    "image": "/assets/images/trainees/Super Creek (Murmuring Stream).png"
-                },
-                { 
-                    "name": "Special Week (Hopp'n♪Happy Heart)", 
-                    "image": "/assets/images/trainees/Special Week (Hopp'n♪Happy Heart).png"
-                },
-                { 
-                    "name": "Grass Wonder (Stone-Piercing Blue)", 
-                    "image": "/assets/images/trainees/Grass Wonder (Stone-Piercing Blue).png"
-                },
-                { 
-                    "name": "Smart Falcon (LOVE☆4EVER)", 
-                    "image": "/assets/images/trainees/Smart Falcon (LOVE☆4EVER).png"
-                },
-                { 
-                    "name": "Meisho Doto (Turbulent Blue)", 
-                    "image": "/assets/images/trainees/Meisho Doto (Turbulent Blue).png"
-                },
-                { 
-                    "name": "Daiwa Scarlet (Peak Blue)", 
-                    "image": "/assets/images/trainees/Daiwa Scarlet (Peak Blue).png"
-                },
-                { 
-                    "name": "Agnes Tachyon (Tach-nology)", 
-                    "image": "/assets/images/trainees/Agnes Tachyon (Tach-nology).png"
-                },
-                { 
-                    "name": "Special Week (Special Dreamer)", 
-                    "image": "/assets/images/trainees/Special Week (Special Dreamer).png"
-                },
-                { 
-                    "name": "Tokai Teio (Peak Joy)", 
-                    "image": "/assets/images/trainees/Tokai Teio (Peak Joy).png"
-                },
-                { 
-                    "name": "Vodka (Wild Top Gear)", 
-                    "image": "/assets/images/trainees/Vodka (Wild Top Gear).png"
-                },
-                { 
-                    "name": "Agnes Digital (Full-Color Fangirling)",
-                    "image": "/assets/images/trainees/Agnes Digital (Full-Color Fangirling).png"
-                },
-                { 
-                    "name": "Tokai Teio (Beyond the Horizon)",
-                    "image": "/assets/images/trainees/Tokai Teio (Beyond the Horizon).png"
-                },
-                { 
-                    "name": "T.M. Opera O (New Year, Same Radiance!)",
-                    "image": "/assets/images/trainees/T.M. Opera O (New Year, Same Radiance!).png"
-                }
-            ]
+          "name": "Oguri Cap (Ashen Miracle)",
+          "image": "/assets/images/trainees/Oguri Cap (Ashen Miracle).png"
         },
         {
-            "tier": "A",
-            "members":
-            [
-                { 
-                    "name": "Mejiro Bright (Brunissage Line)",
-                    "image": "/assets/images/trainees/Mejiro Bright (Brunissage Line).png"
-                },
-                { 
-                    "name": "Satono Diamond (Natural Brilliance)",
-                    "image": "/assets/images/trainees/Satono Diamond (Natural Brilliance).png"
-                },
-                { 
-                    "name": "Hishi Amazon (Azure Amazon)",
-                    "image": "/assets/images/trainees/Hishi Amazon (Azure Amazon).png"
-                },
-                { 
-                    "name": "El Condor Pasa (Kukulkan Warrior)",
-                    "image": "/assets/images/trainees/El Condor Pasa (Kukulkan Warrior).png"
-                },
-                { 
-                    "name": "Symboli Rudolf (Archer by Moonlight)",
-                    "image": "/assets/images/trainees/Symboli Rudolf (Archer by Moonlight).png"
-                },
-                { 
-                    "name": "T.M. Opera O (O Sole Suo!)",
-                    "image": "/assets/images/trainees/T.M. Opera O (O Sole Suo!).png"
-                },
-                { 
-                    "name": "Fuji Kiseki (Succès Étoilé)",
-                    "image": "/assets/images/trainees/Fuji Kiseki (Succès Étoilé).png"
-                },
-                { 
-                    "name": "Narita Brian (Maverick)",
-                    "image": "/assets/images/trainees/Narita Brian (Maverick).png"
-                },
-                { 
-                    "name": "Nice Nature (Poinsettia Ribbon)",
-                    "image": "/assets/images/trainees/Nice Nature (Poinsettia Ribbon).png"
-                },
-                { 
-                    "name": "Mejiro Ardan (Crystalline)",
-                    "image": "/assets/images/trainees/Mejiro Ardan (Crystalline).png"
-                },
-                { 
-                    "name": "Biwa Hayahide (Rouge Caroler)",
-                    "image": "/assets/images/trainees/Biwa Hayahide (Rouge Caroler).png"
-                },
-                { 
-                    "name": "Rice Shower (Rosy Dreams)",
-                    "image": "/assets/images/trainees/Rice Shower (Rosy Dreams).png"
-                },
-                { 
-                    "name": "Rice Shower (Vampire Makeover!)",
-                    "image": "/assets/images/trainees/Rice Shower (Vampire Makeover!).png"
-                },
-                { 
-                    "name": "Fuji Kiseki (Shooting Star Revue)",
-                    "image": "/assets/images/trainees/Fuji Kiseki (Shooting Star Revue).png"
-                },
-                { 
-                    "name": "Mihono Bourbon (MB-19890425)",
-                    "image": "/assets/images/trainees/Mihono Bourbon (MB-19890425).png"
-                },
-                { 
-                    "name": "Matikanetannhauser (Mambo)",
-                    "image": "/assets/images/trainees/Matikanetannhauser (Mambo).png"
-                },
-                { 
-                    "name": "Matikane Fukukitaru (Lucky Tidings)",
-                    "image": "/assets/images/trainees/Matikane Fukukitaru (Lucky Tidings).png"
-                },
-                { 
-                    "name": "Eishin Flash (Meisterschaft)",
-                    "image": "/assets/images/trainees/Eishin Flash (Meisterschaft).png"
-                },
-                { 
-                    "name": "Fine Motion (Noble Seamair)",
-                    "image": "/assets/images/trainees/Fine Motion (Noble Seamair).png"
-                },
-                { 
-                    "name": "Gold City (Authentic / 1928)",
-                    "image": "/assets/images/trainees/Gold City (Authentic 1928).png"
-                },
-                { 
-                    "name": "Air Groove (Empress Road)",
-                    "image": "/assets/images/trainees/Air Groove (Empress Road).png"
-                },
-                { 
-                    "name": "Curren Chan (Fille Éclair)",
-                    "image": "/assets/images/trainees/Curren Chan (Fille Éclair).png"
-                },
-                { 
-                    "name": "Air Groove (Quercus Civilis)",
-                    "image": "/assets/images/trainees/Air Groove (Quercus Civilis).png"
-                },
-                { 
-                    "name": "Hishi Akebono (Buono☆Alla Moda)",
-                    "image": "/assets/images/trainees/Hishi Akebono (Buono☆Alla Moda).png"
-                },
-                { 
-                    "name": "Grass Wonder (Saintly Jade Cleric)",
-                    "image": "/assets/images/trainees/Grass Wonder (Saintly Jade Cleric).png"
-                },
-                { 
-                    "name": "Mejiro McQueen (End of the Skies)",
-                    "image": "/assets/images/trainees/Mejiro McQueen (End of the Skies).png"
-                },
-                { 
-                    "name": "Winning Ticket (Get to Winning!)",
-                    "image": "/assets/images/trainees/Winning Ticket (Get to Winning!).png"
-                },
-                { 
-                    "name": "Haru Urara (New Year ♪ New Urara!)",
-                    "image": "/assets/images/trainees/Haru Urara (New Year ♪ New Urara!).png"
-                },
-                { 
-                    "name": "Sakura Chiyono O (Strength in Full Bloom)",
-                    "image": "/assets/images/trainees/Sakura Chiyono O (Strength in Full Bloom).png"
-                },
-                { 
-                    "name": "Eishin Flash (Precise Chocolatier)",
-                    "image": "/assets/images/trainees/Eishin Flash (Precise Chocolatier).png"
-                },
-                { 
-                    "name": "Admire Vega (Starry Nocturne)",
-                    "image": "/assets/images/trainees/Admire Vega (Starry Nocturne).png"
-                }
-            ]
+          "name": "Seiun Sky (Reeling in the Big One)",
+          "image": "/assets/images/trainees/Seiun Sky (Reeling in the Big One).png"
         },
         {
-            "tier": "B",
-            "members":
-            [
-                { 
-                    "name": "Tosen Jordan (Jokester ☆ Vibes)",
-                    "image": "/assets/images/trainees/Tosen Jordan (Jokester ☆ Vibes).png"
-                },
-                { 
-                    "name": "Gold City (Autumn Cosmos)",
-                    "image": "/assets/images/trainees/Gold City (Autumn Cosmos).png"
-                },
-                { 
-                    "name": "Kawakami Princess (Princess of Pink)",
-                    "image": "/assets/images/trainees/Kawakami Princess (Princess of Pink).png"
-                },
-                { 
-                    "name": "Matikane Fukukitaru (Rising Fortune)",
-                    "image": "/assets/images/trainees/Matikane Fukukitaru (Rising Fortune).png"
-                },
-                { 
-                    "name": "Super Creek (Chiffon-Wrapped Mummy)",
-                    "image": "/assets/images/trainees/Super Creek (Chiffon-Wrapped Mummy).png"
-                },
-                { 
-                    "name": "Haru Urara (Bestest Prize)",
-                    "image": "/assets/images/trainees/Haru Urara (Bestest Prize).png"
-                },
-                { 
-                    "name": "King Halo (King of Emeralds)",
-                    "image": "/assets/images/trainees/King Halo (King of Emeralds).png"
-                },
-                { 
-                    "name": "Biwa Hayahide (pf. Winning Equation.)",
-                    "image": "/assets/images/trainees/Biwa Hayahide (pf. Winning Equation...).png"
-                }
-            ]
+          "name": "Maruzensky (Hot☆Summer Night)",
+          "image": "/assets/images/trainees/Maruzensky (Hot☆Summer Night).png"
+        },
+        {
+          "name": "Taiki Shuttle (Wild Frontier)",
+          "image": "/assets/images/trainees/Taiki Shuttle (Wild Frontier).png"
+        },
+        {
+          "name": "Mihono Bourbon (CODE: ICING)",
+          "image": "/assets/images/trainees/Mihono Bourbon (CODE ICING).png"
+        },
+        {
+          "name": "Kitasan Black (Gilded Shrine to Glory)",
+          "image": "/assets/images/trainees/Kitasan Black (Gilded Shrine to Glory).png"
         }
-    ],
-    "support-tierlist": [
+      ],
+      "id": "EGGdUCN9P38"
+    },
+    {
+      "tier": "S",
+      "members": [
         {
-            "tier": "SS",
-            "members":
-            [
-                { 
-                    "name": "Kitasan Black (Fire at My Heels)", 
-                    "image": "/assets/images/support-cards/Kitasan Black (Fire at My Heels).png"
-                },
-                { 
-                    "name": "Super Creek (Piece of Mind)", 
-                    "image": "/assets/images/support-cards/Super Creek (Piece of Mind).png"
-                },
-                { 
-                    "name": "Fine Motion (Wave of Gratitude)", 
-                    "image": "/assets/images/support-cards/Fine Motion (Wave of Gratitude).png"
-                }
-            ]
+          "name": "Silence Suzuka (Innocent Silence)",
+          "image": "/assets/images/trainees/Silence Suzuka (Innocent Silence).png"
         },
         {
-            "tier": "S",
-            "members":
-            [
-                { 
-                    "name": "Narita Top Road (Peachy Silhouette)", 
-                    "image": "/assets/images/support-cards/Narita Top Road (Peachy Silhouette).png"
-                },
-                { 
-                    "name": "Matikanefukukitaru (Touching Sleeves Is Good Luck! ♪)", 
-                    "image": "/assets/images/support-cards/Matikanefukukitaru (Touching Sleeves Is Good Luck! ♪).png"
-                },
-                { 
-                    "name": "Biko Pegasus (Double Carrot Punch!)", 
-                    "image": "/assets/images/support-cards/Biko Pegasus (Double Carrot Punch!).png"
-                },
-                { 
-                    "name": "Sakura Bakushin O (Eat Fast! Yum Fast!)", 
-                    "image": "/assets/images/support-cards/Sakura Bakushin O (Eat Fast! Yum Fast!).png"
-                },
-                { 
-                    "name": "Special Week (The Setting Sun And Rising Stars)", 
-                    "image": "/assets/images/support-cards/Special Week (The Setting Sun And Rising Stars).png"
-                },
-                { 
-                    "name": "Tokai Teio (Dream Big!)", 
-                    "image": "/assets/images/support-cards/Tokai Teio (Dream Big!).png"
-                },
-                { 
-                    "name": "Sweep Tosho (It's All Mine!)", 
-                    "image": "/assets/images/support-cards/Sweep Tosho (It's All Mine!).png"
-                },
-                { 
-                    "name": "Silence Suzuka (Beyond This Shining Moment)", 
-                    "image": "/assets/images/support-cards/Silence Suzuka (Beyond This Shining Moment).png"
-                },
-                { 
-                    "name": "Mayano Top Gun (Party Formation)", 
-                    "image": "/assets/images/support-cards/Mayano Top Gun (Party Formation).png"
-                },
-                { 
-                    "name": "Sweep Tosho (Lamplit Training of a Witch-to-be)", 
-                    "image": "/assets/images/support-cards/Sweep Tosho (Lamplit Training of a Witch-to-be).png"
-                },
-                { 
-                    "name": "Shinko Windy (///WARNING GATE///)", 
-                    "image": "/assets/images/support-cards/Shinko Windy (WARNING GATE).png"
-                },
-                { 
-                    "name": "Curren Chan (Cozy Cute Memory ♪)", 
-                    "image": "/assets/images/support-cards/Curren Chan (Cozy Cute Memory ♪).png"
-                },
-                { 
-                    "name": "Admire Vega (Lucky Star in the Sky)", 
-                    "image": "/assets/images/support-cards/Admire Vega (Lucky Star in the Sky).png"
-                },
-                { 
-                    "name": "Vodka (Wild Rider)", 
-                    "image": "/assets/images/support-cards/Vodka (Wild Rider).png"
-                },
-                { 
-                    "name": "Rice Shower (Happiness Just around the Bend)", 
-                    "image": "/assets/images/support-cards/Rice Shower (Happiness Just around the Bend).png"
-                },
-                { 
-                    "name": "El Condor Pasa (Champion's Passion)", 
-                    "image": "/assets/images/support-cards/El Condor Pasa (Champion's Passion).png"
-                },
-                { 
-                    "name": "Oguri Cap (Get Lots of Hugs for Me)", 
-                    "image": "/assets/images/support-cards/Oguri Cap (Get Lots of Hugs for Me).png"
-                },
-                { 
-                    "name": "King Halo (Tonight, We Waltz)", 
-                    "image": "/assets/images/support-cards/King Halo (Tonight, We Waltz).png"
-                },
-                { 
-                    "name": "Yaeno Muteki (Fiery Discipline)", 
-                    "image": "/assets/images/support-cards/Yaeno Muteki (Fiery Discipline).png"
-                },
-                { 
-                    "name": "Smart Falcon (My Umadol Way! ☆)", 
-                    "image": "/assets/images/support-cards/Smart Falcon (My Umadol Way! ☆).png"
-                },
-                { 
-                    "name": "Narita Brian (The Whistling Arrow's Taunt)", 
-                    "image": "/assets/images/support-cards/Narita Brian (The Whistling Arrow's Taunt).png"
-                },
-                { 
-                    "name": "Seiun Sky (Foolproof Plan)", 
-                    "image": "/assets/images/support-cards/Seiun Sky (Foolproof Plan).png"
-                },
-                { 
-                    "name": "Manhattan Cafe (My Solo Drawn to Raindrop Drums)", 
-                    "image": "/assets/images/support-cards/Manhattan Cafe (My Solo Drawn to Raindrop Drums).png"
-                },
-                { 
-                    "name": "Mayano Top Gun (Cute + Cute = ?)", 
-                    "image": "/assets/images/support-cards/Mayano Top Gun (Cute + Cute).png"
-                },
-                { 
-                    "name": "Zenno Rob Roy (The Perfect Book for You)", 
-                    "image": "/assets/images/support-cards/Zenno Rob Roy (The Perfect Book for You).png"
-                },
-                { 
-                    "name": "Nice Nature (Daring to Dream)", 
-                    "image": "/assets/images/support-cards/Nice Nature (Daring to Dream).png"
-                },
-                { 
-                    "name": "Yukino Bijin (Hometown Cheers)", 
-                    "image": "/assets/images/support-cards/Yukino Bijin (Hometown Cheers).png"
-                },
-                { 
-                    "name": "Marvelous Sunday (A Marvelous ☆ Plan)", 
-                    "image": "/assets/images/support-cards/Marvelous Sunday (A Marvelous ☆ Plan).png"
-                },
-                { 
-                    "name": "Haru Urara (Urara's Day Off!)", 
-                    "image": "/assets/images/support-cards/Haru Urara (Urara's Day Off!).png"
-                },
-                { 
-                    "name": "Ines Fujin (Watch My Star Fly!)", 
-                    "image": "/assets/images/support-cards/Ines Fujin (Watch My Star Fly!).png"
-                },
-                { 
-                    "name": "Admire Vega (Aim for the Brightest)", 
-                    "image": "/assets/images/support-cards/Admire Vega (Aim for the Brightest).png"
-                },
-                { 
-                    "name": "Riko Kashimoto (Planned Perfection)", 
-                    "image": "/assets/images/support-cards/Riko Kashimoto (Planned Perfection).png"
-                },
-                { 
-                    "name": "Tazuna Hayakawa (Tracen Reception)", 
-                    "image": "/assets/images/support-cards/Tazuna Hayakawa (Tracen Reception).png"
-                }
-            ]
+          "name": "Maruzensky (Formula R)",
+          "image": "/assets/images/trainees/Maruzensky (Formula R).png"
         },
         {
-            "tier": "A",
-            "members":
-            [
-                {
-                    "name": "Tosen Jordan (My Way)",
-                    "image": "/assets/images/support-cards/Tosen Jordan (My Way).png"
-                },
-                { 
-                    "name": "Zenno Rob Roy (Magical Heroine)", 
-                    "image": "/assets/images/support-cards/Zenno Rob Roy (Magical Heroine).png"
-                },
-                { 
-                    "name": "Nishino Flower (Even the Littlest Bud)", 
-                    "image": "/assets/images/support-cards/Nishino Flower (Even the Littlest Bud).png"
-                },
-                { 
-                    "name": "Gold City (Run (my) way)", 
-                    "image": "/assets/images/support-cards/Gold City (Run (my) way).png"
-                },
-                { 
-                    "name": "Twin Turbo (Turbo Booooost!)", 
-                    "image": "/assets/images/support-cards/Twin Turbo (Turbo Booooost!).png"
-                },
-                { 
-                    "name": "Silence Suzuka (Searching for Unseen Sights)", 
-                    "image": "/assets/images/support-cards/Silence Suzuka (Searching for Unseen Sights).png"
-                },
-                { 
-                    "name": "Kawakami Princess (Princess Bride)", 
-                    "image": "/assets/images/support-cards/Kawakami Princess (Princess Bride).png"
-                },
-                { 
-                    "name": "Narita Taishin (Poolside High Tides)", 
-                    "image": "/assets/images/support-cards/Narita Taishin (Poolside High Tides).png"
-                },
-                { 
-                    "name": "Vodka (An Annoying Supervisor)", 
-                    "image": "/assets/images/support-cards/Vodka (An Annoying Supervisor).png"
-                },
-                { 
-                    "name": "King Halo (First-Rate Plan)", 
-                    "image": "/assets/images/support-cards/King Halo (First-Rate Plan).png"
-                },
-                { 
-                    "name": "Eishin Flash (500 a.m.-Right on Schedule)", 
-                    "image": "/assets/images/support-cards/Eishin Flash (500 a.m.-Right on Schedule).png"
-                },
-                { 
-                    "name": "Tamamo Cross (Beware! Halloween Night!)", 
-                    "image": "/assets/images/support-cards/Tamamo Cross (Beware! Halloween Night!).png"
-                },
-                { 
-                    "name": "Winning Ticket (Dreams Do Come True!)", 
-                    "image": "/assets/images/support-cards/Winning Ticket (Dreams Do Come True!).png"
-                },
-                { 
-                    "name": "Daitaku Helios (Make! Some! NOISE!)", 
-                    "image": "/assets/images/support-cards/Daitaku Helios (Make! Some! NOISE!).png"
-                },
-                { 
-                    "name": "Marvelous Sunday (Dazzling Day in the Snow)", 
-                    "image": "/assets/images/support-cards/Marvelous Sunday (Dazzling Day in the Snow).png"
-                },
-                { 
-                    "name": "Daitaku Helios (Let's Get This Party Lit!)", 
-                    "image": "/assets/images/support-cards/Daitaku Helios (Let's Get This Party Lit!).png"
-                },
-                { 
-                    "name": "Nishino Flower (Lifting Your Spirits)", 
-                    "image": "/assets/images/support-cards/Nishino Flower (Lifting Your Spirits).png"
-                },
-                { 
-                    "name": "Mihono Bourbon (Pal-Assisted Training)", 
-                    "image": "/assets/images/support-cards/Mihono Bourbon (Pal-Assisted Training).png"
-                },
-                { 
-                    "name": "Hishi Amazon (Reach to the Top!)", 
-                    "image": "/assets/images/support-cards/Hishi Amazon (Reach to the Top!).png"
-                },
-                { 
-                    "name": "Inari One (Laughing through the Mud)", 
-                    "image": "/assets/images/support-cards/Inari One (Laughing through the Mud).png"
-                },
-                { 
-                    "name": "Fine Motion (Grma, Ramen ♪)", 
-                    "image": "/assets/images/support-cards/Fine Motion (Grma, Ramen ♪).png"
-                },
-                { 
-                    "name": "Silence Suzuka (Winning Dream)", 
-                    "image": "/assets/images/support-cards/Silence Suzuka (Winning Dream).png"
-                },
-                { 
-                    "name": "Sakura Chiyono O (Peak Sakura Season)", 
-                    "image": "/assets/images/support-cards/Sakura Chiyono O (Peak Sakura Season).png"
-                },
-                { 
-                    "name": "Mejiro McQueen (Your Team Ace)", 
-                    "image": "/assets/images/support-cards/Mejiro McQueen (Your Team Ace).png"
-                },
-                { 
-                    "name": "Manhattan Cafe (My Solo Spun in Spiraling Runs)", 
-                    "image": "/assets/images/support-cards/Manhattan Cafe (My Solo Spun in Spiraling Runs).png"
-                },
-                { 
-                    "name": "Satono Diamond (The Will to Overtake)", 
-                    "image": "/assets/images/support-cards/Satono Diamond (The Will to Overtake).png"
-                },
-                { 
-                    "name": "Nakayama Festa (43, 8, 1)", 
-                    "image": "/assets/images/support-cards/Nakayama Festa (43, 8, 1).png"
-                },
-                { 
-                    "name": "Sakura Bakushin O (The Perfect Morning Greeting!)", 
-                    "image": "/assets/images/support-cards/Sakura Bakushin O (The Perfect Morning Greeting!).png"
-                },
-                { 
-                    "name": "Mihono Bourbon (The Ghost Finds Halloween Magic)", 
-                    "image": "/assets/images/support-cards/Mihono Bourbon (The Ghost Finds Halloween Magic).png"
-                },
-                { 
-                    "name": "Seiun Sky (Paint the Sky Red)", 
-                    "image": "/assets/images/support-cards/Seiun Sky (Paint the Sky Red).png"
-                },
-                { 
-                    "name": "Curren Chan (Cutie Pie with Shining Eyes)", 
-                    "image": "/assets/images/support-cards/Curren Chan (Cutie Pie with Shining Eyes).png"
-                },
-                { 
-                    "name": "Mejiro Dober (My Thoughts, My Desires)", 
-                    "image": "/assets/images/support-cards/Mejiro Dober (My Thoughts, My Desires).png"
-                },
-                { 
-                    "name": "Narita Taishin (Strict Shopper)", 
-                    "image": "/assets/images/support-cards/Narita Taishin (Strict Shopper).png"
-                },
-                { 
-                    "name": "Mejiro Ardan (My Heart Will Go On)", 
-                    "image": "/assets/images/support-cards/Mejiro Ardan (My Heart Will Go On).png"
-                },
-                { 
-                    "name": "Agnes Tachyon (Experimental Studies on Subject A)", 
-                    "image": "/assets/images/support-cards/Agnes Tachyon (Experimental Studies on Subject A).png"
-                },
-                { 
-                    "name": "Daiwa Scarlet (Nothing Hard Work Can't Solve!)", 
-                    "image": "/assets/images/support-cards/Daiwa Scarlet (Nothing Hard Work Can't Solve!).png"
-                },
-                { 
-                    "name": "Matikane Fukukitaru (Fate's Forecast)", 
-                    "image": "/assets/images/support-cards/Matikane Fukukitaru (Fate's Forecast).png"
-                },
-                { 
-                    "name": "Nice Nature (Messing Around)", 
-                    "image": "/assets/images/support-cards/Nice Nature (Messing Around).png"
-                },
-                { 
-                    "name": "Fuji Kiseki (Well, Look Who's Home)", 
-                    "image": "/assets/images/support-cards/Fuji Kiseki (Well, Look Who's Home).png"
-                },
-                { 
-                    "name": "Ikuno Dictus (Warm Heart, Soft Steps)", 
-                    "image": "/assets/images/support-cards/Ikuno Dictus (Warm Heart, Soft Steps).png"
-                },
-                { 
-                    "name": "Yukino Bijin (Dancing Light into the Night)", 
-                    "image": "/assets/images/support-cards/Yukino Bijin (Dancing Light into the Night).png"
-                },
-                { 
-                    "name": "Matikanetannhauser (Just Keep Going)", 
-                    "image": "/assets/images/support-cards/Matikanetannhauser (Just Keep Going).png"
-                },
-                { 
-                    "name": "Special Week (The Brightest Star in Japan)", 
-                    "image": "/assets/images/support-cards/Special Week (The Brightest Star in Japan).png"
-                },
-                { 
-                    "name": "Grass Wonder (Fairest Fleur)", 
-                    "image": "/assets/images/support-cards/Grass Wonder (Fairest Fleur).png"
-                },
-                { 
-                    "name": "Sakura Bakushin O (Super! Sonic! Flower Power!)", 
-                    "image": "/assets/images/support-cards/Sakura Bakushin O (Super! Sonic! Flower Power!).png"
-                },
-                { 
-                    "name": "Mejiro Ryan (Winning Pitch)", 
-                    "image": "/assets/images/support-cards/Mejiro Ryan (Winning Pitch).png"
-                },
-                { 
-                    "name": "Seeking the Pearl (The World's My Oyster)", 
-                    "image": "/assets/images/support-cards/Seeking the Pearl (The World's My Oyster).png"
-                },
-                { 
-                    "name": "Air Groove (Nothing Escapes the Vice Prez)", 
-                    "image": "/assets/images/support-cards/Air Groove (Nothing Escapes the Vice Prez).png"
-                },
-                { 
-                    "name": "Sirius Symboli (The Brightest Star Shines On)", 
-                    "image": "/assets/images/support-cards/Sirius Symboli (The Brightest Star Shines On).png"
-                },
-                { 
-                    "name": "Aoi Kiryuin (Trainer's Teamwork)", 
-                    "image": "/assets/images/support-cards/Aoi Kiryuin (Trainer's Teamwork).png"
-                },
-                { 
-                    "name": "Team Sirius (Passing the Dream On)", 
-                    "image": "/assets/images/support-cards/Team Sirius (Passing the Dream On).png"
-                }
-            ]
+          "name": "Seiun Sky (Soirée des Chatons)",
+          "image": "/assets/images/trainees/Seiun Sky (Soirée des Chatons).png"
         },
         {
-            "tier": "B",
-            "members":
-            [
-                { 
-                    "name": "Narita Brian (Two Pieces)", 
-                    "image": "/assets/images/support-cards/Narita Brian (Two Pieces).png"
-                },
-                { 
-                    "name": "Mejiro Ryan (Hot Hearts and Cool Drinks)", 
-                    "image": "/assets/images/support-cards/Mejiro Ryan (Hot Hearts and Cool Drinks).png"
-                },
-                { 
-                    "name": "Mejiro Bright (Little by Little)", 
-                    "image": "/assets/images/support-cards/Mejiro Bright (Little by Little).png"
-                },
-                { 
-                    "name": "Bamboo Memory (Head-On Fight!)", 
-                    "image": "/assets/images/support-cards/Bamboo Memory (Head-On Fight!).png"
-                },
-                { 
-                    "name": "Daiwa Scarlet (Mini☆Vacation)", 
-                    "image": "/assets/images/support-cards/Daiwa Scarlet (Mini☆Vacation).png"
-                },
-                { 
-                    "name": "Biwa Hayahide (Trial Initiation)", 
-                    "image": "/assets/images/support-cards/Biwa Hayahide (Trial Initiation).png"
-                },
-                { 
-                    "name": "Mejiro Ryan (On and Off the Court)", 
-                    "image": "/assets/images/support-cards/Mejiro Ryan (On and Off the Court).png"
-                },
-                { 
-                    "name": "Agnes Digital (Digital's Recharge Station)", 
-                    "image": "/assets/images/support-cards/Agnes Digital (Digital's Recharge Station).png"
-                },
-                { 
-                    "name": "Special Week (At the End of the Day)", 
-                    "image": "/assets/images/support-cards/Special Week (At the End of the Day).png"
-                },
-                { 
-                    "name": "Meisho Doto (Leaping into the Unknown)", 
-                    "image": "/assets/images/support-cards/Meisho Doto (Leaping into the Unknown).png"
-                },
-                { 
-                    "name": "Agnes Digital (A Fan's Joy)", 
-                    "image": "/assets/images/support-cards/Agnes Digital (A Fan's Joy).png"
-                },
-                { 
-                    "name": "Tamamo Cross (Split the Sky, White Lightning!)", 
-                    "image": "/assets/images/support-cards/Tamamo Cross (Split the Sky, White Lightning!).png"
-                },
-                { 
-                    "name": "Rice Shower (Showered In Joy)", 
-                    "image": "/assets/images/support-cards/Rice Shower (Showered In Joy).png"
-                },
-                { 
-                    "name": "Tosen Jordan (Turf as Nails)", 
-                    "image": "/assets/images/support-cards/Tosen Jordan (Turf as Nails).png"
-                },
-                { 
-                    "name": "Mejiro Dober (Ignore the Stares)", 
-                    "image": "/assets/images/support-cards/Mejiro Dober (Ignore the Stares).png"
-                },
-                { 
-                    "name": "Ikuno Dictus (Never Skip Warm-Ups)", 
-                    "image": "/assets/images/support-cards/Ikuno Dictus (Never Skip Warm-Ups).png"
-                },
-                { 
-                    "name": "Tamamo Cross (Now Dat's What I Call Grilled Squid!)", 
-                    "image": "/assets/images/support-cards/Tamamo Cross (Now Dat's What I Call Grilled Squid!).png"
-                },
-                { 
-                    "name": "Satono Diamond (Special Dreamers!)", 
-                    "image": "/assets/images/support-cards/Satono Diamond (Special Dreamers!).png"
-                },
-                { 
-                    "name": "Ines Fujin (You Earned It!)", 
-                    "image": "/assets/images/support-cards/Ines Fujin (You Earned It!).png"
-                },
-                { 
-                    "name": "Nishino Flower (Little Cupcakes, Big Emotions)", 
-                    "image": "/assets/images/support-cards/Nishino Flower (Little Cupcakes, Big Emotions).png"
-                },
-                { 
-                    "name": "Hishi Akebono (Who Wants the First Bite?)", 
-                    "image": "/assets/images/support-cards/Hishi Akebono (Who Wants the First Bite).png"
-                },
-                { 
-                    "name": "Mejiro Palmer (Go Ahead and Laugh)", 
-                    "image": "/assets/images/support-cards/Mejiro Palmer (Go Ahead and Laugh).png"
-                },
-                { 
-                    "name": "Marvelous Sunday (A MORE MARVELOUS WORLD! ☆)", 
-                    "image": "/assets/images/support-cards/Marvelous Sunday (A MORE MARVELOUS WORLD! ☆).png"
-                },
-                { 
-                    "name": "Meisho Doto (Fighting for Fortune)", 
-                    "image": "/assets/images/support-cards/Meisho Doto (Fighting for Fortune).png"
-                },
-                { 
-                    "name": "Yukino Bijin (City Girl 101)", 
-                    "image": "/assets/images/support-cards/Yukino Bijin (City Girl 101).png"
-                }
-            ]
+          "name": "Mayano Top Gun (Scramble Zone)",
+          "image": "/assets/images/trainees/Mayano Top Gun (Scramble Zone).png"
         },
         {
-            "tier": "C",
-            "members":
-            [
-                { 
-                    "name": "Gold Ship (That Time I Became the Strongest)", 
-                    "image": "/assets/images/support-cards/Gold Ship (That Time I Became the Strongest).png"
-                },
-                { 
-                    "name": "Gold Ship (Breakaway Battleship)", 
-                    "image": "/assets/images/support-cards/Gold Ship (Breakaway Battleship).png"
-                },
-                { 
-                    "name": "Winning Ticket (Full-Blown Tantrum)", 
-                    "image": "/assets/images/support-cards/Winning Ticket (Full-Blown Tantrum).png"
-                },
-                { 
-                    "name": "Air Shakur (7 More Centimeters)", 
-                    "image": "/assets/images/support-cards/Air Shakur (7 More Centimeters).png"
-                },
-                { 
-                    "name": "Winning Ticket (BNWinner!)", 
-                    "image": "/assets/images/support-cards/Winning Ticket (BNWinner!).png"
-                },
-                { 
-                    "name": "Nice Nature (It's Just Water)", 
-                    "image": "/assets/images/support-cards/Nice Nature (It's Just Water).png"
-                },
-                { 
-                    "name": "Sasami Anshinzawa (This Might Sting!)", 
-                    "image": "/assets/images/support-cards/Sasami Anshinzawa (This Might Sting!).png"
-                }
-            ]
+          "name": "Manhattan Cafe (Creeping Shadow)",
+          "image": "/assets/images/trainees/Manhattan Cafe (Creeping Shadow).png"
+        },
+        {
+          "name": "Narita Taishin (Nevertheless)",
+          "image": "/assets/images/trainees/Narita Taishin (Nevertheless).png"
+        },
+        {
+          "name": "Tamamo Cross (Fast as Lightning)",
+          "image": "/assets/images/trainees/Tamamo Cross (Fast as Lightning).png"
+        },
+        {
+          "name": "Gold Ship (Red Strife)",
+          "image": "/assets/images/trainees/Gold Ship (Red Strife).png"
+        },
+        {
+          "name": "Sakura Bakushin O (Blossom in Learning)",
+          "image": "/assets/images/trainees/Sakura Bakushin O (Blossom in Learning).png"
+        },
+        {
+          "name": "El Condor Pasa (El Numero 1)",
+          "image": "/assets/images/trainees/El Condor Pasa (El Numero 1).png"
+        },
+        {
+          "name": "Mayano Top Gun (Sunlight Bouquet)",
+          "image": "/assets/images/trainees/Mayano Top Gun (Sunlight Bouquet).png"
+        },
+        {
+          "name": "Symboli Rudolf (Emperor's Path)",
+          "image": "/assets/images/trainees/Symboli Rudolf (Emperor's Path).png"
+        },
+        {
+          "name": "Mejiro Ryan (Down the Line)",
+          "image": "/assets/images/trainees/Mejiro Ryan (Down the Line).png"
+        },
+        {
+          "name": "Mejiro Dober (Off the Line)",
+          "image": "/assets/images/trainees/Mejiro Dober (Off the Line).png"
+        },
+        {
+          "name": "Mejiro McQueen (Frontline Elegance)",
+          "image": "/assets/images/trainees/Mejiro McQueen (Frontline Elegance).png"
+        },
+        {
+          "name": "Super Creek (Murmuring Stream)",
+          "image": "/assets/images/trainees/Super Creek (Murmuring Stream).png"
+        },
+        {
+          "name": "Special Week (Hopp'n♪Happy Heart)",
+          "image": "/assets/images/trainees/Special Week (Hopp'n♪Happy Heart).png"
+        },
+        {
+          "name": "Grass Wonder (Stone-Piercing Blue)",
+          "image": "/assets/images/trainees/Grass Wonder (Stone-Piercing Blue).png"
+        },
+        {
+          "name": "Smart Falcon (LOVE☆4EVER)",
+          "image": "/assets/images/trainees/Smart Falcon (LOVE☆4EVER).png"
+        },
+        {
+          "name": "Meisho Doto (Turbulent Blue)",
+          "image": "/assets/images/trainees/Meisho Doto (Turbulent Blue).png"
+        },
+        {
+          "name": "Daiwa Scarlet (Peak Blue)",
+          "image": "/assets/images/trainees/Daiwa Scarlet (Peak Blue).png"
+        },
+        {
+          "name": "Agnes Tachyon (Tach-nology)",
+          "image": "/assets/images/trainees/Agnes Tachyon (Tach-nology).png"
+        },
+        {
+          "name": "Special Week (Special Dreamer)",
+          "image": "/assets/images/trainees/Special Week (Special Dreamer).png"
+        },
+        {
+          "name": "Tokai Teio (Peak Joy)",
+          "image": "/assets/images/trainees/Tokai Teio (Peak Joy).png"
+        },
+        {
+          "name": "Vodka (Wild Top Gear)",
+          "image": "/assets/images/trainees/Vodka (Wild Top Gear).png"
+        },
+        {
+          "name": "Agnes Digital (Full-Color Fangirling)",
+          "image": "/assets/images/trainees/Agnes Digital (Full-Color Fangirling).png"
+        },
+        {
+          "name": "Tokai Teio (Beyond the Horizon)",
+          "image": "/assets/images/trainees/Tokai Teio (Beyond the Horizon).png"
+        },
+        {
+          "name": "T.M. Opera O (New Year, Same Radiance!)",
+          "image": "/assets/images/trainees/T.M. Opera O (New Year, Same Radiance!).png"
         }
-    ],
-    "banner": [
+      ],
+      "id": "7s2wrStDb0E"
+    },
+    {
+      "tier": "A",
+      "members": [
         {
-            "trainees": "Fuji Kiseki and Seiun Sky (Dance alts)",
-            "supports": "Symboli Rudolf (Stamina SSR) and Sirius Symboli (Wit SSR)",
-            "availability": "Apr 5, 2026 - Apr 18, 2026",
-            "image": "/assets/images/banners/Apr 5, 2026 - Apr 18, 2026.png"
+          "name": "Mejiro Bright (Brunissage Line)",
+          "image": "/assets/images/trainees/Mejiro Bright (Brunissage Line).png"
         },
         {
-            "trainees": "Nishino Flower",
-            "supports": "Daiwa Scarlet (Power SSR) and Sweep Tosho (Wit SR)",
-            "availability": "Apr 12, 2026 - Apr 20, 2026",
-            "image": "/assets/images/banners/Apr 12, 2026 - Apr 20, 2026.png"
+          "name": "Satono Diamond (Natural Brilliance)",
+          "image": "/assets/images/trainees/Satono Diamond (Natural Brilliance).png"
         },
         {
-            "trainees": "Yaeno Muteki",
-            "supports": "(Rerun Banner) Twin Turbo SSR and Ines Fujin SSR",
-            "availability": "Apr 20, 2026 - Apr 29, 2026",
-            "image": "/assets/images/banners/Apr 20, 2026 - Apr 29, 2026.png"
+          "name": "Hishi Amazon (Azure Amazon)",
+          "image": "/assets/images/trainees/Hishi Amazon (Azure Amazon).png"
         },
         {
-            "trainees": "Nice Nature and King Halo (Cheerleader alts)",
-            "supports": "Bamboo Memory (Guts SSR) and Seeking the Pearl (Speed SSR)",
-            "availability": "Apr 26, 2026 - May 08, 2026",
-            "image": "/assets/images/banners/Apr 26, 2026 - May 08, 2026.png"
+          "name": "El Condor Pasa (Kukulkan Warrior)",
+          "image": "/assets/images/trainees/El Condor Pasa (Kukulkan Warrior).png"
         },
         {
-            "trainees": "Ines Fujin",
-            "supports": "Mr. C.B. (Wit SSR) and Tokai Teio (Stamina SR)",
-            "availability": "Apr 30, 2026 - May 10, 2026",
-            "image": "/assets/images/banners/Apr 30, 2026 - May 10, 2026.png"
+          "name": "Symboli Rudolf (Archer by Moonlight)",
+          "image": "/assets/images/trainees/Symboli Rudolf (Archer by Moonlight).png"
         },
         {
-            "trainees": "Mejiro Palmer",
-            "supports": "(Rerun Banner) Matikanefukukitaru (Speed SSR) and Rice Shower (Power SSR)",
-            "availability": "Expected in early may TBD",
-            "image": "/assets/images/banners/Expected Banners - Early May 1.png"
+          "name": "T.M. Opera O (O Sole Suo!)",
+          "image": "/assets/images/trainees/T.M. Opera O (O Sole Suo!).png"
         },
         {
-            "trainees": "Curren Chan (Wedding) and Fine Motion (Wedding)",
-            "supports": "Haru Urara (Power SSR) and Ikuno Dictus (Stamina SSR)",
-            "availability": "Expected in early may TBD",
-            "image": "/assets/images/banners/Expected Banners - Early May 2.png"
-        },    
-        {
-            "trainees": "Inari One",
-            "supports": "(Rerun Banner) Admire Vega (Power SSR) Sakura Chiyono O (Stamina SSR)",
-            "availability": "Expected late may TBD",
-            "image": "/assets/images/banners/Expected Banners - Late May 1.png"
+          "name": "Fuji Kiseki (Succès Étoilé)",
+          "image": "/assets/images/trainees/Fuji Kiseki (Succès Étoilé).png"
         },
         {
-            "trainees": "Sweep Tosho",
-            "supports": "Taiki Shuttle (Speed SSR) Oguri Cap (Guts SR)",
-            "availability": "Expected in late may TBD",
-            "image": "/assets/images/banners/Expected Banners - Late May 2.png"
+          "name": "Narita Brian (Maverick)",
+          "image": "/assets/images/trainees/Narita Brian (Maverick).png"
+        },
+        {
+          "name": "Nice Nature (Poinsettia Ribbon)",
+          "image": "/assets/images/trainees/Nice Nature (Poinsettia Ribbon).png"
+        },
+        {
+          "name": "Mejiro Ardan (Crystalline)",
+          "image": "/assets/images/trainees/Mejiro Ardan (Crystalline).png"
+        },
+        {
+          "name": "Biwa Hayahide (Rouge Caroler)",
+          "image": "/assets/images/trainees/Biwa Hayahide (Rouge Caroler).png"
+        },
+        {
+          "name": "Rice Shower (Rosy Dreams)",
+          "image": "/assets/images/trainees/Rice Shower (Rosy Dreams).png"
+        },
+        {
+          "name": "Rice Shower (Vampire Makeover!)",
+          "image": "/assets/images/trainees/Rice Shower (Vampire Makeover!).png"
+        },
+        {
+          "name": "Fuji Kiseki (Shooting Star Revue)",
+          "image": "/assets/images/trainees/Fuji Kiseki (Shooting Star Revue).png"
+        },
+        {
+          "name": "Mihono Bourbon (MB-19890425)",
+          "image": "/assets/images/trainees/Mihono Bourbon (MB-19890425).png"
+        },
+        {
+          "name": "Matikanetannhauser (Mambo)",
+          "image": "/assets/images/trainees/Matikanetannhauser (Mambo).png"
+        },
+        {
+          "name": "Matikane Fukukitaru (Lucky Tidings)",
+          "image": "/assets/images/trainees/Matikane Fukukitaru (Lucky Tidings).png"
+        },
+        {
+          "name": "Eishin Flash (Meisterschaft)",
+          "image": "/assets/images/trainees/Eishin Flash (Meisterschaft).png"
+        },
+        {
+          "name": "Fine Motion (Noble Seamair)",
+          "image": "/assets/images/trainees/Fine Motion (Noble Seamair).png"
+        },
+        {
+          "name": "Gold City (Authentic / 1928)",
+          "image": "/assets/images/trainees/Gold City (Authentic 1928).png"
+        },
+        {
+          "name": "Air Groove (Empress Road)",
+          "image": "/assets/images/trainees/Air Groove (Empress Road).png"
+        },
+        {
+          "name": "Curren Chan (Fille Éclair)",
+          "image": "/assets/images/trainees/Curren Chan (Fille Éclair).png"
+        },
+        {
+          "name": "Air Groove (Quercus Civilis)",
+          "image": "/assets/images/trainees/Air Groove (Quercus Civilis).png"
+        },
+        {
+          "name": "Hishi Akebono (Buono☆Alla Moda)",
+          "image": "/assets/images/trainees/Hishi Akebono (Buono☆Alla Moda).png"
+        },
+        {
+          "name": "Grass Wonder (Saintly Jade Cleric)",
+          "image": "/assets/images/trainees/Grass Wonder (Saintly Jade Cleric).png"
+        },
+        {
+          "name": "Mejiro McQueen (End of the Skies)",
+          "image": "/assets/images/trainees/Mejiro McQueen (End of the Skies).png"
+        },
+        {
+          "name": "Winning Ticket (Get to Winning!)",
+          "image": "/assets/images/trainees/Winning Ticket (Get to Winning!).png"
+        },
+        {
+          "name": "Haru Urara (New Year ♪ New Urara!)",
+          "image": "/assets/images/trainees/Haru Urara (New Year ♪ New Urara!).png"
+        },
+        {
+          "name": "Sakura Chiyono O (Strength in Full Bloom)",
+          "image": "/assets/images/trainees/Sakura Chiyono O (Strength in Full Bloom).png"
+        },
+        {
+          "name": "Eishin Flash (Precise Chocolatier)",
+          "image": "/assets/images/trainees/Eishin Flash (Precise Chocolatier).png"
+        },
+        {
+          "name": "Admire Vega (Starry Nocturne)",
+          "image": "/assets/images/trainees/Admire Vega (Starry Nocturne).png"
         }
-    ],
-    "trainee": [
+      ],
+      "id": "hDZR-Aytx40"
+    },
+    {
+      "tier": "B",
+      "members": [
         {
-            "name": "Special Week (Special Dreamer)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Special Week (Special Dreamer).png"
+          "name": "Tosen Jordan (Jokester ☆ Vibes)",
+          "image": "/assets/images/trainees/Tosen Jordan (Jokester ☆ Vibes).png"
         },
         {
-            "name": "Silence Suzuka (Innocent Silence)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Silence Suzuka (Innocent Silence).png"
+          "name": "Gold City (Autumn Cosmos)",
+          "image": "/assets/images/trainees/Gold City (Autumn Cosmos).png"
         },
         {
-            "name": "Tokai Teio (Peak Joy)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Tokai Teio (Peak Joy).png"
+          "name": "Kawakami Princess (Princess of Pink)",
+          "image": "/assets/images/trainees/Kawakami Princess (Princess of Pink).png"
         },
         {
-            "name": "Maruzensky (Formula R)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Maruzensky (Formula R).png"
+          "name": "Matikane Fukukitaru (Rising Fortune)",
+          "image": "/assets/images/trainees/Matikane Fukukitaru (Rising Fortune).png"
         },
         {
-            "name": "Oguri Cap (Starlight Beat)",
-            "rarity": "★★★",
-            "tier": "SS",
-            "image": "/assets/images/trainees/Oguri Cap (Starlight Beat).png"
+          "name": "Super Creek (Chiffon-Wrapped Mummy)",
+          "image": "/assets/images/trainees/Super Creek (Chiffon-Wrapped Mummy).png"
         },
         {
-            "name": "Taiki Shuttle (Wild Frontier)",
-            "rarity": "★★★",
-            "tier": "SS",
-            "image": "/assets/images/trainees/Taiki Shuttle (Wild Frontier).png"
+          "name": "Haru Urara (Bestest Prize)",
+          "image": "/assets/images/trainees/Haru Urara (Bestest Prize).png"
         },
         {
-            "name": "Mejiro McQueen (Frontline Elegance)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Mejiro McQueen (Frontline Elegance).png"
+          "name": "King Halo (King of Emeralds)",
+          "image": "/assets/images/trainees/King Halo (King of Emeralds).png"
         },
         {
-            "name": "T.M. Opera O (O Sole Suo!)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/T.M. Opera O (O Sole Suo!).png"
-        },
-        {
-            "name": "Symboli Rudolf (Emperor's Path)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Symboli Rudolf (Emperor's Path).png"
-        },
-        {
-            "name": "Rice Shower (Rosy Dreams)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Rice Shower (Rosy Dreams).png"
-        },
-        {
-            "name": "Gold Ship (Red Strife)",
-            "rarity": "★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Gold Ship (Red Strife).png"
-        },
-        {
-            "name": "Vodka (Wild Top Gear)",
-            "rarity": "★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Vodka (Wild Top Gear).png"
-        },
-        {
-            "name": "Daiwa Scarlet (Peak Blue)",
-            "rarity": "★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Daiwa Scarlet (Peak Blue).png"
-        },
-        {
-            "name": "Grass Wonder (Stone-Piercing Blue)",
-            "rarity": "★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Grass Wonder (Stone-Piercing Blue).png"
-        },
-        {
-            "name": "El Condor Pasa (El Numero 1)",
-            "rarity": "★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/El Condor Pasa (El Numero 1).png"
-        },
-        {
-            "name": "Air Groove (Empress Road)",
-            "rarity": "★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Air Groove (Empress Road).png"
-        },
-        {
-            "name": "Mayano Top Gun (Scramble Zone)",
-            "rarity": "★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Mayano Top Gun (Scramble Zone).png"  
-        },
-        {
-            "name": "Super Creek (Murmuring Stream)",
-            "rarity": "★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Super Creek (Murmuring Stream).png"
-        },
-        {
-            "name": "Mejiro Ryan (Down the Line)",
-            "rarity": "★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Mejiro Ryan (Down the Line).png"
-        },
-        {
-            "name": "Agnes Tachyon (Tach-nology)",
-            "rarity": "★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Agnes Tachyon (Tach-nology).png"
-        },
-        {
-            "name": "Winning Ticket (Get to Winning!)",
-            "rarity": "★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Winning Ticket (Get to Winning!).png"
-        },
-        {
-            "name": "Sakura Bakushin O (Blossom in Learning)",
-            "rarity": "★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Sakura Bakushin O (Blossom in Learning).png"
-        },
-        {
-            "name": "Haru Urara (Bestest Prize)",
-            "rarity": "★",
-            "tier": "B",
-            "image": "/assets/images/trainees/Haru Urara (Bestest Prize).png"
-        },
-        {
-            "name": "Matikane Fukukitaru (Rising Fortune)",
-            "rarity": "★",
-            "tier": "B",
-            "image": "/assets/images/trainees/Matikane Fukukitaru (Rising Fortune).png"
-        },
-        {
-            "name": "Nice Nature (Poinsettia Ribbon)",
-            "rarity": "★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Nice Nature (Poinsettia Ribbon).png"
-        },
-        {
-            "name": "King Halo (King of Emeralds)",
-            "rarity": "★",
-            "tier": "B",
-            "image": "/assets/images/trainees/King Halo (King of Emeralds).png"
-        },
-        {
-            "name": "Mihono Bourbon (MB-19890425)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Mihono Bourbon (MB-19890425).png"
-        },
-        {
-            "name": "Biwa Hayahide (pf. Winning Equation.)",
-            "rarity": "★★★",
-            "tier": "B",
-            "image": "/assets/images/trainees/Biwa Hayahide (pf. Winning Equation...).png"
-        },
-        {
-            "name": "Mejiro McQueen (End of the Skies)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Mejiro McQueen (End of the Skies).png"
-        },
-        {
-            "name": "Tokai Teio (Beyond the Horizon)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Tokai Teio (Beyond the Horizon).png"
-        },
-        {
-            "name": "Curren Chan (Fille Éclair)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Curren Chan (Fille Éclair).png"
-        },
-        {
-            "name": "Narita Taishin (Nevertheless)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Narita Taishin (Nevertheless).png"
-        },
-        {
-            "name": "Smart Falcon (LOVE☆4EVER)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Smart Falcon (LOVE☆4EVER).png"
-        },
-        {
-            "name": "Narita Brian (Maverick)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Narita Brian (Maverick).png"
-        },
-        {
-            "name": "Mayano Top Gun (Sunlight Bouquet)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Mayano Top Gun (Sunlight Bouquet).png"
-        },
-        {
-            "name": "Air Groove (Quercus Civilis)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Air Groove (Quercus Civilis).png"
-        },
-        {
-            "name": "Seiun Sky (Reeling in the Big One)",
-            "rarity": "★★★",
-            "tier": "SS",
-            "image": "/assets/images/trainees/Seiun Sky (Reeling in the Big One).png"
-        },
-        {
-            "name": "Hishi Amazon (Azure Amazon)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Hishi Amazon (Azure Amazon).png"
-        },
-        {
-            "name": "El Condor Pasa (Kukulkan Warrior)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/El Condor Pasa (Kukulkan Warrior).png"
-        },
-        {
-            "name": "Grass Wonder (Saintly Jade Cleric)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Grass Wonder (Saintly Jade Cleric).png"
-        },
-        {
-            "name": "Fuji Kiseki (Shooting Star Revue)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Fuji Kiseki (Shooting Star Revue).png"
-        },
-        {
-            "name": "Gold City (Authentic 1928)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Gold City (Authentic 1928).png"
-        },
-        {
-            "name": "Special Week (Hopp'n♪Happy Heart)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Special Week (Hopp'n♪Happy Heart).png"
-        },
-        {
-            "name": "Maruzensky (Hot☆Summer Night)",
-            "rarity": "★★★",
-            "tier": "SS",
-            "image": "/assets/images/trainees/Maruzensky (Hot☆Summer Night).png"
-        },
-        {
-            "name": "Meisho Doto (Turbulent Blue)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Meisho Doto (Turbulent Blue).png"
-        },
-        {
-            "name": "Eishin Flash (Meisterschaft)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Eishin Flash (Meisterschaft).png"
-        },
-        {
-            "name": "Matikane Fukukitaru (Lucky Tidings)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Matikane Fukukitaru (Lucky Tidings).png"
-        },
-        {
-            "name": "Hishi Akebono (Buono☆Alla Moda)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Hishi Akebono (Buono☆Alla Moda).png"
-        },
-        {
-            "name": "Agnes Digital (Full-Color Fangirling)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Agnes Digital (Full-Color Fangirling).png"
-        },
-        {
-            "name": "Rice Shower (Vampire Makeover!)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Rice Shower (Vampire Makeover!).png"
-        },
-        {
-            "name": "Super Creek (Chiffon-Wrapped Mummy)",
-            "rarity": "★★★",
-            "tier": "B",
-            "image": "/assets/images/trainees/Super Creek (Chiffon-Wrapped Mummy).png"
-        },
-        {
-            "name": "Kawakami Princess (Princess of Pink)",
-            "rarity": "★★★",
-            "tier": "B",
-            "image": "/assets/images/trainees/Kawakami Princess (Princess of Pink).png"
-        },
-        {
-            "name": "Manhattan Cafe (Creeping Shadow)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Manhattan Cafe (Creeping Shadow).png"
-        },
-        {
-            "name": "Symboli Rudolf (Archer by Moonlight)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Symboli Rudolf (Archer by Moonlight).png"
-        },
-        {
-            "name": "Gold City (Autumn Cosmos)",
-            "rarity": "★★★",
-            "tier": "B",
-            "image": "/assets/images/trainees/Gold City (Autumn Cosmos).png"
-        },
-        {
-            "name": "Tosen Jordan (Jokester ☆ Vibes)",
-            "rarity": "★★★",
-            "tier": "B",
-            "image": "/assets/images/trainees/Tosen Jordan (Jokester ☆ Vibes).png"
-        },
-        {
-            "name": "Mejiro Dober (Off the Line)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Mejiro Dober (Off the Line).png"
-        },
-        {
-            "name": "Oguri Cap (Ashen Miracle)",
-            "rarity": "★★★",
-            "tier": "SS",
-            "image": "/assets/images/trainees/Oguri Cap (Ashen Miracle).png"
-        },
-        {
-            "name": "Biwa Hayahide (Rouge Caroler)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Biwa Hayahide (Rouge Caroler).png"
-        },
-        {
-            "name": "Fine Motion (Noble Seamair)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Fine Motion (Noble Seamair).png"
-        },
-        {
-            "name": "Tamamo Cross (Fast as Lightning)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Tamamo Cross (Fast as Lightning).png"
-        },
-        {
-            "name": "Haru Urara (New Year ♪ New Urara!)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Haru Urara (New Year ♪ New Urara!).png"
-        },
-        {
-            "name": "T.M. Opera O (New Year, Same Radiance!)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/T.M. Opera O (New Year, Same Radiance!).png"
-        },
-        {
-            "name": "Sakura Chiyono O (Strength in Full Bloom)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Sakura Chiyono O (Strength in Full Bloom).png"
-        },
-        {
-            "name": "Mihono Bourbon (CODE: ICING)",
-            "rarity": "★★★",
-            "tier": "SS",
-            "image": "/assets/images/trainees/Mihono Bourbon (CODE ICING).png"
-        },
-        {
-            "name": "Eishin Flash (Precise Chocolatier)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Eishin Flash (Precise Chocolatier).png"
-        },
-        {
-            "name": "Mejiro Ardan (Crystalline)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Mejiro Ardan (Crystalline).png"
-        },
-        {
-            "name": "Admire Vega (Starry Nocturne)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Admire Vega (Starry Nocturne).png"
-        },
-        {
-            "name": "Kitasan Black (Gilded Shrine to Glory)",
-            "rarity": "★★★",
-            "tier": "SS",
-            "image": "/assets/images/trainees/Kitasan Black (Gilded Shrine to Glory).png"
-        },
-        {
-            "name": "Matikane Tannhauser (Mambo)",
-            "rarity": "★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Matikanetannhauser (Mambo).png"
-        },
-        {
-            "name": "Satono Diamond (Natural Brilliance)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Satono Diamond (Natural Brilliance).png"
-        },
-        {
-            "name": "Mejiro Bright (Brunissage Line)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Mejiro Bright (Brunissage Line).png"
-        },
-        {
-            "name": "Fuji Kiseki (Succès Étoilé)",
-            "rarity": "★★★",
-            "tier": "A",
-            "image": "/assets/images/trainees/Fuji Kiseki (Succès Étoilé).png"
-        },
-        {
-            "name": "Seiun Sky (Soirée des Chatons)",
-            "rarity": "★★★",
-            "tier": "S",
-            "image": "/assets/images/trainees/Seiun Sky (Soirée des Chatons).png"
+          "name": "Biwa Hayahide (pf. Winning Equation.)",
+          "image": "/assets/images/trainees/Biwa Hayahide (pf. Winning Equation...).png"
         }
-    ],
-    "supports": [
+      ],
+      "id": "2NRZLKCagEs"
+    }
+  ],
+  "support-tierlist": [
+    {
+      "tier": "SS",
+      "members": [
         {
-            "name": "Kitasan Black [The Fire at My Heels]",
-            "image": "/assets/images/support-cards/Kitasan Black (Fire at My Heels).png",
-            "rarity": "SSR",
-            "tier": "SS"
+          "name": "Kitasan Black (Fire at My Heels)",
+          "image": "/assets/images/support-cards/Kitasan Black (Fire at My Heels).png"
         },
         {
-            "name": "Sakura Chiyono O [Peak Sakura]",
-            "image": "/assets/images/support-cards/Sakura Chiyono O (Peak Sakura Season).png",
-            "rarity": "SR",
-            "tier": "A"
+          "name": "Super Creek (Piece of Mind)",
+          "image": "/assets/images/support-cards/Super Creek (Piece of Mind).png"
         },
         {
-            "name": "Tazuna Hayakawa [Reception]",
-            "image": "/assets/images/support-cards/Tazuna Hayakawa (Tracen Reception).png",
-            "rarity": "SSR",
-            "tier": "S"
-        },
-        {
-            "name": "Tosen Jordan [My Way]",
-            "image": "/assets/images/support-cards/Tosen Jordan (My Way).png",
-            "rarity": "SSR",
-            "tier": "A"
-        },
-        {
-            "name": "Fine Motion [Wave of Gratitude]",
-            "image": "/assets/images/support-cards/Fine Motion (Wave of Gratitude).png",
-            "rarity": "SSR",
-            "tier": "SS"
-        },
-        {
-            "name": "Special Week (The Brightest Star in Japan)",
-            "image": "/assets/images/support-cards/Special Week (The Brightest Star in Japan).png",
-            "rarity": "SSR",
-            "tier": "A"
-        },
-        {
-            "name": "Silence Suzuka (Beyond This Shining Moment)",
-            "image" : "/assets/images/support-cards/Silence Suzuka (Beyond This Shining Moment).png",
-            "rarity": "SSR",
-            "tier" :"S"
-        },
-        {
-            "name": "Tokai Teio (Dream Big!)",
-            "image" : "/assets/images/support-cards/Tokai Teio (Dream Big!).png",
-            "rarity": "SSR",
-            "tier" :"S"
-        },
-        {
-            "name": "Gold Ship (Breakaway Battleship)",
-            "image" : "/assets/images/support-cards/Gold Ship (Breakaway Battleship).png",
-            "rarity": "SSR",
-            "tier" :"C"
-        },
-        {
-            "name": "Vodka (Wild Rider)",
-            "image" : "/assets/images/support-cards/Vodka (Wild Rider).png",
-            "rarity": "SSR",
-            "tier" :"S"
-        },
-        {
-            "name": "Grass Wonder (Fairest Fleur)",
-            "image" : "/assets/images/support-cards/Grass Wonder (Fairest Fleur).png",
-            "rarity": "SSR",
-            "tier" :"A"
-        },
-        {
-            "name": "El Condor Pasa (Champion's Passion)",
-            "image" : "/assets/images/support-cards/El Condor Pasa (Champion's Passion).png",
-            "rarity": "SSR",
-            "tier" :"S"
-        },
-        {
-            "name": "Seiun Sky (Foolproof Plan)",
-            "image" : "/assets/images/support-cards/Seiun Sky (Foolproof Plan).png",
-            "rarity": "SSR",
-            "tier" :"S"
-        },
-        {
-            "name": "Tamamo Cross (Split the Sky, White Lightning!)",
-            "image" : "/assets/images/support-cards/Tamamo Cross (Split the Sky, White Lightning!).png",
-            "rarity": "SSR",
-            "tier" :"B"
-        },
-        {
-            "name": "Ines Fujin (Watch My Star Fly!)",
-            "image" : "/assets/images/support-cards/Ines Fujin (Watch My Star Fly!).png",
-            "rarity": "SSR",
-            "tier" :"S"
-        },
-        {
-            "name": "Winning Ticket (BNWinner!)",
-            "image" : "/assets/images/support-cards/Winning Ticket (BNWinner!).png",
-            "rarity": "SSR",
-            "tier" :"C"
-        },
-        {
-            "name": "Air Shakur (7 More Centimeters)",
-            "image" : "/assets/images/support-cards/Air Shakur (7 More Centimeters).png",
-            "rarity": "SSR",
-            "tier" :"C"
-        },
-        {
-            "name": "Gold City (Run (my) way)",
-            "image" : "/assets/images/support-cards/Gold City (Run (my) way).png",
-            "rarity": "SSR",
-            "tier" :"A"
-        },
-        {
-            "name": "Sakura Bakushin O (Eat Fast! Yum Fast!)",
-            "image" : "/assets/images/support-cards/Sakura Bakushin O (Eat Fast! Yum Fast!).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Super Creek (Piece of Mind)",
-            "image" : "/assets/images/support-cards/Super Creek (Piece of Mind).png",
-            "rarity": "SSR",
-            "tier" : "SS"
-        },
-        {
-            "name": "Smart Falcon (My Umadol Way! ☆)",
-            "image" : "/assets/images/support-cards/Smart Falcon (My Umadol Way! ☆).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Nishino Flower (Even the Littlest Bud)",
-            "image" : "/assets/images/support-cards/Nishino Flower (Even the Littlest Bud).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Biko Pegasus (Double Carrot Punch!)",
-            "image" : "/assets/images/support-cards/Biko Pegasus (Double Carrot Punch!).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Tazuna Hayakawa (Tracen Reception)",
-            "image" : "/assets/images/support-cards/Tazuna Hayakawa (Tracen Reception).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Oguri Cap (Get Lots of Hugs for Me)",
-            "image" : "/assets/images/support-cards/Oguri Cap (Get Lots of Hugs for Me).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Fuji Kiseki (Well, Look Who's Home)",
-            "image" : "/assets/images/support-cards/Fuji Kiseki (Well, Look Who's Home).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Daiwa Scarlet (Nothing Hard Work Can't Solve!)",
-            "image" : "/assets/images/support-cards/Daiwa Scarlet (Nothing Hard Work Can't Solve!).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Hishi Amazon (Reach to the Top!)",
-            "image" : "/assets/images/support-cards/Hishi Amazon (Reach to the Top!).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Air Groove (Nothing Escapes the Vice Prez)",
-            "image" : "/assets/images/support-cards/Air Groove (Nothing Escapes the Vice Prez).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Agnes Digital (Digital's Recharge Station)",
-            "image" : "/assets/images/support-cards/Agnes Digital (Digital's Recharge Station).png",
-            "rarity": "SR",
-            "tier" : "B"
-        },
-        {
-            "name": "Biwa Hayahide (Trial Initiation)",
-            "image" : "/assets/images/support-cards/Biwa Hayahide (Trial Initiation).png",
-            "rarity": "SR",
-            "tier" : "B"
-        },
-        {
-            "name": "Mayano Top Gun (Cute + Cute = ?)",
-            "image" : "/assets/images/support-cards/Mayano Top Gun (Cute + Cute).png",
-            "rarity": "SR",
-            "tier" : "S"
-        },
-        {
-            "name": "Manhattan Cafe (My Solo Drawn to Raindrop Drums)",
-            "image" : "/assets/images/support-cards/Manhattan Cafe (My Solo Drawn to Raindrop Drums).png",
-            "rarity": "SR",
-            "tier" : "S"
-        },
-        {
-            "name": "Mihono Bourbon (Pal-Assisted Training)",
-            "image" : "/assets/images/support-cards/Mihono Bourbon (Pal-Assisted Training).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Mejiro Ryan (On and Off the Court)",
-            "image" : "/assets/images/support-cards/Mejiro Ryan (On and Off the Court).png",
-            "rarity": "SR",
-            "tier" : "B"
-        },
-        {
-            "name": "Yukino Bijin (City Girl 101)",
-            "image" : "/assets/images/support-cards/Yukino Bijin (City Girl 101).png",
-            "rarity": "SR",
-            "tier" : "B"
-        },
-        {
-            "name": "Agnes Tachyon (Experimental Studies on Subject A)",
-            "image" : "/assets/images/support-cards/Agnes Tachyon (Experimental Studies on Subject A).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Eishin Flash (5:00 a.m.-Right on Schedule)",
-            "image" : "/assets/images/support-cards/Eishin Flash (500 a.m.-Right on Schedule).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Narita Taishin (Poolside High Tides)",
-            "image" : "/assets/images/support-cards/Narita Taishin (Poolside High Tides).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Marvelous Sunday (A Marvelous ☆ Plan)",
-            "image" : "/assets/images/support-cards/Marvelous Sunday (A Marvelous ☆ Plan).png",
-            "rarity": "SR",
-            "tier" : "S"
-        },
-        {
-            "name": "Matikane Fukukitaru (Fate's Forecast)",
-            "image" : "/assets/images/support-cards/Matikane Fukukitaru (Fate's Forecast).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Meisho Doto (Fighting for Fortune)",
-            "image" : "/assets/images/support-cards/Meisho Doto (Fighting for Fortune).png",
-            "rarity": "SR",
-            "tier" : "B"
-        },
-        {
-            "name": "Mejiro Dober (Ignore the Stares)",
-            "image" : "/assets/images/support-cards/Mejiro Dober (Ignore the Stares).png",
-            "rarity": "SR",
-            "tier" : "B"
-        },
-        {
-            "name": "Nice Nature (It's Just Water)",
-            "image" : "/assets/images/support-cards/Nice Nature (It's Just Water).png",
-            "rarity": "SR",
-            "tier" : "C"
-        },
-        {
-            "name": "King Halo (First-Rate Plan)",
-            "image" : "/assets/images/support-cards/King Halo (First-Rate Plan).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Aoi Kiryuin (Trainer's Teamwork)",
-            "image" : "/assets/images/support-cards/Aoi Kiryuin (Trainer's Teamwork).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Sweep Tosho (Lamplit Training of a Witch-to-Be)",
-            "image" : "/assets/images/support-cards/Sweep Tosho (Lamplit Training of a Witch-to-be).png",
-            "rarity": "SR",
-            "tier" : "S"
-        },
-        {
-            "name": "Mejiro McQueen (Your Team Ace)",
-            "image" : "/assets/images/support-cards/Mejiro McQueen (Your Team Ace).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Rice Shower (Showered in Joy)",
-            "image" : "/assets/images/support-cards/Rice Shower (Showered In Joy).png",
-            "rarity": "SSR",
-            "tier" : "B"
-        },
-        {
-            "name": "Haru Urara (Urara's Day Off!)",
-            "image" : "/assets/images/support-cards/Haru Urara (Urara's Day Off!).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Special Week (The Setting Sun and Rising Stars)",
-            "image" : "/assets/images/support-cards/Special Week (The Setting Sun And Rising Stars).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Twin Turbo (Turbo Booooost!)",
-            "image" : "/assets/images/support-cards/Twin Turbo (Turbo Booooost!).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Daitaku Helios (Let's Get This Party Lit!)",
-            "image" : "/assets/images/support-cards/Daitaku Helios (Let's Get This Party Lit!).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Mejiro Palmer (Go Ahead and Laugh)",
-            "image" : "/assets/images/support-cards/Mejiro Palmer (Go Ahead and Laugh).png",
-            "rarity": "SSR",
-            "tier" : "B"
-        },
-        {
-            "name": "Ikuno Dictus (Never Skip Warm-Ups)",
-            "image" : "/assets/images/support-cards/Ikuno Dictus (Never Skip Warm-Ups).png",
-            "rarity": "SR",
-            "tier" : "B"
-        },
-        {
-            "name": "Satono Diamond (The Will to Overtake)",
-            "image" : "/assets/images/support-cards/Mejiro Palmer (Go Ahead and Laugh).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Matikanetannhauser (Just Keep Going)",
-            "image" : "/assets/images/support-cards/Matikanetannhauser (Just Keep Going).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Nice Nature (Messing Around)",
-            "image" : "/assets/images/support-cards/Nice Nature (Messing Around).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Yukino Bijin (Hometown Cheers)",
-            "image" : "/assets/images/support-cards/Yukino Bijin (Hometown Cheers).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Nishino Flower (Lifting Your Spirits)",
-            "image" : "/assets/images/support-cards/Nishino Flower (Lifting Your Spirits).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Yaeno Muteki (Fiery Discipline)",
-            "image" : "/assets/images/support-cards/Yaeno Muteki (Fiery Discipline).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Zenno Rob Roy (The Perfect Book for You)",
-            "image" : "/assets/images/support-cards/Zenno Rob Roy (The Perfect Book for You).png",
-            "rarity": "SR",
-            "tier" : "S"
-        },
-        {
-            "name": "Winning Ticket (Dreams Do Come True!)",
-            "image" : "/assets/images/support-cards/Winning Ticket (Dreams Do Come True!).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Sakura Chiyono O (Peak Sakura Season)",
-            "image" : "/assets/images/support-cards/Sakura Chiyono O (Peak Sakura Season).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Seeking the Pearl (The World's My Oyster)",
-            "image" : "/assets/images/support-cards/Seeking the Pearl (The World's My Oyster).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Kawakami Princess (Princess Bride)",
-            "image" : "/assets/images/support-cards/Kawakami Princess (Princess Bride).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Hishi Akebono (Who Wants the First Bite?)",
-            "image" : "/assets/images/support-cards/Hishi Akebono (Who Wants the First Bite).png",
-            "rarity": "SSR",
-            "tier" : "B"
-        },
-        {
-            "name": "Mejiro Dober (My Thoughts, My Desires)",
-            "image" : "/assets/images/support-cards/Mejiro Dober (My Thoughts, My Desires).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Bamboo Memory (Head-On Fight!)",
-            "image" : "/assets/images/support-cards/Bamboo Memory (Head-On Fight!).png",
-            "rarity": "SSR",
-            "tier" : "B"
-        },
-        {
-            "name": "Shinko Windy (///WARNING GATE///)",
-            "image" : "/assets/images/support-cards/Shinko Windy (WARNING GATE).png",
-            "rarity": "SR",
-            "tier" : "S"
-        },
-        {
-            "name": "Seiun Sky (Paint the Sky Red)",
-            "image" : "/assets/images/support-cards/Seiun Sky (Paint the Sky Red).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "King Halo (Tonight, We Waltz)",
-            "image" : "/assets/images/support-cards/King Halo (Tonight, We Waltz).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Gold Ship (That Time I Became the Strongest)",
-            "image" : "/assets/images/support-cards/Gold Ship (That Time I Became the Strongest).png",
-            "rarity": "SSR",
-            "tier" : "C"
-        },
-        {
-            "name": "Mejiro Ryan (Winning Pitch)",
-            "image" : "/assets/images/support-cards/Mejiro Ryan (Winning Pitch).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Mejiro Ardan (My Heart Will Go On)",
-            "image" : "/assets/images/support-cards/Mejiro Ardan (My Heart Will Go On).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Narita Brian (Two Pieces)",
-            "image" : "/assets/images/support-cards/Narita Brian (Two Pieces).png",
-            "rarity": "SSR",
-            "tier" : "B"
-        },
-        {
-            "name": "Sweep Tosho (It's All Mine!)",
-            "image" : "/assets/images/support-cards/Sweep Tosho (It's All Mine!).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Winning Ticket (Full-Blown Tantrum)",
-            "image" : "/assets/images/support-cards/Winning Ticket (Full-Blown Tantrum).png",
-            "rarity": "SSR",
-            "tier" : "C"
-        },
-        {
-            "name": "Daiwa Scarlet (Mini☆Vacation)",
-            "image" : "/assets/images/support-cards/Daiwa Scarlet (Mini☆Vacation).png",
-            "rarity": "SSR",
-            "tier" : "B"
-        },
-        {
-            "name": "Nice Nature (Daring to Dream)",
-            "image" : "/assets/images/support-cards/Nice Nature (Daring to Dream).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Tosen Jordan (Turf as Nails)",
-            "image" : "/assets/images/support-cards/Tosen Jordan (Turf as Nails).png",
-            "rarity": "SR",
-            "tier" : "B"
-        },
-        {
-            "name": "Silence Suzuka (Winning Dream)",
-            "image" : "/assets/images/support-cards/Silence Suzuka (Winning Dream).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Rice Shower (Happiness Just around the Bend)",
-            "image" : "/assets/images/support-cards/Rice Shower (Happiness Just around the Bend).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Riko Kashimoto (Planned Perfection)",
-            "image" : "/assets/images/support-cards/Riko Kashimoto (Planned Perfection).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Ikuno Dictus (Warm Heart, Soft Steps)",
-            "image" : "/assets/images/support-cards/Ikuno Dictus (Warm Heart, Soft Steps).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Fine Motion (Grma, Ramen ♪)",
-            "image" : "/assets/images/support-cards/Fine Motion (Grma, Ramen ♪).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Tamamo Cross (Beware! Halloween Night!)",
-            "image" : "/assets/images/support-cards/Tamamo Cross (Beware! Halloween Night!).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Zenno Rob Roy (Magical Heroine)",
-            "image" : "/assets/images/support-cards/Zenno Rob Roy (Magical Heroine).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Mihono Bourbon (The Ghost Finds Halloween Magic)",
-            "image" : "/assets/images/support-cards/Mihono Bourbon (The Ghost Finds Halloween Magic).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Nakayama Festa (43, 8, 1)",
-            "image" : "/assets/images/support-cards/Nakayama Festa (43, 8, 1).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Sirius Symboli (The Brightest Star Shines On)",
-            "image" : "/assets/images/support-cards/Sirius Symboli (The Brightest Star Shines On).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Curren Chan (Cutie Pie with Shining Eyes)",
-            "image" : "/assets/images/support-cards/Curren Chan (Cutie Pie with Shining Eyes).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Narita Brian (The Whistling Arrow's Taunt)",
-            "image" : "/assets/images/support-cards/Narita Brian (The Whistling Arrow's Taunt).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Yukino Bijin (Dancing Light into the Night)",
-            "image" : "/assets/images/support-cards/Yukino Bijin (Dancing Light into the Night).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Daitaku Helios (Make! Some! NOISE!)",
-            "image" : "/assets/images/support-cards/Daitaku Helios (Make! Some! NOISE!).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Vodka (An Annoying Supervisor)",
-            "image" : "/assets/images/support-cards/Vodka (An Annoying Supervisor).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Mayano Top Gun (Party Formation)",
-            "image" : "/assets/images/support-cards/Mayano Top Gun (Party Formation).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Narita Taishin (Strict Shopper)",
-            "image" : "/assets/images/support-cards/Narita Taishin (Strict Shopper).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Marvelous Sunday (Dazzling Day in the Snow)",
-            "image" : "/assets/images/support-cards/Marvelous Sunday (Dazzling Day in the Snow).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Manhattan Cafe (My Solo Spun in Spiraling Runs)",
-            "image" : "/assets/images/support-cards/Manhattan Cafe (My Solo Spun in Spiraling Runs).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Inari One (Laughing through the Mud)",
-            "image" : "/assets/images/support-cards/Inari One (Laughing through the Mud).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Silence Suzuka (Searching for Unseen Sights)",
-            "image" : "/assets/images/support-cards/Silence Suzuka (Searching for Unseen Sights).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Admire Vega (Lucky Star in the Sky)",
-            "image" : "/assets/images/support-cards/Admire Vega (Lucky Star in the Sky).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Matikanefukukitaru (Touching Sleeves Is Good Luck! ♪)",
-            "image" : "/assets/images/support-cards/Matikanefukukitaru (Touching Sleeves Is Good Luck! ♪).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Meisho Doto (Leaping into the Unknown)",
-            "image" : "/assets/images/support-cards/Meisho Doto (Leaping into the Unknown).png",
-            "rarity": "SSR",
-            "tier" : "B"
-        },
-        {
-            "name": "Sasami Anshinzawa (This Might Sting!)",
-            "image" : "/assets/images/support-cards/Sasami Anshinzawa (This Might Sting!).png",
-            "rarity": "SSR",
-            "tier" : "C"
-        },
-        {
-            "name": "Tamamo Cross (Now Dat's What I Call Grilled Squid!)",
-            "image" : "/assets/images/support-cards/Tamamo Cross (Now Dat's What I Call Grilled Squid!).png",
-            "rarity": "SR",
-            "tier" : "B"
-        },
-        {
-            "name": "Nishino Flower (Little Cupcakes, Big Emotions)",
-            "image" : "/assets/images/support-cards/Nishino Flower (Little Cupcakes, Big Emotions).png",
-            "rarity": "SSR",
-            "tier" : "B"
-        },
-        {
-            "name": "Sakura Bakushin O (Super! Sonic! Flower Power!)",
-            "image" : "/assets/images/support-cards/Sakura Bakushin O (Super! Sonic! Flower Power!).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Tosen Jordan (My Way)",
-            "image" : "/assets/images/support-cards/Tosen Jordan (My Way).png",
-            "rarity": "SSR",
-            "tier" : "A"
-        },
-        {
-            "name": "Agnes Digital (A Fan's Joy)",
-            "image" : "/assets/images/support-cards/Agnes Digital (A Fan's Joy).png",
-            "rarity": "SSR",
-            "tier" : "B"
-        },
-        {
-            "name": "Ines Fujin (You Earned It!)",
-            "image" : "/assets/images/support-cards/Ines Fujin (You Earned It!).png",
-            "rarity": "SR",
-            "tier" : "B"
-        },
-        {
-            "name": "Narita Top Road (Peachy Silhouette)",
-            "image" : "/assets/images/support-cards/Narita Top Road (Peachy Silhouette).png",
-            "rarity": "SSR",
-            "tier" : "S"
-        },
-        {
-            "name": "Mejiro Bright (Little by Little)",
-            "image" : "/assets/images/support-cards/Mejiro Bright (Little by Little).png",
-            "rarity": "SSR",
-            "tier" : "B"
-        },
-        {
-            "name": "Satono Diamond (Special Dreamers!)",
-            "image" : "/assets/images/support-cards/Satono Diamond (Special Dreamers!).png",
-            "rarity": "SSR",
-            "tier" : "B"
-        },
-        {
-            "name": "Sakura Bakushin O (The Perfect Morning Greeting!)",
-            "image" : "/assets/images/support-cards/Sakura Bakushin O (The Perfect Morning Greeting!).png",
-            "rarity": "SR",
-            "tier" : "A"
-        },
-        {
-            "name": "Admire Vega (Aim for the Brightest)",
-            "image" : "/assets/images/support-cards/Admire Vega (Aim for the Brightest).png",
-            "rarity": "SR",
-            "tier" : "S"
-        },
-        {
-            "name": "Mejiro Ryan (Hot Hearts and Cool Drinks)",
-            "image" : "/assets/images/support-cards/Mejiro Ryan (Hot Hearts and Cool Drinks).png",
-            "rarity": "SR",
-            "tier" : "B"
-        },
-        {
-            "name": "Special Week (At the End of the Day)",
-            "image" : "/assets/images/support-cards/Special Week (At the End of the Day).png",
-            "rarity": "SR",
-            "tier" : "B"
-        },
-        {
-            "name": "Marvelous Sunday (A MORE MARVELOUS WORLD! ☆)",
-            "image" : "/assets/images/support-cards/Marvelous Sunday (A MORE MARVELOUS WORLD! ☆).png",
-            "rarity": "SSR",
-            "tier" : "B"
-        },
-        {
-            "name": "Curren Chan (Cozy Cute Memory ♪)",
-            "image" : "/assets/images/support-cards/Curren Chan (Cozy Cute Memory ♪).png",
-            "rarity": "SR",
-            "tier" : "S"
-        },
-        {
-            "name": "Team Sirius (Passing the Dream On)",
-            "image" : "/assets/images/support-cards/Team Sirius (Passing the Dream On).png",
-            "rarity": "SSR",
-            "tier" : "A"
+          "name": "Fine Motion (Wave of Gratitude)",
+          "image": "/assets/images/support-cards/Fine Motion (Wave of Gratitude).png"
         }
-    ],
-    "skills": [
+      ],
+      "id": "t30FA-qRi3w"
+    },
+    {
+      "tier": "S",
+      "members": [
         {
-            "name": "Escape Artist",
-            "image": "/assets/images/skills/rare-speed-skill.png",
-            "description": "Increase ability to go to the front mid-race. (Front Runner)",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Narita Top Road (Peachy Silhouette)",
+          "image": "/assets/images/support-cards/Narita Top Road (Peachy Silhouette).png"
         },
         {
-            "name": "Fast-Paced",
-            "image": "/assets/images/skills/normal-speed-skill.png",
-            "description": "Slightly increase ability to go to the front mid-race. (Front Runner)",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"
-        },    
-        {
-            "name": "Beeline Burst",
-            "image": "/assets/images/skills/rare-speed-skill.png",
-            "description": "Increase velocity on a straight.",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Matikanefukukitaru (Touching Sleeves Is Good Luck! ♪)",
+          "image": "/assets/images/support-cards/Matikanefukukitaru (Touching Sleeves Is Good Luck! ♪).png"
         },
         {
-            "name": "Straightaway Adept",
-            "image": "/assets/images/skills/normal-speed-skill.png",
-            "description": "Slightly increase velocity on a straight.",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Biko Pegasus (Double Carrot Punch!)",
+          "image": "/assets/images/support-cards/Biko Pegasus (Double Carrot Punch!).png"
         },
         {
-            "name": "Its on!",
-            "image": "/assets/images/skills/rare-speed-skill.png",
-            "description": "Increase velocity when passing another runner mid-race.",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Sakura Bakushin O (Eat Fast! Yum Fast!)",
+          "image": "/assets/images/support-cards/Sakura Bakushin O (Eat Fast! Yum Fast!).png"
         },
         {
-            "name": "Ramp Up",
-            "image": "/assets/images/skills/normal-speed-skill.png",
-            "description": "Slightly increase velocity when passing another runner mid-race.",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Special Week (The Setting Sun And Rising Stars)",
+          "image": "/assets/images/support-cards/Special Week (The Setting Sun And Rising Stars).png"
         },
         {
-            "name": "Rushing Gale!",
-            "image": "/assets/images/skills/rare-acceleration-skill.png",
-            "description": "Increase acceleration on a straight.",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Tokai Teio (Dream Big!)",
+          "image": "/assets/images/support-cards/Tokai Teio (Dream Big!).png"
         },
         {
-            "name": "Straightaway Acceleration",
-            "image": "/assets/images/skills/normal-acceleration-skill.png",
-            "description": "Slightly Increase acceleration on a straight.",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Sweep Tosho (It's All Mine!)",
+          "image": "/assets/images/support-cards/Sweep Tosho (It's All Mine!).png"
         },
         {
-            "name": "No Stopping Me!",
-            "image": "/assets/images/skills/rare-acceleration-skill.png",
-            "description": "Increase maneuverability when the way ahead is blocked in the last spurt.",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Silence Suzuka (Beyond This Shining Moment)",
+          "image": "/assets/images/support-cards/Silence Suzuka (Beyond This Shining Moment).png"
         },
         {
-            "name": "Nimble Navigator",
-            "image": "/assets/images/skills/normal-acceleration-skill.png",
-            "description": "Slightly increase maneuverability when the way ahead is blocked in the last spurt.",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"
-        },
-            {
-            "name": "Taking the lead",
-            "image": "/assets/images/skills/rare-acceleration-skill.png",
-            "description": "Increase ability to go to the front early-race. (Front Runner)",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Mayano Top Gun (Party Formation)",
+          "image": "/assets/images/support-cards/Mayano Top Gun (Party Formation).png"
         },
         {
-            "name": "Early Lead",
-            "image": "/assets/images/skills/normal-acceleration-skill.png",
-            "description": "Slightly increase ability to go to the front early-race. (Front Runner)",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Sweep Tosho (Lamplit Training of a Witch-to-be)",
+          "image": "/assets/images/support-cards/Sweep Tosho (Lamplit Training of a Witch-to-be).png"
         },
         {
-            "name": "Top Runner",
-            "image": "/assets/images/skills/rare-speed-skill.png",
-            "description": "Increase ability to pass or challenge another runner early-race or mid-race. (Front Runner)",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Shinko Windy (///WARNING GATE///)",
+          "image": "/assets/images/support-cards/Shinko Windy (WARNING GATE).png"
         },
         {
-            "name": "Leader's Pride",
-            "image": "/assets/images/skills/normal-speed-skill.png",
-            "description": "Slightly increase ability to pass or challenge another runner early-race or mid-race. (Front Runner)",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"
-        },    
-        {
-            "name": "In Body and Mind",
-            "image": "/assets/images/skills/rare-speed-skill.png",
-            "description": "Increase velocity in the last spurt.",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Curren Chan (Cozy Cute Memory ♪)",
+          "image": "/assets/images/support-cards/Curren Chan (Cozy Cute Memory ♪).png"
         },
         {
-            "name": "Homestretch Haste",
-            "image": "/assets/images/skills/normal-speed-skill.png",
-            "description": "Slightly increase velocity in the last spurt.",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Admire Vega (Lucky Star in the Sky)",
+          "image": "/assets/images/support-cards/Admire Vega (Lucky Star in the Sky).png"
         },
         {
-            "name": "Groundwork",
-            "image": "/assets/images/skills/normal-acceleration-skill.png",
-            "description": "Slightly increase acceleration after activating many skills early-race.",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Vodka (Wild Rider)",
+          "image": "/assets/images/support-cards/Vodka (Wild Rider).png"
         },
         {
-            "name": "Unrestrained",
-            "image": "/assets/images/skills/rare-acceleration-skill.png",
-            "description": "Increase ability to keep the lead on the final corner. (Front Runner)",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Rice Shower (Happiness Just around the Bend)",
+          "image": "/assets/images/support-cards/Rice Shower (Happiness Just around the Bend).png"
         },
         {
-            "name": "Final Push",
-            "image": "/assets/images/skills/normal-acceleration-skill.png",
-            "description": "Slightly increase ability to keep the lead on the final corner. (Front Runner)",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "El Condor Pasa (Champion's Passion)",
+          "image": "/assets/images/support-cards/El Condor Pasa (Champion's Passion).png"
         },
         {
-            "name": "Professor of Curvature",
-            "image": "/assets/images/skills/rare-speed-skill.png",
-            "description": "Increase velocity on a corner with skilled turning.",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Oguri Cap (Get Lots of Hugs for Me)",
+          "image": "/assets/images/support-cards/Oguri Cap (Get Lots of Hugs for Me).png"
         },
         {
-            "name": "Speed Star",
-            "image": "/assets/images/skills/normal-speed-skill.png",
-            "description": "Increase ability to break out of the pack on the final corner. (Pace Chaser)",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"   
+          "name": "King Halo (Tonight, We Waltz)",
+          "image": "/assets/images/support-cards/King Halo (Tonight, We Waltz).png"
         },
         {
-            "name": "Prepared to Pass",
-            "image": "/assets/images/skills/rare-speed-skill.png",
-            "description": "Slightly increase ability to break out of the pack on the final corner. (Pace Chaser)",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Yaeno Muteki (Fiery Discipline)",
+          "image": "/assets/images/support-cards/Yaeno Muteki (Fiery Discipline).png"
         },
         {
-            "name": "Corner Adept",
-            "image": "/assets/images/skills/normal-speed-skill.png",
-            "description": "Increase velocity on a corner with skilled turning.",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"   
+          "name": "Smart Falcon (My Umadol Way! ☆)",
+          "image": "/assets/images/support-cards/Smart Falcon (My Umadol Way! ☆).png"
         },
         {
-            "name": "Fast & Furious",
-            "image": "/assets/images/skills/rare-speed-skill.png",
-            "description": "Increase velocity mid-race. (Late Surger)",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Narita Brian (The Whistling Arrow's Taunt)",
+          "image": "/assets/images/support-cards/Narita Brian (The Whistling Arrow's Taunt).png"
         },
         {
-            "name": "Position Pilfer",
-            "image": "/assets/images/skills/normal-speed-skill.png",
-            "description": "Slightly increase velocity mid-race. (Late Surger)",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"   
+          "name": "Seiun Sky (Foolproof Plan)",
+          "image": "/assets/images/support-cards/Seiun Sky (Foolproof Plan).png"
         },
         {
-            "name": "Rising Dragon",
-            "image": "/assets/images/skills/rare-speed-skill.png",
-            "description": "Increase velocity mid-race. (Late Surger)",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"
+          "name": "Manhattan Cafe (My Solo Drawn to Raindrop Drums)",
+          "image": "/assets/images/support-cards/Manhattan Cafe (My Solo Drawn to Raindrop Drums).png"
         },
         {
-            "name": "Outer Swell",
-            "image": "/assets/images/skills/normal-speed-skill.png",
-            "description": "Slightly increase velocity when passing another runner on the outside on the final corner. (Late Surger)",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"   
+          "name": "Mayano Top Gun (Cute + Cute = ?)",
+          "image": "/assets/images/support-cards/Mayano Top Gun (Cute + Cute).png"
         },
         {
-            "name": "Corner Connoiseur",
-            "image": "/assets/images/skills/rare-acceleration-skill.png",
-            "description": "Increase acceleration on a corner with masterful turning.",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"   
+          "name": "Zenno Rob Roy (The Perfect Book for You)",
+          "image": "/assets/images/support-cards/Zenno Rob Roy (The Perfect Book for You).png"
         },
         {
-            "name": "Corner Acceleration",
-            "image": "/assets/images/skills/normal-acceleration-skill.png",
-            "description": "Slightly increase acceleration on a corner with masterful turning.",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"   
+          "name": "Nice Nature (Daring to Dream)",
+          "image": "/assets/images/support-cards/Nice Nature (Daring to Dream).png"
         },
         {
-            "name": "On Your Left!",
-            "image": "/assets/images/skills/rare-acceleration-skill.png",
-            "description": "Increase acceleration late-race. (Late Surger)",
-            "rarity": "Rare",
-            "type": "Speed",
-            "effect": "Positive"   
+          "name": "Yukino Bijin (Hometown Cheers)",
+          "image": "/assets/images/support-cards/Yukino Bijin (Hometown Cheers).png"
         },
         {
-            "name": "Slick Surge",
-            "image": "/assets/images/skills/normal-acceleration-skill.png",
-            "description": "Slightly increase acceleration late-race. (Late Surger)",
-            "rarity": "Normal",
-            "type": "Speed",
-            "effect": "Positive"   
+          "name": "Marvelous Sunday (A Marvelous ☆ Plan)",
+          "image": "/assets/images/support-cards/Marvelous Sunday (A Marvelous ☆ Plan).png"
         },
         {
-            "name": "Swinging Maestro",
-            "image": "/assets/images/skills/rare-recovery-skill.png",
-            "description": "Recover endurance on a corner with efficient turning.",
-            "rarity": "Rare",
-            "type": "Recovery",
-            "effect": "Positive"   
+          "name": "Haru Urara (Urara's Day Off!)",
+          "image": "/assets/images/support-cards/Haru Urara (Urara's Day Off!).png"
         },
         {
-            "name": "Corner Recovery",
-            "image": "/assets/images/skills/normal-recovery-skill.png",
-            "description": "Slightly recover endurance on a corner with efficient turning.",
-            "rarity": "Normal",
-            "type": "Recovery",
-            "effect": "Positive"   
+          "name": "Ines Fujin (Watch My Star Fly!)",
+          "image": "/assets/images/support-cards/Ines Fujin (Watch My Star Fly!).png"
         },
         {
-            "name": "Breath of Fresh Air",
-            "image": "/assets/images/skills/rare-recovery-skill.png",
-            "description": "Recover endurance on a straight.",
-            "rarity": "Rare",
-            "type": "Recovery",
-            "effect": "Positive"   
+          "name": "Admire Vega (Aim for the Brightest)",
+          "image": "/assets/images/support-cards/Admire Vega (Aim for the Brightest).png"
         },
         {
-            "name": "Straightaway Recovery",
-            "image": "/assets/images/skills/normal-recovery-skill.png",
-            "description": "Slightly recover endurance on a straight.",
-            "rarity": "Normal",
-            "type": "Recovery",
-            "effect": "Positive"   
+          "name": "Riko Kashimoto (Planned Perfection)",
+          "image": "/assets/images/support-cards/Riko Kashimoto (Planned Perfection).png"
         },
         {
-            "name": "Indomitable",
-            "image": "/assets/images/skills/rare-recovery-skill.png",
-            "description": "Recover endurance when passed by another runner mid-race.",
-            "rarity": "Rare",
-            "type": "Recovery",
-            "effect": "Positive"   
-        },
-        {
-            "name": "Pace Strategy",
-            "image": "/assets/images/skills/normal-recovery-skill.png",
-            "description": "Slightly recover endurance when passed by another runner mid-race.",
-            "rarity": "Normal",
-            "type": "Recovery",
-            "effect": "Positive"   
-        },
-        {
-            "name": "Unruffled",
-            "image": "/assets/images/skills/rare-recovery-skill.png",
-            "description": "Recover endurance when surrounded mid-race.",
-            "rarity": "Rare",
-            "type": "Recovery",
-            "effect": "Positive"   
-        },
-        {
-            "name": "Calm in a Crowd",
-            "image": "/assets/images/skills/normal-recovery-skill.png",
-            "description": "Slightly recover endurance when surrounded mid-race.",
-            "rarity": "Normal",
-            "type": "Recovery",
-            "effect": "Positive"   
-        },
-        {
-            "name": "Iron Will",
-            "image": "/assets/images/skills/rare-recovery-skill.png",
-            "description": "Recover endurance when the way ahead is jammed early-race or mid-race.",
-            "rarity": "Rare",
-            "type": "Recovery",
-            "effect": "Positive"   
-        },
-        {
-            "name": "Lay Low",
-            "image": "/assets/images/skills/normal-recovery-skill.png",
-            "description": "Slightly recover endurance when the way ahead is jammed early-race or mid-race.",
-            "rarity": "Normal",
-            "type": "Recovery",
-            "effect": "Positive"   
-        },
-        {
-            "name": "Race Planner",
-            "image": "/assets/images/skills/rare-recovery-skill.png",
-            "description": "Decrease fatigue mid-race. (Pace Chaser)",
-            "rarity": "Rare",
-            "type": "Recovery",
-            "effect": "Positive"   
-        },
-        {
-            "name": "Preferred Position",
-            "image": "/assets/images/skills/normal-recovery-skill.png",
-            "description": "Slightly decrease fatigue mid-race. (Pace Chaser)",
-            "rarity": "Normal",
-            "type": "Recovery",
-            "effect": "Positive"   
-        },
-        {
-            "name": "Calm and Collected",
-            "image": "/assets/images/skills/rare-recovery-skill.png",
-            "description": "Decrease fatigue upon approaching mid-race. (Pace Chaser)",
-            "rarity": "Rare",
-            "type": "Recovery",
-            "effect": "Positive"   
-        },
-        {
-            "name": "Stamina to Spare",
-            "image": "/assets/images/skills/normal-recovery-skill.png",
-            "description": "Slightly decrease fatigue upon approaching mid-race. (Pace Chaser)",
-            "rarity": "Normal",
-            "type": "Recovery",
-            "effect": "Positive"   
+          "name": "Tazuna Hayakawa (Tracen Reception)",
+          "image": "/assets/images/support-cards/Tazuna Hayakawa (Tracen Reception).png"
         }
-    ]
+      ],
+      "id": "3fhkY9PaF-A"
+    },
+    {
+      "tier": "A",
+      "members": [
+        {
+          "name": "Tosen Jordan (My Way)",
+          "image": "/assets/images/support-cards/Tosen Jordan (My Way).png"
+        },
+        {
+          "name": "Zenno Rob Roy (Magical Heroine)",
+          "image": "/assets/images/support-cards/Zenno Rob Roy (Magical Heroine).png"
+        },
+        {
+          "name": "Nishino Flower (Even the Littlest Bud)",
+          "image": "/assets/images/support-cards/Nishino Flower (Even the Littlest Bud).png"
+        },
+        {
+          "name": "Gold City (Run (my) way)",
+          "image": "/assets/images/support-cards/Gold City (Run (my) way).png"
+        },
+        {
+          "name": "Twin Turbo (Turbo Booooost!)",
+          "image": "/assets/images/support-cards/Twin Turbo (Turbo Booooost!).png"
+        },
+        {
+          "name": "Silence Suzuka (Searching for Unseen Sights)",
+          "image": "/assets/images/support-cards/Silence Suzuka (Searching for Unseen Sights).png"
+        },
+        {
+          "name": "Kawakami Princess (Princess Bride)",
+          "image": "/assets/images/support-cards/Kawakami Princess (Princess Bride).png"
+        },
+        {
+          "name": "Narita Taishin (Poolside High Tides)",
+          "image": "/assets/images/support-cards/Narita Taishin (Poolside High Tides).png"
+        },
+        {
+          "name": "Vodka (An Annoying Supervisor)",
+          "image": "/assets/images/support-cards/Vodka (An Annoying Supervisor).png"
+        },
+        {
+          "name": "King Halo (First-Rate Plan)",
+          "image": "/assets/images/support-cards/King Halo (First-Rate Plan).png"
+        },
+        {
+          "name": "Eishin Flash (500 a.m.-Right on Schedule)",
+          "image": "/assets/images/support-cards/Eishin Flash (500 a.m.-Right on Schedule).png"
+        },
+        {
+          "name": "Tamamo Cross (Beware! Halloween Night!)",
+          "image": "/assets/images/support-cards/Tamamo Cross (Beware! Halloween Night!).png"
+        },
+        {
+          "name": "Winning Ticket (Dreams Do Come True!)",
+          "image": "/assets/images/support-cards/Winning Ticket (Dreams Do Come True!).png"
+        },
+        {
+          "name": "Daitaku Helios (Make! Some! NOISE!)",
+          "image": "/assets/images/support-cards/Daitaku Helios (Make! Some! NOISE!).png"
+        },
+        {
+          "name": "Marvelous Sunday (Dazzling Day in the Snow)",
+          "image": "/assets/images/support-cards/Marvelous Sunday (Dazzling Day in the Snow).png"
+        },
+        {
+          "name": "Daitaku Helios (Let's Get This Party Lit!)",
+          "image": "/assets/images/support-cards/Daitaku Helios (Let's Get This Party Lit!).png"
+        },
+        {
+          "name": "Nishino Flower (Lifting Your Spirits)",
+          "image": "/assets/images/support-cards/Nishino Flower (Lifting Your Spirits).png"
+        },
+        {
+          "name": "Mihono Bourbon (Pal-Assisted Training)",
+          "image": "/assets/images/support-cards/Mihono Bourbon (Pal-Assisted Training).png"
+        },
+        {
+          "name": "Hishi Amazon (Reach to the Top!)",
+          "image": "/assets/images/support-cards/Hishi Amazon (Reach to the Top!).png"
+        },
+        {
+          "name": "Inari One (Laughing through the Mud)",
+          "image": "/assets/images/support-cards/Inari One (Laughing through the Mud).png"
+        },
+        {
+          "name": "Fine Motion (Grma, Ramen ♪)",
+          "image": "/assets/images/support-cards/Fine Motion (Grma, Ramen ♪).png"
+        },
+        {
+          "name": "Silence Suzuka (Winning Dream)",
+          "image": "/assets/images/support-cards/Silence Suzuka (Winning Dream).png"
+        },
+        {
+          "name": "Sakura Chiyono O (Peak Sakura Season)",
+          "image": "/assets/images/support-cards/Sakura Chiyono O (Peak Sakura Season).png"
+        },
+        {
+          "name": "Mejiro McQueen (Your Team Ace)",
+          "image": "/assets/images/support-cards/Mejiro McQueen (Your Team Ace).png"
+        },
+        {
+          "name": "Manhattan Cafe (My Solo Spun in Spiraling Runs)",
+          "image": "/assets/images/support-cards/Manhattan Cafe (My Solo Spun in Spiraling Runs).png"
+        },
+        {
+          "name": "Satono Diamond (The Will to Overtake)",
+          "image": "/assets/images/support-cards/Satono Diamond (The Will to Overtake).png"
+        },
+        {
+          "name": "Nakayama Festa (43, 8, 1)",
+          "image": "/assets/images/support-cards/Nakayama Festa (43, 8, 1).png"
+        },
+        {
+          "name": "Sakura Bakushin O (The Perfect Morning Greeting!)",
+          "image": "/assets/images/support-cards/Sakura Bakushin O (The Perfect Morning Greeting!).png"
+        },
+        {
+          "name": "Mihono Bourbon (The Ghost Finds Halloween Magic)",
+          "image": "/assets/images/support-cards/Mihono Bourbon (The Ghost Finds Halloween Magic).png"
+        },
+        {
+          "name": "Seiun Sky (Paint the Sky Red)",
+          "image": "/assets/images/support-cards/Seiun Sky (Paint the Sky Red).png"
+        },
+        {
+          "name": "Curren Chan (Cutie Pie with Shining Eyes)",
+          "image": "/assets/images/support-cards/Curren Chan (Cutie Pie with Shining Eyes).png"
+        },
+        {
+          "name": "Mejiro Dober (My Thoughts, My Desires)",
+          "image": "/assets/images/support-cards/Mejiro Dober (My Thoughts, My Desires).png"
+        },
+        {
+          "name": "Narita Taishin (Strict Shopper)",
+          "image": "/assets/images/support-cards/Narita Taishin (Strict Shopper).png"
+        },
+        {
+          "name": "Mejiro Ardan (My Heart Will Go On)",
+          "image": "/assets/images/support-cards/Mejiro Ardan (My Heart Will Go On).png"
+        },
+        {
+          "name": "Agnes Tachyon (Experimental Studies on Subject A)",
+          "image": "/assets/images/support-cards/Agnes Tachyon (Experimental Studies on Subject A).png"
+        },
+        {
+          "name": "Daiwa Scarlet (Nothing Hard Work Can't Solve!)",
+          "image": "/assets/images/support-cards/Daiwa Scarlet (Nothing Hard Work Can't Solve!).png"
+        },
+        {
+          "name": "Matikane Fukukitaru (Fate's Forecast)",
+          "image": "/assets/images/support-cards/Matikane Fukukitaru (Fate's Forecast).png"
+        },
+        {
+          "name": "Nice Nature (Messing Around)",
+          "image": "/assets/images/support-cards/Nice Nature (Messing Around).png"
+        },
+        {
+          "name": "Fuji Kiseki (Well, Look Who's Home)",
+          "image": "/assets/images/support-cards/Fuji Kiseki (Well, Look Who's Home).png"
+        },
+        {
+          "name": "Ikuno Dictus (Warm Heart, Soft Steps)",
+          "image": "/assets/images/support-cards/Ikuno Dictus (Warm Heart, Soft Steps).png"
+        },
+        {
+          "name": "Yukino Bijin (Dancing Light into the Night)",
+          "image": "/assets/images/support-cards/Yukino Bijin (Dancing Light into the Night).png"
+        },
+        {
+          "name": "Matikanetannhauser (Just Keep Going)",
+          "image": "/assets/images/support-cards/Matikanetannhauser (Just Keep Going).png"
+        },
+        {
+          "name": "Special Week (The Brightest Star in Japan)",
+          "image": "/assets/images/support-cards/Special Week (The Brightest Star in Japan).png"
+        },
+        {
+          "name": "Grass Wonder (Fairest Fleur)",
+          "image": "/assets/images/support-cards/Grass Wonder (Fairest Fleur).png"
+        },
+        {
+          "name": "Sakura Bakushin O (Super! Sonic! Flower Power!)",
+          "image": "/assets/images/support-cards/Sakura Bakushin O (Super! Sonic! Flower Power!).png"
+        },
+        {
+          "name": "Mejiro Ryan (Winning Pitch)",
+          "image": "/assets/images/support-cards/Mejiro Ryan (Winning Pitch).png"
+        },
+        {
+          "name": "Seeking the Pearl (The World's My Oyster)",
+          "image": "/assets/images/support-cards/Seeking the Pearl (The World's My Oyster).png"
+        },
+        {
+          "name": "Air Groove (Nothing Escapes the Vice Prez)",
+          "image": "/assets/images/support-cards/Air Groove (Nothing Escapes the Vice Prez).png"
+        },
+        {
+          "name": "Sirius Symboli (The Brightest Star Shines On)",
+          "image": "/assets/images/support-cards/Sirius Symboli (The Brightest Star Shines On).png"
+        },
+        {
+          "name": "Aoi Kiryuin (Trainer's Teamwork)",
+          "image": "/assets/images/support-cards/Aoi Kiryuin (Trainer's Teamwork).png"
+        },
+        {
+          "name": "Team Sirius (Passing the Dream On)",
+          "image": "/assets/images/support-cards/Team Sirius (Passing the Dream On).png"
+        }
+      ],
+      "id": "SH5H2zXYg9Y"
+    },
+    {
+      "tier": "B",
+      "members": [
+        {
+          "name": "Narita Brian (Two Pieces)",
+          "image": "/assets/images/support-cards/Narita Brian (Two Pieces).png"
+        },
+        {
+          "name": "Mejiro Ryan (Hot Hearts and Cool Drinks)",
+          "image": "/assets/images/support-cards/Mejiro Ryan (Hot Hearts and Cool Drinks).png"
+        },
+        {
+          "name": "Mejiro Bright (Little by Little)",
+          "image": "/assets/images/support-cards/Mejiro Bright (Little by Little).png"
+        },
+        {
+          "name": "Bamboo Memory (Head-On Fight!)",
+          "image": "/assets/images/support-cards/Bamboo Memory (Head-On Fight!).png"
+        },
+        {
+          "name": "Daiwa Scarlet (Mini☆Vacation)",
+          "image": "/assets/images/support-cards/Daiwa Scarlet (Mini☆Vacation).png"
+        },
+        {
+          "name": "Biwa Hayahide (Trial Initiation)",
+          "image": "/assets/images/support-cards/Biwa Hayahide (Trial Initiation).png"
+        },
+        {
+          "name": "Mejiro Ryan (On and Off the Court)",
+          "image": "/assets/images/support-cards/Mejiro Ryan (On and Off the Court).png"
+        },
+        {
+          "name": "Agnes Digital (Digital's Recharge Station)",
+          "image": "/assets/images/support-cards/Agnes Digital (Digital's Recharge Station).png"
+        },
+        {
+          "name": "Special Week (At the End of the Day)",
+          "image": "/assets/images/support-cards/Special Week (At the End of the Day).png"
+        },
+        {
+          "name": "Meisho Doto (Leaping into the Unknown)",
+          "image": "/assets/images/support-cards/Meisho Doto (Leaping into the Unknown).png"
+        },
+        {
+          "name": "Agnes Digital (A Fan's Joy)",
+          "image": "/assets/images/support-cards/Agnes Digital (A Fan's Joy).png"
+        },
+        {
+          "name": "Tamamo Cross (Split the Sky, White Lightning!)",
+          "image": "/assets/images/support-cards/Tamamo Cross (Split the Sky, White Lightning!).png"
+        },
+        {
+          "name": "Rice Shower (Showered In Joy)",
+          "image": "/assets/images/support-cards/Rice Shower (Showered In Joy).png"
+        },
+        {
+          "name": "Tosen Jordan (Turf as Nails)",
+          "image": "/assets/images/support-cards/Tosen Jordan (Turf as Nails).png"
+        },
+        {
+          "name": "Mejiro Dober (Ignore the Stares)",
+          "image": "/assets/images/support-cards/Mejiro Dober (Ignore the Stares).png"
+        },
+        {
+          "name": "Ikuno Dictus (Never Skip Warm-Ups)",
+          "image": "/assets/images/support-cards/Ikuno Dictus (Never Skip Warm-Ups).png"
+        },
+        {
+          "name": "Tamamo Cross (Now Dat's What I Call Grilled Squid!)",
+          "image": "/assets/images/support-cards/Tamamo Cross (Now Dat's What I Call Grilled Squid!).png"
+        },
+        {
+          "name": "Satono Diamond (Special Dreamers!)",
+          "image": "/assets/images/support-cards/Satono Diamond (Special Dreamers!).png"
+        },
+        {
+          "name": "Ines Fujin (You Earned It!)",
+          "image": "/assets/images/support-cards/Ines Fujin (You Earned It!).png"
+        },
+        {
+          "name": "Nishino Flower (Little Cupcakes, Big Emotions)",
+          "image": "/assets/images/support-cards/Nishino Flower (Little Cupcakes, Big Emotions).png"
+        },
+        {
+          "name": "Hishi Akebono (Who Wants the First Bite?)",
+          "image": "/assets/images/support-cards/Hishi Akebono (Who Wants the First Bite).png"
+        },
+        {
+          "name": "Mejiro Palmer (Go Ahead and Laugh)",
+          "image": "/assets/images/support-cards/Mejiro Palmer (Go Ahead and Laugh).png"
+        },
+        {
+          "name": "Marvelous Sunday (A MORE MARVELOUS WORLD! ☆)",
+          "image": "/assets/images/support-cards/Marvelous Sunday (A MORE MARVELOUS WORLD! ☆).png"
+        },
+        {
+          "name": "Meisho Doto (Fighting for Fortune)",
+          "image": "/assets/images/support-cards/Meisho Doto (Fighting for Fortune).png"
+        },
+        {
+          "name": "Yukino Bijin (City Girl 101)",
+          "image": "/assets/images/support-cards/Yukino Bijin (City Girl 101).png"
+        }
+      ],
+      "id": "qlXqe2mILJw"
+    },
+    {
+      "tier": "C",
+      "members": [
+        {
+          "name": "Gold Ship (That Time I Became the Strongest)",
+          "image": "/assets/images/support-cards/Gold Ship (That Time I Became the Strongest).png"
+        },
+        {
+          "name": "Gold Ship (Breakaway Battleship)",
+          "image": "/assets/images/support-cards/Gold Ship (Breakaway Battleship).png"
+        },
+        {
+          "name": "Winning Ticket (Full-Blown Tantrum)",
+          "image": "/assets/images/support-cards/Winning Ticket (Full-Blown Tantrum).png"
+        },
+        {
+          "name": "Air Shakur (7 More Centimeters)",
+          "image": "/assets/images/support-cards/Air Shakur (7 More Centimeters).png"
+        },
+        {
+          "name": "Winning Ticket (BNWinner!)",
+          "image": "/assets/images/support-cards/Winning Ticket (BNWinner!).png"
+        },
+        {
+          "name": "Nice Nature (It's Just Water)",
+          "image": "/assets/images/support-cards/Nice Nature (It's Just Water).png"
+        },
+        {
+          "name": "Sasami Anshinzawa (This Might Sting!)",
+          "image": "/assets/images/support-cards/Sasami Anshinzawa (This Might Sting!).png"
+        }
+      ],
+      "id": "UI4VkiqsaB0"
+    }
+  ],
+  "banner": [
+    {
+      "trainees": "Fuji Kiseki and Seiun Sky (Dance alts)",
+      "supports": "Symboli Rudolf (Stamina SSR) and Sirius Symboli (Wit SSR)",
+      "availability": "Apr 5, 2026 - Apr 18, 2026",
+      "image": "/assets/images/banners/Apr 5, 2026 - Apr 18, 2026.png",
+      "id": "OPQAq-3yqEE"
+    },
+    {
+      "trainees": "Nishino Flower",
+      "supports": "Daiwa Scarlet (Power SSR) and Sweep Tosho (Wit SR)",
+      "availability": "Apr 12, 2026 - Apr 20, 2026",
+      "image": "/assets/images/banners/Apr 12, 2026 - Apr 20, 2026.png",
+      "id": "3pjVhKdUKwA"
+    },
+    {
+      "trainees": "Yaeno Muteki",
+      "supports": "(Rerun Banner) Twin Turbo SSR and Ines Fujin SSR",
+      "availability": "Apr 20, 2026 - Apr 29, 2026",
+      "image": "/assets/images/banners/Apr 20, 2026 - Apr 29, 2026.png",
+      "id": "BuzWsG3-LrU"
+    },
+    {
+      "trainees": "Nice Nature and King Halo (Cheerleader alts)",
+      "supports": "Bamboo Memory (Guts SSR) and Seeking the Pearl (Speed SSR)",
+      "availability": "Apr 26, 2026 - May 08, 2026",
+      "image": "/assets/images/banners/Apr 26, 2026 - May 08, 2026.png",
+      "id": "BiV8aPRtxXA"
+    },
+    {
+      "trainees": "Ines Fujin",
+      "supports": "Mr. C.B. (Wit SSR) and Tokai Teio (Stamina SR)",
+      "availability": "Apr 30, 2026 - May 10, 2026",
+      "image": "/assets/images/banners/Apr 30, 2026 - May 10, 2026.png",
+      "id": "rDPp2vsNP3Q"
+    },
+    {
+      "trainees": "Mejiro Palmer",
+      "supports": "(Rerun Banner) Matikanefukukitaru (Speed SSR) and Rice Shower (Power SSR)",
+      "availability": "Expected in early may TBD",
+      "image": "/assets/images/banners/Expected Banners - Early May 1.png",
+      "id": "V_BG3mDLR6A"
+    },
+    {
+      "trainees": "Curren Chan (Wedding) and Fine Motion (Wedding)",
+      "supports": "Haru Urara (Power SSR) and Ikuno Dictus (Stamina SSR)",
+      "availability": "Expected in early may TBD",
+      "image": "/assets/images/banners/Expected Banners - Early May 2.png",
+      "id": "VppWuAdKkNw"
+    },
+    {
+      "trainees": "Inari One",
+      "supports": "(Rerun Banner) Admire Vega (Power SSR) Sakura Chiyono O (Stamina SSR)",
+      "availability": "Expected late may TBD",
+      "image": "/assets/images/banners/Expected Banners - Late May 1.png",
+      "id": "sYRJi7Ch1Ws"
+    },
+    {
+      "trainees": "Sweep Tosho",
+      "supports": "Taiki Shuttle (Speed SSR) Oguri Cap (Guts SR)",
+      "availability": "Expected in late may TBD",
+      "image": "/assets/images/banners/Expected Banners - Late May 2.png",
+      "id": "gUG17qT1GCY"
+    }
+  ],
+  "trainee": [
+    {
+      "name": "Special Week (Special Dreamer)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Special Week (Special Dreamer).png",
+      "id": "U7c-M_yznrM"
+    },
+    {
+      "name": "Silence Suzuka (Innocent Silence)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Silence Suzuka (Innocent Silence).png",
+      "id": "Oz3Ii5FYSOo"
+    },
+    {
+      "name": "Tokai Teio (Peak Joy)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Tokai Teio (Peak Joy).png",
+      "id": "9SlXpL4Pz_o"
+    },
+    {
+      "name": "Maruzensky (Formula R)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Maruzensky (Formula R).png",
+      "id": "VtsbsVV-p9k"
+    },
+    {
+      "name": "Oguri Cap (Starlight Beat)",
+      "rarity": "★★★",
+      "tier": "SS",
+      "image": "/assets/images/trainees/Oguri Cap (Starlight Beat).png",
+      "id": "xcxpLZkPBvE"
+    },
+    {
+      "name": "Taiki Shuttle (Wild Frontier)",
+      "rarity": "★★★",
+      "tier": "SS",
+      "image": "/assets/images/trainees/Taiki Shuttle (Wild Frontier).png",
+      "id": "YhCxMPpqXe4"
+    },
+    {
+      "name": "Mejiro McQueen (Frontline Elegance)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Mejiro McQueen (Frontline Elegance).png",
+      "id": "y-9uEUD6JCw"
+    },
+    {
+      "name": "T.M. Opera O (O Sole Suo!)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/T.M. Opera O (O Sole Suo!).png",
+      "id": "Aq33Xti2sg0"
+    },
+    {
+      "name": "Symboli Rudolf (Emperor's Path)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Symboli Rudolf (Emperor's Path).png",
+      "id": "9YuZKEyQu0I"
+    },
+    {
+      "name": "Rice Shower (Rosy Dreams)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Rice Shower (Rosy Dreams).png",
+      "id": "fDm5BMIQxqg"
+    },
+    {
+      "name": "Gold Ship (Red Strife)",
+      "rarity": "★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Gold Ship (Red Strife).png",
+      "id": "W7KcpIMh4BQ"
+    },
+    {
+      "name": "Vodka (Wild Top Gear)",
+      "rarity": "★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Vodka (Wild Top Gear).png",
+      "id": "nPBJUeBgdTc"
+    },
+    {
+      "name": "Daiwa Scarlet (Peak Blue)",
+      "rarity": "★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Daiwa Scarlet (Peak Blue).png",
+      "id": "efyF69QWsWE"
+    },
+    {
+      "name": "Grass Wonder (Stone-Piercing Blue)",
+      "rarity": "★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Grass Wonder (Stone-Piercing Blue).png",
+      "id": "ISsy7QpNdo8"
+    },
+    {
+      "name": "El Condor Pasa (El Numero 1)",
+      "rarity": "★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/El Condor Pasa (El Numero 1).png",
+      "id": "IA2P0Wlus-w"
+    },
+    {
+      "name": "Air Groove (Empress Road)",
+      "rarity": "★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Air Groove (Empress Road).png",
+      "id": "YcdZA2FDAUM"
+    },
+    {
+      "name": "Mayano Top Gun (Scramble Zone)",
+      "rarity": "★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Mayano Top Gun (Scramble Zone).png",
+      "id": "cBmGy2uYNqw"
+    },
+    {
+      "name": "Super Creek (Murmuring Stream)",
+      "rarity": "★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Super Creek (Murmuring Stream).png",
+      "id": "VM1VdEV_WXY"
+    },
+    {
+      "name": "Mejiro Ryan (Down the Line)",
+      "rarity": "★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Mejiro Ryan (Down the Line).png",
+      "id": "bEivXOiZYJ0"
+    },
+    {
+      "name": "Agnes Tachyon (Tach-nology)",
+      "rarity": "★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Agnes Tachyon (Tach-nology).png",
+      "id": "ctcWHj1sXpE"
+    },
+    {
+      "name": "Winning Ticket (Get to Winning!)",
+      "rarity": "★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Winning Ticket (Get to Winning!).png",
+      "id": "iOqtdFpvRiU"
+    },
+    {
+      "name": "Sakura Bakushin O (Blossom in Learning)",
+      "rarity": "★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Sakura Bakushin O (Blossom in Learning).png",
+      "id": "gg7B1gNbKbc"
+    },
+    {
+      "name": "Haru Urara (Bestest Prize)",
+      "rarity": "★",
+      "tier": "B",
+      "image": "/assets/images/trainees/Haru Urara (Bestest Prize).png",
+      "id": "Zxp1RzZkYdA"
+    },
+    {
+      "name": "Matikane Fukukitaru (Rising Fortune)",
+      "rarity": "★",
+      "tier": "B",
+      "image": "/assets/images/trainees/Matikane Fukukitaru (Rising Fortune).png",
+      "id": "jGkU4yBbsSk"
+    },
+    {
+      "name": "Nice Nature (Poinsettia Ribbon)",
+      "rarity": "★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Nice Nature (Poinsettia Ribbon).png",
+      "id": "hU6ZUdUqHTw"
+    },
+    {
+      "name": "King Halo (King of Emeralds)",
+      "rarity": "★",
+      "tier": "B",
+      "image": "/assets/images/trainees/King Halo (King of Emeralds).png",
+      "id": "OssZq3tFhho"
+    },
+    {
+      "name": "Mihono Bourbon (MB-19890425)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Mihono Bourbon (MB-19890425).png",
+      "id": "wmFAqZ3Ef2I"
+    },
+    {
+      "name": "Biwa Hayahide (pf. Winning Equation.)",
+      "rarity": "★★★",
+      "tier": "B",
+      "image": "/assets/images/trainees/Biwa Hayahide (pf. Winning Equation...).png",
+      "id": "xchnDR1Fgik"
+    },
+    {
+      "name": "Mejiro McQueen (End of the Skies)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Mejiro McQueen (End of the Skies).png",
+      "id": "ccYEoosupQo"
+    },
+    {
+      "name": "Tokai Teio (Beyond the Horizon)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Tokai Teio (Beyond the Horizon).png",
+      "id": "YsRwl3Hz_po"
+    },
+    {
+      "name": "Curren Chan (Fille Éclair)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Curren Chan (Fille Éclair).png",
+      "id": "ZdRJGTeTuzM"
+    },
+    {
+      "name": "Narita Taishin (Nevertheless)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Narita Taishin (Nevertheless).png",
+      "id": "9-aOYq2y83U"
+    },
+    {
+      "name": "Smart Falcon (LOVE☆4EVER)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Smart Falcon (LOVE☆4EVER).png",
+      "id": "qADU3n0cCmQ"
+    },
+    {
+      "name": "Narita Brian (Maverick)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Narita Brian (Maverick).png",
+      "id": "FXQBhTaHmko"
+    },
+    {
+      "name": "Mayano Top Gun (Sunlight Bouquet)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Mayano Top Gun (Sunlight Bouquet).png",
+      "id": "barJVGvbwzM"
+    },
+    {
+      "name": "Air Groove (Quercus Civilis)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Air Groove (Quercus Civilis).png",
+      "id": "oAl8Z-l45xg"
+    },
+    {
+      "name": "Seiun Sky (Reeling in the Big One)",
+      "rarity": "★★★",
+      "tier": "SS",
+      "image": "/assets/images/trainees/Seiun Sky (Reeling in the Big One).png",
+      "id": "phYh0UEcnw4"
+    },
+    {
+      "name": "Hishi Amazon (Azure Amazon)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Hishi Amazon (Azure Amazon).png",
+      "id": "GOih7MPQJc8"
+    },
+    {
+      "name": "El Condor Pasa (Kukulkan Warrior)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/El Condor Pasa (Kukulkan Warrior).png",
+      "id": "Io3Ll6tC0uA"
+    },
+    {
+      "name": "Grass Wonder (Saintly Jade Cleric)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Grass Wonder (Saintly Jade Cleric).png",
+      "id": "Kq-5gGyN8xI"
+    },
+    {
+      "name": "Fuji Kiseki (Shooting Star Revue)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Fuji Kiseki (Shooting Star Revue).png",
+      "id": "6JHUCU167fc"
+    },
+    {
+      "name": "Gold City (Authentic 1928)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Gold City (Authentic 1928).png",
+      "id": "Fsgd9OOa9RU"
+    },
+    {
+      "name": "Special Week (Hopp'n♪Happy Heart)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Special Week (Hopp'n♪Happy Heart).png",
+      "id": "btNzmgIvkOI"
+    },
+    {
+      "name": "Maruzensky (Hot☆Summer Night)",
+      "rarity": "★★★",
+      "tier": "SS",
+      "image": "/assets/images/trainees/Maruzensky (Hot☆Summer Night).png",
+      "id": "rfWG0AyJKkQ"
+    },
+    {
+      "name": "Meisho Doto (Turbulent Blue)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Meisho Doto (Turbulent Blue).png",
+      "id": "eLsk2SOtAco"
+    },
+    {
+      "name": "Eishin Flash (Meisterschaft)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Eishin Flash (Meisterschaft).png",
+      "id": "KMZG7-r-rO4"
+    },
+    {
+      "name": "Matikane Fukukitaru (Lucky Tidings)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Matikane Fukukitaru (Lucky Tidings).png",
+      "id": "Icgj2SH6T50"
+    },
+    {
+      "name": "Hishi Akebono (Buono☆Alla Moda)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Hishi Akebono (Buono☆Alla Moda).png",
+      "id": "x7icKNgCnZI"
+    },
+    {
+      "name": "Agnes Digital (Full-Color Fangirling)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Agnes Digital (Full-Color Fangirling).png",
+      "id": "V5ppaljF4DY"
+    },
+    {
+      "name": "Rice Shower (Vampire Makeover!)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Rice Shower (Vampire Makeover!).png",
+      "id": "c3_T4KIkuwM"
+    },
+    {
+      "name": "Super Creek (Chiffon-Wrapped Mummy)",
+      "rarity": "★★★",
+      "tier": "B",
+      "image": "/assets/images/trainees/Super Creek (Chiffon-Wrapped Mummy).png",
+      "id": "cmELpSHzVkM"
+    },
+    {
+      "name": "Kawakami Princess (Princess of Pink)",
+      "rarity": "★★★",
+      "tier": "B",
+      "image": "/assets/images/trainees/Kawakami Princess (Princess of Pink).png",
+      "id": "iceWzv6QmNQ"
+    },
+    {
+      "name": "Manhattan Cafe (Creeping Shadow)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Manhattan Cafe (Creeping Shadow).png",
+      "id": "vZV0pzRa_7E"
+    },
+    {
+      "name": "Symboli Rudolf (Archer by Moonlight)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Symboli Rudolf (Archer by Moonlight).png",
+      "id": "A3RODP47ruU"
+    },
+    {
+      "name": "Gold City (Autumn Cosmos)",
+      "rarity": "★★★",
+      "tier": "B",
+      "image": "/assets/images/trainees/Gold City (Autumn Cosmos).png",
+      "id": "24eCKGHEOF8"
+    },
+    {
+      "name": "Tosen Jordan (Jokester ☆ Vibes)",
+      "rarity": "★★★",
+      "tier": "B",
+      "image": "/assets/images/trainees/Tosen Jordan (Jokester ☆ Vibes).png",
+      "id": "TmhOm_hvTV8"
+    },
+    {
+      "name": "Mejiro Dober (Off the Line)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Mejiro Dober (Off the Line).png",
+      "id": "N7a0i60RiWA"
+    },
+    {
+      "name": "Oguri Cap (Ashen Miracle)",
+      "rarity": "★★★",
+      "tier": "SS",
+      "image": "/assets/images/trainees/Oguri Cap (Ashen Miracle).png",
+      "id": "9NzHR90Vfu0"
+    },
+    {
+      "name": "Biwa Hayahide (Rouge Caroler)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Biwa Hayahide (Rouge Caroler).png",
+      "id": "iTPtqvoXues"
+    },
+    {
+      "name": "Fine Motion (Noble Seamair)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Fine Motion (Noble Seamair).png",
+      "id": "sZU82fb3XyY"
+    },
+    {
+      "name": "Tamamo Cross (Fast as Lightning)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Tamamo Cross (Fast as Lightning).png",
+      "id": "FYOBKVPbjC0"
+    },
+    {
+      "name": "Haru Urara (New Year ♪ New Urara!)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Haru Urara (New Year ♪ New Urara!).png",
+      "id": "eE91v30CH58"
+    },
+    {
+      "name": "T.M. Opera O (New Year, Same Radiance!)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/T.M. Opera O (New Year, Same Radiance!).png",
+      "id": "mxxm_QVrzU0"
+    },
+    {
+      "name": "Sakura Chiyono O (Strength in Full Bloom)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Sakura Chiyono O (Strength in Full Bloom).png",
+      "id": "fBIZBaXigkQ"
+    },
+    {
+      "name": "Mihono Bourbon (CODE: ICING)",
+      "rarity": "★★★",
+      "tier": "SS",
+      "image": "/assets/images/trainees/Mihono Bourbon (CODE ICING).png",
+      "id": "6D9r892YDpo"
+    },
+    {
+      "name": "Eishin Flash (Precise Chocolatier)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Eishin Flash (Precise Chocolatier).png",
+      "id": "I7lh-iy5Wwc"
+    },
+    {
+      "name": "Mejiro Ardan (Crystalline)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Mejiro Ardan (Crystalline).png",
+      "id": "Zk0A48_zrnQ"
+    },
+    {
+      "name": "Admire Vega (Starry Nocturne)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Admire Vega (Starry Nocturne).png",
+      "id": "iMuuoftyAcg"
+    },
+    {
+      "name": "Kitasan Black (Gilded Shrine to Glory)",
+      "rarity": "★★★",
+      "tier": "SS",
+      "image": "/assets/images/trainees/Kitasan Black (Gilded Shrine to Glory).png",
+      "id": "5ASssf3g6LM"
+    },
+    {
+      "name": "Matikane Tannhauser (Mambo)",
+      "rarity": "★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Matikanetannhauser (Mambo).png",
+      "id": "SutMEoRFbAE"
+    },
+    {
+      "name": "Satono Diamond (Natural Brilliance)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Satono Diamond (Natural Brilliance).png",
+      "id": "UOtKB_qQWcM"
+    },
+    {
+      "name": "Mejiro Bright (Brunissage Line)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Mejiro Bright (Brunissage Line).png",
+      "id": "cOvt4V2XCdI"
+    },
+    {
+      "name": "Fuji Kiseki (Succès Étoilé)",
+      "rarity": "★★★",
+      "tier": "A",
+      "image": "/assets/images/trainees/Fuji Kiseki (Succès Étoilé).png",
+      "id": "-YDP4ojOtpM"
+    },
+    {
+      "name": "Seiun Sky (Soirée des Chatons)",
+      "rarity": "★★★",
+      "tier": "S",
+      "image": "/assets/images/trainees/Seiun Sky (Soirée des Chatons).png",
+      "id": "1DUr53xSII8"
+    }
+  ],
+  "supports": [
+    {
+      "name": "Kitasan Black [The Fire at My Heels]",
+      "image": "/assets/images/support-cards/Kitasan Black (Fire at My Heels).png",
+      "rarity": "SSR",
+      "tier": "SS",
+      "id": "k2_DzqN5ZG4"
+    },
+    {
+      "name": "Sakura Chiyono O [Peak Sakura]",
+      "image": "/assets/images/support-cards/Sakura Chiyono O (Peak Sakura Season).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "9UZSONReKXM"
+    },
+    {
+      "name": "Tazuna Hayakawa [Reception]",
+      "image": "/assets/images/support-cards/Tazuna Hayakawa (Tracen Reception).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "ezHCH-cXIkM"
+    },
+    {
+      "name": "Tosen Jordan [My Way]",
+      "image": "/assets/images/support-cards/Tosen Jordan (My Way).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "9mSvnIm0q2c"
+    },
+    {
+      "name": "Fine Motion [Wave of Gratitude]",
+      "image": "/assets/images/support-cards/Fine Motion (Wave of Gratitude).png",
+      "rarity": "SSR",
+      "tier": "SS",
+      "id": "8SJTzmx7ea0"
+    },
+    {
+      "name": "Special Week (The Brightest Star in Japan)",
+      "image": "/assets/images/support-cards/Special Week (The Brightest Star in Japan).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "RVwg7zxlfEw"
+    },
+    {
+      "name": "Silence Suzuka (Beyond This Shining Moment)",
+      "image": "/assets/images/support-cards/Silence Suzuka (Beyond This Shining Moment).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "kcRXMnyftkA"
+    },
+    {
+      "name": "Tokai Teio (Dream Big!)",
+      "image": "/assets/images/support-cards/Tokai Teio (Dream Big!).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "U1pGicef2PE"
+    },
+    {
+      "name": "Gold Ship (Breakaway Battleship)",
+      "image": "/assets/images/support-cards/Gold Ship (Breakaway Battleship).png",
+      "rarity": "SSR",
+      "tier": "C",
+      "id": "5vnGpFh9wUE"
+    },
+    {
+      "name": "Vodka (Wild Rider)",
+      "image": "/assets/images/support-cards/Vodka (Wild Rider).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "CbKoayMb4eo"
+    },
+    {
+      "name": "Grass Wonder (Fairest Fleur)",
+      "image": "/assets/images/support-cards/Grass Wonder (Fairest Fleur).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "gU_jTM21ELQ"
+    },
+    {
+      "name": "El Condor Pasa (Champion's Passion)",
+      "image": "/assets/images/support-cards/El Condor Pasa (Champion's Passion).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "qoNsAYHicvU"
+    },
+    {
+      "name": "Seiun Sky (Foolproof Plan)",
+      "image": "/assets/images/support-cards/Seiun Sky (Foolproof Plan).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "ZJLCsnyR9LQ"
+    },
+    {
+      "name": "Tamamo Cross (Split the Sky, White Lightning!)",
+      "image": "/assets/images/support-cards/Tamamo Cross (Split the Sky, White Lightning!).png",
+      "rarity": "SSR",
+      "tier": "B",
+      "id": "33eLw7zDvYg"
+    },
+    {
+      "name": "Ines Fujin (Watch My Star Fly!)",
+      "image": "/assets/images/support-cards/Ines Fujin (Watch My Star Fly!).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "25eRtq66c9g"
+    },
+    {
+      "name": "Winning Ticket (BNWinner!)",
+      "image": "/assets/images/support-cards/Winning Ticket (BNWinner!).png",
+      "rarity": "SSR",
+      "tier": "C",
+      "id": "B84Ma4F0r8Y"
+    },
+    {
+      "name": "Air Shakur (7 More Centimeters)",
+      "image": "/assets/images/support-cards/Air Shakur (7 More Centimeters).png",
+      "rarity": "SSR",
+      "tier": "C",
+      "id": "XWyvQ-7ncAU"
+    },
+    {
+      "name": "Gold City (Run (my) way)",
+      "image": "/assets/images/support-cards/Gold City (Run (my) way).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "Pm8ht32ryYc"
+    },
+    {
+      "name": "Sakura Bakushin O (Eat Fast! Yum Fast!)",
+      "image": "/assets/images/support-cards/Sakura Bakushin O (Eat Fast! Yum Fast!).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "6_x7iPpxqDI"
+    },
+    {
+      "name": "Super Creek (Piece of Mind)",
+      "image": "/assets/images/support-cards/Super Creek (Piece of Mind).png",
+      "rarity": "SSR",
+      "tier": "SS",
+      "id": "pkFQFXt68s4"
+    },
+    {
+      "name": "Smart Falcon (My Umadol Way! ☆)",
+      "image": "/assets/images/support-cards/Smart Falcon (My Umadol Way! ☆).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "ahqJOvsNmzo"
+    },
+    {
+      "name": "Nishino Flower (Even the Littlest Bud)",
+      "image": "/assets/images/support-cards/Nishino Flower (Even the Littlest Bud).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "1CkWkMUzhsA"
+    },
+    {
+      "name": "Biko Pegasus (Double Carrot Punch!)",
+      "image": "/assets/images/support-cards/Biko Pegasus (Double Carrot Punch!).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "9ahQn4IivLM"
+    },
+    {
+      "name": "Tazuna Hayakawa (Tracen Reception)",
+      "image": "/assets/images/support-cards/Tazuna Hayakawa (Tracen Reception).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "gZx77X6gN0s"
+    },
+    {
+      "name": "Oguri Cap (Get Lots of Hugs for Me)",
+      "image": "/assets/images/support-cards/Oguri Cap (Get Lots of Hugs for Me).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "m3eQDxdSHv4"
+    },
+    {
+      "name": "Fuji Kiseki (Well, Look Who's Home)",
+      "image": "/assets/images/support-cards/Fuji Kiseki (Well, Look Who's Home).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "xcghfmM3Wdg"
+    },
+    {
+      "name": "Daiwa Scarlet (Nothing Hard Work Can't Solve!)",
+      "image": "/assets/images/support-cards/Daiwa Scarlet (Nothing Hard Work Can't Solve!).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "lFUV7YIQlDQ"
+    },
+    {
+      "name": "Hishi Amazon (Reach to the Top!)",
+      "image": "/assets/images/support-cards/Hishi Amazon (Reach to the Top!).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "XcyVNbnSeS8"
+    },
+    {
+      "name": "Air Groove (Nothing Escapes the Vice Prez)",
+      "image": "/assets/images/support-cards/Air Groove (Nothing Escapes the Vice Prez).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "Pj3GMxASnmw"
+    },
+    {
+      "name": "Agnes Digital (Digital's Recharge Station)",
+      "image": "/assets/images/support-cards/Agnes Digital (Digital's Recharge Station).png",
+      "rarity": "SR",
+      "tier": "B",
+      "id": "AA_EDPiyrwM"
+    },
+    {
+      "name": "Biwa Hayahide (Trial Initiation)",
+      "image": "/assets/images/support-cards/Biwa Hayahide (Trial Initiation).png",
+      "rarity": "SR",
+      "tier": "B",
+      "id": "xgJ5cYoqkmI"
+    },
+    {
+      "name": "Mayano Top Gun (Cute + Cute = ?)",
+      "image": "/assets/images/support-cards/Mayano Top Gun (Cute + Cute).png",
+      "rarity": "SR",
+      "tier": "S",
+      "id": "3675sl4Pxbw"
+    },
+    {
+      "name": "Manhattan Cafe (My Solo Drawn to Raindrop Drums)",
+      "image": "/assets/images/support-cards/Manhattan Cafe (My Solo Drawn to Raindrop Drums).png",
+      "rarity": "SR",
+      "tier": "S",
+      "id": "bXvuZnlMD5M"
+    },
+    {
+      "name": "Mihono Bourbon (Pal-Assisted Training)",
+      "image": "/assets/images/support-cards/Mihono Bourbon (Pal-Assisted Training).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "oT3L5qI8TUI"
+    },
+    {
+      "name": "Mejiro Ryan (On and Off the Court)",
+      "image": "/assets/images/support-cards/Mejiro Ryan (On and Off the Court).png",
+      "rarity": "SR",
+      "tier": "B",
+      "id": "5DxtGkgcsJc"
+    },
+    {
+      "name": "Yukino Bijin (City Girl 101)",
+      "image": "/assets/images/support-cards/Yukino Bijin (City Girl 101).png",
+      "rarity": "SR",
+      "tier": "B",
+      "id": "M7r0cz_6ngQ"
+    },
+    {
+      "name": "Agnes Tachyon (Experimental Studies on Subject A)",
+      "image": "/assets/images/support-cards/Agnes Tachyon (Experimental Studies on Subject A).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "iuebil-jWME"
+    },
+    {
+      "name": "Eishin Flash (5:00 a.m.-Right on Schedule)",
+      "image": "/assets/images/support-cards/Eishin Flash (500 a.m.-Right on Schedule).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "hDhxDxHKOGA"
+    },
+    {
+      "name": "Narita Taishin (Poolside High Tides)",
+      "image": "/assets/images/support-cards/Narita Taishin (Poolside High Tides).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "zsEL1WvbK5c"
+    },
+    {
+      "name": "Marvelous Sunday (A Marvelous ☆ Plan)",
+      "image": "/assets/images/support-cards/Marvelous Sunday (A Marvelous ☆ Plan).png",
+      "rarity": "SR",
+      "tier": "S",
+      "id": "DshKLnLL_uA"
+    },
+    {
+      "name": "Matikane Fukukitaru (Fate's Forecast)",
+      "image": "/assets/images/support-cards/Matikane Fukukitaru (Fate's Forecast).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "np7YaBbIEj4"
+    },
+    {
+      "name": "Meisho Doto (Fighting for Fortune)",
+      "image": "/assets/images/support-cards/Meisho Doto (Fighting for Fortune).png",
+      "rarity": "SR",
+      "tier": "B",
+      "id": "maA_P3Qh70E"
+    },
+    {
+      "name": "Mejiro Dober (Ignore the Stares)",
+      "image": "/assets/images/support-cards/Mejiro Dober (Ignore the Stares).png",
+      "rarity": "SR",
+      "tier": "B",
+      "id": "dAIuSsrovdw"
+    },
+    {
+      "name": "Nice Nature (It's Just Water)",
+      "image": "/assets/images/support-cards/Nice Nature (It's Just Water).png",
+      "rarity": "SR",
+      "tier": "C",
+      "id": "PA3CtpVktb8"
+    },
+    {
+      "name": "King Halo (First-Rate Plan)",
+      "image": "/assets/images/support-cards/King Halo (First-Rate Plan).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "IR0MNcvhBaU"
+    },
+    {
+      "name": "Aoi Kiryuin (Trainer's Teamwork)",
+      "image": "/assets/images/support-cards/Aoi Kiryuin (Trainer's Teamwork).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "Xg3ZDhnIo5M"
+    },
+    {
+      "name": "Sweep Tosho (Lamplit Training of a Witch-to-Be)",
+      "image": "/assets/images/support-cards/Sweep Tosho (Lamplit Training of a Witch-to-be).png",
+      "rarity": "SR",
+      "tier": "S",
+      "id": "rB2U5HKDlF8"
+    },
+    {
+      "name": "Mejiro McQueen (Your Team Ace)",
+      "image": "/assets/images/support-cards/Mejiro McQueen (Your Team Ace).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "H3GIJLrH6Vo"
+    },
+    {
+      "name": "Rice Shower (Showered in Joy)",
+      "image": "/assets/images/support-cards/Rice Shower (Showered In Joy).png",
+      "rarity": "SSR",
+      "tier": "B",
+      "id": "yh_z9H-Qaeo"
+    },
+    {
+      "name": "Haru Urara (Urara's Day Off!)",
+      "image": "/assets/images/support-cards/Haru Urara (Urara's Day Off!).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "w9h_68WbF9k"
+    },
+    {
+      "name": "Special Week (The Setting Sun and Rising Stars)",
+      "image": "/assets/images/support-cards/Special Week (The Setting Sun And Rising Stars).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "U554ID3OdIo"
+    },
+    {
+      "name": "Twin Turbo (Turbo Booooost!)",
+      "image": "/assets/images/support-cards/Twin Turbo (Turbo Booooost!).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "C8tYMzI8HLY"
+    },
+    {
+      "name": "Daitaku Helios (Let's Get This Party Lit!)",
+      "image": "/assets/images/support-cards/Daitaku Helios (Let's Get This Party Lit!).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "xxPedd0qtNE"
+    },
+    {
+      "name": "Mejiro Palmer (Go Ahead and Laugh)",
+      "image": "/assets/images/support-cards/Mejiro Palmer (Go Ahead and Laugh).png",
+      "rarity": "SSR",
+      "tier": "B",
+      "id": "lzEcmZWSozI"
+    },
+    {
+      "name": "Ikuno Dictus (Never Skip Warm-Ups)",
+      "image": "/assets/images/support-cards/Ikuno Dictus (Never Skip Warm-Ups).png",
+      "rarity": "SR",
+      "tier": "B",
+      "id": "ExQlc86vIDs"
+    },
+    {
+      "name": "Satono Diamond (The Will to Overtake)",
+      "image": "/assets/images/support-cards/Mejiro Palmer (Go Ahead and Laugh).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "YVIxizoXrpM"
+    },
+    {
+      "name": "Matikanetannhauser (Just Keep Going)",
+      "image": "/assets/images/support-cards/Matikanetannhauser (Just Keep Going).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "HUV4VeARjwg"
+    },
+    {
+      "name": "Nice Nature (Messing Around)",
+      "image": "/assets/images/support-cards/Nice Nature (Messing Around).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "gNd2JnY5CcM"
+    },
+    {
+      "name": "Yukino Bijin (Hometown Cheers)",
+      "image": "/assets/images/support-cards/Yukino Bijin (Hometown Cheers).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "yApQeW3oNfs"
+    },
+    {
+      "name": "Nishino Flower (Lifting Your Spirits)",
+      "image": "/assets/images/support-cards/Nishino Flower (Lifting Your Spirits).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "7ne5Z6rTaq4"
+    },
+    {
+      "name": "Yaeno Muteki (Fiery Discipline)",
+      "image": "/assets/images/support-cards/Yaeno Muteki (Fiery Discipline).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "hhM6kDBTJ-s"
+    },
+    {
+      "name": "Zenno Rob Roy (The Perfect Book for You)",
+      "image": "/assets/images/support-cards/Zenno Rob Roy (The Perfect Book for You).png",
+      "rarity": "SR",
+      "tier": "S",
+      "id": "zQ4ONBadClk"
+    },
+    {
+      "name": "Winning Ticket (Dreams Do Come True!)",
+      "image": "/assets/images/support-cards/Winning Ticket (Dreams Do Come True!).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "dFQLq9Bx8yM"
+    },
+    {
+      "name": "Sakura Chiyono O (Peak Sakura Season)",
+      "image": "/assets/images/support-cards/Sakura Chiyono O (Peak Sakura Season).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "7qbEF77u-8g"
+    },
+    {
+      "name": "Seeking the Pearl (The World's My Oyster)",
+      "image": "/assets/images/support-cards/Seeking the Pearl (The World's My Oyster).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "ZqtUf6NsY6o"
+    },
+    {
+      "name": "Kawakami Princess (Princess Bride)",
+      "image": "/assets/images/support-cards/Kawakami Princess (Princess Bride).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "3KxzNv15w7k"
+    },
+    {
+      "name": "Hishi Akebono (Who Wants the First Bite?)",
+      "image": "/assets/images/support-cards/Hishi Akebono (Who Wants the First Bite).png",
+      "rarity": "SSR",
+      "tier": "B",
+      "id": "dYrjUXxcWxM"
+    },
+    {
+      "name": "Mejiro Dober (My Thoughts, My Desires)",
+      "image": "/assets/images/support-cards/Mejiro Dober (My Thoughts, My Desires).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "jqA-e1MkgR0"
+    },
+    {
+      "name": "Bamboo Memory (Head-On Fight!)",
+      "image": "/assets/images/support-cards/Bamboo Memory (Head-On Fight!).png",
+      "rarity": "SSR",
+      "tier": "B",
+      "id": "GVpyH5qlnF4"
+    },
+    {
+      "name": "Shinko Windy (///WARNING GATE///)",
+      "image": "/assets/images/support-cards/Shinko Windy (WARNING GATE).png",
+      "rarity": "SR",
+      "tier": "S",
+      "id": "dbZ87tX5WYQ"
+    },
+    {
+      "name": "Seiun Sky (Paint the Sky Red)",
+      "image": "/assets/images/support-cards/Seiun Sky (Paint the Sky Red).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "Su54Q6CiPOM"
+    },
+    {
+      "name": "King Halo (Tonight, We Waltz)",
+      "image": "/assets/images/support-cards/King Halo (Tonight, We Waltz).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "gxDuLMkr8as"
+    },
+    {
+      "name": "Gold Ship (That Time I Became the Strongest)",
+      "image": "/assets/images/support-cards/Gold Ship (That Time I Became the Strongest).png",
+      "rarity": "SSR",
+      "tier": "C",
+      "id": "kyAqnSbtiXI"
+    },
+    {
+      "name": "Mejiro Ryan (Winning Pitch)",
+      "image": "/assets/images/support-cards/Mejiro Ryan (Winning Pitch).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "-R3C7g6EBHw"
+    },
+    {
+      "name": "Mejiro Ardan (My Heart Will Go On)",
+      "image": "/assets/images/support-cards/Mejiro Ardan (My Heart Will Go On).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "cavymChLonY"
+    },
+    {
+      "name": "Narita Brian (Two Pieces)",
+      "image": "/assets/images/support-cards/Narita Brian (Two Pieces).png",
+      "rarity": "SSR",
+      "tier": "B",
+      "id": "lFlGhIT34RI"
+    },
+    {
+      "name": "Sweep Tosho (It's All Mine!)",
+      "image": "/assets/images/support-cards/Sweep Tosho (It's All Mine!).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "ku_KGy837l0"
+    },
+    {
+      "name": "Winning Ticket (Full-Blown Tantrum)",
+      "image": "/assets/images/support-cards/Winning Ticket (Full-Blown Tantrum).png",
+      "rarity": "SSR",
+      "tier": "C",
+      "id": "6WiPMKkL2hE"
+    },
+    {
+      "name": "Daiwa Scarlet (Mini☆Vacation)",
+      "image": "/assets/images/support-cards/Daiwa Scarlet (Mini☆Vacation).png",
+      "rarity": "SSR",
+      "tier": "B",
+      "id": "Y6LpLyPafMc"
+    },
+    {
+      "name": "Nice Nature (Daring to Dream)",
+      "image": "/assets/images/support-cards/Nice Nature (Daring to Dream).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "WS0ugUnKkv8"
+    },
+    {
+      "name": "Tosen Jordan (Turf as Nails)",
+      "image": "/assets/images/support-cards/Tosen Jordan (Turf as Nails).png",
+      "rarity": "SR",
+      "tier": "B",
+      "id": "StBXKJk7cFk"
+    },
+    {
+      "name": "Silence Suzuka (Winning Dream)",
+      "image": "/assets/images/support-cards/Silence Suzuka (Winning Dream).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "QpItA1dv8RM"
+    },
+    {
+      "name": "Rice Shower (Happiness Just around the Bend)",
+      "image": "/assets/images/support-cards/Rice Shower (Happiness Just around the Bend).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "IPdT1dJNiic"
+    },
+    {
+      "name": "Riko Kashimoto (Planned Perfection)",
+      "image": "/assets/images/support-cards/Riko Kashimoto (Planned Perfection).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "5UtWHtqQ0S4"
+    },
+    {
+      "name": "Ikuno Dictus (Warm Heart, Soft Steps)",
+      "image": "/assets/images/support-cards/Ikuno Dictus (Warm Heart, Soft Steps).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "LZAp0P1NA9I"
+    },
+    {
+      "name": "Fine Motion (Grma, Ramen ♪)",
+      "image": "/assets/images/support-cards/Fine Motion (Grma, Ramen ♪).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "hJv7aguIPeY"
+    },
+    {
+      "name": "Tamamo Cross (Beware! Halloween Night!)",
+      "image": "/assets/images/support-cards/Tamamo Cross (Beware! Halloween Night!).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "IhvBIs30KQM"
+    },
+    {
+      "name": "Zenno Rob Roy (Magical Heroine)",
+      "image": "/assets/images/support-cards/Zenno Rob Roy (Magical Heroine).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "tZa0_UMXvpQ"
+    },
+    {
+      "name": "Mihono Bourbon (The Ghost Finds Halloween Magic)",
+      "image": "/assets/images/support-cards/Mihono Bourbon (The Ghost Finds Halloween Magic).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "OoOTb_1G-zM"
+    },
+    {
+      "name": "Nakayama Festa (43, 8, 1)",
+      "image": "/assets/images/support-cards/Nakayama Festa (43, 8, 1).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "fMG7_o892Ic"
+    },
+    {
+      "name": "Sirius Symboli (The Brightest Star Shines On)",
+      "image": "/assets/images/support-cards/Sirius Symboli (The Brightest Star Shines On).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "KW8SE3ICcps"
+    },
+    {
+      "name": "Curren Chan (Cutie Pie with Shining Eyes)",
+      "image": "/assets/images/support-cards/Curren Chan (Cutie Pie with Shining Eyes).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "q9hgFQMBx2k"
+    },
+    {
+      "name": "Narita Brian (The Whistling Arrow's Taunt)",
+      "image": "/assets/images/support-cards/Narita Brian (The Whistling Arrow's Taunt).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "0yWQp7LsRQE"
+    },
+    {
+      "name": "Yukino Bijin (Dancing Light into the Night)",
+      "image": "/assets/images/support-cards/Yukino Bijin (Dancing Light into the Night).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "TE00kSnD00k"
+    },
+    {
+      "name": "Daitaku Helios (Make! Some! NOISE!)",
+      "image": "/assets/images/support-cards/Daitaku Helios (Make! Some! NOISE!).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "PxqtpVuOaNw"
+    },
+    {
+      "name": "Vodka (An Annoying Supervisor)",
+      "image": "/assets/images/support-cards/Vodka (An Annoying Supervisor).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "JF9UX5pCT2k"
+    },
+    {
+      "name": "Mayano Top Gun (Party Formation)",
+      "image": "/assets/images/support-cards/Mayano Top Gun (Party Formation).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "0lvPQ1B3XrI"
+    },
+    {
+      "name": "Narita Taishin (Strict Shopper)",
+      "image": "/assets/images/support-cards/Narita Taishin (Strict Shopper).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "7lSVG-F2rxQ"
+    },
+    {
+      "name": "Marvelous Sunday (Dazzling Day in the Snow)",
+      "image": "/assets/images/support-cards/Marvelous Sunday (Dazzling Day in the Snow).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "q5l6YS-gB68"
+    },
+    {
+      "name": "Manhattan Cafe (My Solo Spun in Spiraling Runs)",
+      "image": "/assets/images/support-cards/Manhattan Cafe (My Solo Spun in Spiraling Runs).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "aQKpQROkZ2I"
+    },
+    {
+      "name": "Inari One (Laughing through the Mud)",
+      "image": "/assets/images/support-cards/Inari One (Laughing through the Mud).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "YVrzPENbcHc"
+    },
+    {
+      "name": "Silence Suzuka (Searching for Unseen Sights)",
+      "image": "/assets/images/support-cards/Silence Suzuka (Searching for Unseen Sights).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "yRD-guvFdEs"
+    },
+    {
+      "name": "Admire Vega (Lucky Star in the Sky)",
+      "image": "/assets/images/support-cards/Admire Vega (Lucky Star in the Sky).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "QnFZ9Lh3yqU"
+    },
+    {
+      "name": "Matikanefukukitaru (Touching Sleeves Is Good Luck! ♪)",
+      "image": "/assets/images/support-cards/Matikanefukukitaru (Touching Sleeves Is Good Luck! ♪).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "qHhYtr9iiDo"
+    },
+    {
+      "name": "Meisho Doto (Leaping into the Unknown)",
+      "image": "/assets/images/support-cards/Meisho Doto (Leaping into the Unknown).png",
+      "rarity": "SSR",
+      "tier": "B",
+      "id": "GnvzW3Z4-JE"
+    },
+    {
+      "name": "Sasami Anshinzawa (This Might Sting!)",
+      "image": "/assets/images/support-cards/Sasami Anshinzawa (This Might Sting!).png",
+      "rarity": "SSR",
+      "tier": "C",
+      "id": "MrUlCCnrYcE"
+    },
+    {
+      "name": "Tamamo Cross (Now Dat's What I Call Grilled Squid!)",
+      "image": "/assets/images/support-cards/Tamamo Cross (Now Dat's What I Call Grilled Squid!).png",
+      "rarity": "SR",
+      "tier": "B",
+      "id": "b8Da3MiJTPM"
+    },
+    {
+      "name": "Nishino Flower (Little Cupcakes, Big Emotions)",
+      "image": "/assets/images/support-cards/Nishino Flower (Little Cupcakes, Big Emotions).png",
+      "rarity": "SSR",
+      "tier": "B",
+      "id": "i_uFJTn7RQg"
+    },
+    {
+      "name": "Sakura Bakushin O (Super! Sonic! Flower Power!)",
+      "image": "/assets/images/support-cards/Sakura Bakushin O (Super! Sonic! Flower Power!).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "EZDjiz7NouI"
+    },
+    {
+      "name": "Tosen Jordan (My Way)",
+      "image": "/assets/images/support-cards/Tosen Jordan (My Way).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "vtDbDFWqLtI"
+    },
+    {
+      "name": "Agnes Digital (A Fan's Joy)",
+      "image": "/assets/images/support-cards/Agnes Digital (A Fan's Joy).png",
+      "rarity": "SSR",
+      "tier": "B",
+      "id": "aNShetGEbms"
+    },
+    {
+      "name": "Ines Fujin (You Earned It!)",
+      "image": "/assets/images/support-cards/Ines Fujin (You Earned It!).png",
+      "rarity": "SR",
+      "tier": "B",
+      "id": "BsUlgQVyuRk"
+    },
+    {
+      "name": "Narita Top Road (Peachy Silhouette)",
+      "image": "/assets/images/support-cards/Narita Top Road (Peachy Silhouette).png",
+      "rarity": "SSR",
+      "tier": "S",
+      "id": "jg366h3jiJc"
+    },
+    {
+      "name": "Mejiro Bright (Little by Little)",
+      "image": "/assets/images/support-cards/Mejiro Bright (Little by Little).png",
+      "rarity": "SSR",
+      "tier": "B",
+      "id": "MQubOfgmYwI"
+    },
+    {
+      "name": "Satono Diamond (Special Dreamers!)",
+      "image": "/assets/images/support-cards/Satono Diamond (Special Dreamers!).png",
+      "rarity": "SSR",
+      "tier": "B",
+      "id": "ERDVjzq3GbU"
+    },
+    {
+      "name": "Sakura Bakushin O (The Perfect Morning Greeting!)",
+      "image": "/assets/images/support-cards/Sakura Bakushin O (The Perfect Morning Greeting!).png",
+      "rarity": "SR",
+      "tier": "A",
+      "id": "LvF_Y8kzMqM"
+    },
+    {
+      "name": "Admire Vega (Aim for the Brightest)",
+      "image": "/assets/images/support-cards/Admire Vega (Aim for the Brightest).png",
+      "rarity": "SR",
+      "tier": "S",
+      "id": "OpKMgMHI5m8"
+    },
+    {
+      "name": "Mejiro Ryan (Hot Hearts and Cool Drinks)",
+      "image": "/assets/images/support-cards/Mejiro Ryan (Hot Hearts and Cool Drinks).png",
+      "rarity": "SR",
+      "tier": "B",
+      "id": "L3rvVdpejd8"
+    },
+    {
+      "name": "Special Week (At the End of the Day)",
+      "image": "/assets/images/support-cards/Special Week (At the End of the Day).png",
+      "rarity": "SR",
+      "tier": "B",
+      "id": "CGMWCWOojZ0"
+    },
+    {
+      "name": "Marvelous Sunday (A MORE MARVELOUS WORLD! ☆)",
+      "image": "/assets/images/support-cards/Marvelous Sunday (A MORE MARVELOUS WORLD! ☆).png",
+      "rarity": "SSR",
+      "tier": "B",
+      "id": "JoGdEq6VVcI"
+    },
+    {
+      "name": "Curren Chan (Cozy Cute Memory ♪)",
+      "image": "/assets/images/support-cards/Curren Chan (Cozy Cute Memory ♪).png",
+      "rarity": "SR",
+      "tier": "S",
+      "id": "2YBPm_5FK9U"
+    },
+    {
+      "name": "Team Sirius (Passing the Dream On)",
+      "image": "/assets/images/support-cards/Team Sirius (Passing the Dream On).png",
+      "rarity": "SSR",
+      "tier": "A",
+      "id": "pe1KRmRhyMU"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Escape Artist",
+      "image": "/assets/images/skills/rare-speed-skill.png",
+      "description": "Increase ability to go to the front mid-race. (Front Runner)",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "F3Lj2DQuHrg"
+    },
+    {
+      "name": "Fast-Paced",
+      "image": "/assets/images/skills/normal-speed-skill.png",
+      "description": "Slightly increase ability to go to the front mid-race. (Front Runner)",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "owu516fGeKw"
+    },
+    {
+      "name": "Beeline Burst",
+      "image": "/assets/images/skills/rare-speed-skill.png",
+      "description": "Increase velocity on a straight.",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "8GUVP3gCtsM"
+    },
+    {
+      "name": "Straightaway Adept",
+      "image": "/assets/images/skills/normal-speed-skill.png",
+      "description": "Slightly increase velocity on a straight.",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "GdqnY2ofkoo"
+    },
+    {
+      "name": "Its on!",
+      "image": "/assets/images/skills/rare-speed-skill.png",
+      "description": "Increase velocity when passing another runner mid-race.",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "CLW9N2dHSIM"
+    },
+    {
+      "name": "Ramp Up",
+      "image": "/assets/images/skills/normal-speed-skill.png",
+      "description": "Slightly increase velocity when passing another runner mid-race.",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "at29JGBowcs"
+    },
+    {
+      "name": "Rushing Gale!",
+      "image": "/assets/images/skills/rare-acceleration-skill.png",
+      "description": "Increase acceleration on a straight.",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "9555Rmq41C0"
+    },
+    {
+      "name": "Straightaway Acceleration",
+      "image": "/assets/images/skills/normal-acceleration-skill.png",
+      "description": "Slightly Increase acceleration on a straight.",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "kwvdBIXaeP4"
+    },
+    {
+      "name": "No Stopping Me!",
+      "image": "/assets/images/skills/rare-acceleration-skill.png",
+      "description": "Increase maneuverability when the way ahead is blocked in the last spurt.",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "DCaZY77wqrk"
+    },
+    {
+      "name": "Nimble Navigator",
+      "image": "/assets/images/skills/normal-acceleration-skill.png",
+      "description": "Slightly increase maneuverability when the way ahead is blocked in the last spurt.",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "fGq6DKuUyL0"
+    },
+    {
+      "name": "Taking the lead",
+      "image": "/assets/images/skills/rare-acceleration-skill.png",
+      "description": "Increase ability to go to the front early-race. (Front Runner)",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "j3awa_3RfDM"
+    },
+    {
+      "name": "Early Lead",
+      "image": "/assets/images/skills/normal-acceleration-skill.png",
+      "description": "Slightly increase ability to go to the front early-race. (Front Runner)",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "fpvXLgnNRnk"
+    },
+    {
+      "name": "Top Runner",
+      "image": "/assets/images/skills/rare-speed-skill.png",
+      "description": "Increase ability to pass or challenge another runner early-race or mid-race. (Front Runner)",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "kWErYMDUgaQ"
+    },
+    {
+      "name": "Leader's Pride",
+      "image": "/assets/images/skills/normal-speed-skill.png",
+      "description": "Slightly increase ability to pass or challenge another runner early-race or mid-race. (Front Runner)",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "nLdQCb4YplU"
+    },
+    {
+      "name": "In Body and Mind",
+      "image": "/assets/images/skills/rare-speed-skill.png",
+      "description": "Increase velocity in the last spurt.",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "BauPRX5bxqQ"
+    },
+    {
+      "name": "Homestretch Haste",
+      "image": "/assets/images/skills/normal-speed-skill.png",
+      "description": "Slightly increase velocity in the last spurt.",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "kQqkAxsTGyQ"
+    },
+    {
+      "name": "Groundwork",
+      "image": "/assets/images/skills/normal-acceleration-skill.png",
+      "description": "Slightly increase acceleration after activating many skills early-race.",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "BzzTNfC1Ey0"
+    },
+    {
+      "name": "Unrestrained",
+      "image": "/assets/images/skills/rare-acceleration-skill.png",
+      "description": "Increase ability to keep the lead on the final corner. (Front Runner)",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "i_bEX_aB3yo"
+    },
+    {
+      "name": "Final Push",
+      "image": "/assets/images/skills/normal-acceleration-skill.png",
+      "description": "Slightly increase ability to keep the lead on the final corner. (Front Runner)",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "qbOnvbg4VIs"
+    },
+    {
+      "name": "Professor of Curvature",
+      "image": "/assets/images/skills/rare-speed-skill.png",
+      "description": "Increase velocity on a corner with skilled turning.",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "Q5uCDoHuv2s"
+    },
+    {
+      "name": "Speed Star",
+      "image": "/assets/images/skills/normal-speed-skill.png",
+      "description": "Increase ability to break out of the pack on the final corner. (Pace Chaser)",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "R0v05QKud_k"
+    },
+    {
+      "name": "Prepared to Pass",
+      "image": "/assets/images/skills/rare-speed-skill.png",
+      "description": "Slightly increase ability to break out of the pack on the final corner. (Pace Chaser)",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "lgkltBHfapM"
+    },
+    {
+      "name": "Corner Adept",
+      "image": "/assets/images/skills/normal-speed-skill.png",
+      "description": "Increase velocity on a corner with skilled turning.",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "mO42JNSavG4"
+    },
+    {
+      "name": "Fast & Furious",
+      "image": "/assets/images/skills/rare-speed-skill.png",
+      "description": "Increase velocity mid-race. (Late Surger)",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "uWyocGQ90LQ"
+    },
+    {
+      "name": "Position Pilfer",
+      "image": "/assets/images/skills/normal-speed-skill.png",
+      "description": "Slightly increase velocity mid-race. (Late Surger)",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "rd7bFBfUgrw"
+    },
+    {
+      "name": "Rising Dragon",
+      "image": "/assets/images/skills/rare-speed-skill.png",
+      "description": "Increase velocity mid-race. (Late Surger)",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "TVEfHUmywhc"
+    },
+    {
+      "name": "Outer Swell",
+      "image": "/assets/images/skills/normal-speed-skill.png",
+      "description": "Slightly increase velocity when passing another runner on the outside on the final corner. (Late Surger)",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "MTdeSamT4Hc"
+    },
+    {
+      "name": "Corner Connoiseur",
+      "image": "/assets/images/skills/rare-acceleration-skill.png",
+      "description": "Increase acceleration on a corner with masterful turning.",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "OWOONYQ5kcg"
+    },
+    {
+      "name": "Corner Acceleration",
+      "image": "/assets/images/skills/normal-acceleration-skill.png",
+      "description": "Slightly increase acceleration on a corner with masterful turning.",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "OQ8ESxJ0zoA"
+    },
+    {
+      "name": "On Your Left!",
+      "image": "/assets/images/skills/rare-acceleration-skill.png",
+      "description": "Increase acceleration late-race. (Late Surger)",
+      "rarity": "Rare",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "TFuRmv2I9EU"
+    },
+    {
+      "name": "Slick Surge",
+      "image": "/assets/images/skills/normal-acceleration-skill.png",
+      "description": "Slightly increase acceleration late-race. (Late Surger)",
+      "rarity": "Normal",
+      "type": "Speed",
+      "effect": "Positive",
+      "id": "W3fhl9FCdTA"
+    },
+    {
+      "name": "Swinging Maestro",
+      "image": "/assets/images/skills/rare-recovery-skill.png",
+      "description": "Recover endurance on a corner with efficient turning.",
+      "rarity": "Rare",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "wKouPwnFt7A"
+    },
+    {
+      "name": "Corner Recovery",
+      "image": "/assets/images/skills/normal-recovery-skill.png",
+      "description": "Slightly recover endurance on a corner with efficient turning.",
+      "rarity": "Normal",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "PEY9ASanpIY"
+    },
+    {
+      "name": "Breath of Fresh Air",
+      "image": "/assets/images/skills/rare-recovery-skill.png",
+      "description": "Recover endurance on a straight.",
+      "rarity": "Rare",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "l2Z7jwUt5eo"
+    },
+    {
+      "name": "Straightaway Recovery",
+      "image": "/assets/images/skills/normal-recovery-skill.png",
+      "description": "Slightly recover endurance on a straight.",
+      "rarity": "Normal",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "mUITA0gVq7s"
+    },
+    {
+      "name": "Indomitable",
+      "image": "/assets/images/skills/rare-recovery-skill.png",
+      "description": "Recover endurance when passed by another runner mid-race.",
+      "rarity": "Rare",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "XZUiFVkczok"
+    },
+    {
+      "name": "Pace Strategy",
+      "image": "/assets/images/skills/normal-recovery-skill.png",
+      "description": "Slightly recover endurance when passed by another runner mid-race.",
+      "rarity": "Normal",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "-wwy5gaTioU"
+    },
+    {
+      "name": "Unruffled",
+      "image": "/assets/images/skills/rare-recovery-skill.png",
+      "description": "Recover endurance when surrounded mid-race.",
+      "rarity": "Rare",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "pRB0WzcVh_g"
+    },
+    {
+      "name": "Calm in a Crowd",
+      "image": "/assets/images/skills/normal-recovery-skill.png",
+      "description": "Slightly recover endurance when surrounded mid-race.",
+      "rarity": "Normal",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "xgX-INnOQoE"
+    },
+    {
+      "name": "Iron Will",
+      "image": "/assets/images/skills/rare-recovery-skill.png",
+      "description": "Recover endurance when the way ahead is jammed early-race or mid-race.",
+      "rarity": "Rare",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "Ej97dDG8tvY"
+    },
+    {
+      "name": "Lay Low",
+      "image": "/assets/images/skills/normal-recovery-skill.png",
+      "description": "Slightly recover endurance when the way ahead is jammed early-race or mid-race.",
+      "rarity": "Normal",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "vLRko9Na6Lw"
+    },
+    {
+      "name": "Race Planner",
+      "image": "/assets/images/skills/rare-recovery-skill.png",
+      "description": "Decrease fatigue mid-race. (Pace Chaser)",
+      "rarity": "Rare",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "TxSFWhsLPNo"
+    },
+    {
+      "name": "Preferred Position",
+      "image": "/assets/images/skills/normal-recovery-skill.png",
+      "description": "Slightly decrease fatigue mid-race. (Pace Chaser)",
+      "rarity": "Normal",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "NTZe7Th7qLQ"
+    },
+    {
+      "name": "Calm and Collected",
+      "image": "/assets/images/skills/rare-recovery-skill.png",
+      "description": "Decrease fatigue upon approaching mid-race. (Pace Chaser)",
+      "rarity": "Rare",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "3rfYCt-uXsU"
+    },
+    {
+      "name": "Stamina to Spare",
+      "image": "/assets/images/skills/normal-recovery-skill.png",
+      "description": "Slightly decrease fatigue upon approaching mid-race. (Pace Chaser)",
+      "rarity": "Normal",
+      "type": "Recovery",
+      "effect": "Positive",
+      "id": "TyrRm39udjA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
