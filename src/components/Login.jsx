@@ -1,5 +1,7 @@
 import { useState } from "react"
 
+const logo = '/assets/images/miscellaneous/Logo.png'
+
 const Login = ({ adminEventHandler, loginEventHandler }) => {
     const [user, setUser] = useState('')
     const [password, setPassword] = useState('')
@@ -19,7 +21,7 @@ const Login = ({ adminEventHandler, loginEventHandler }) => {
         <div className="login-wrap">
             <div className="login-card">
                 <div className="login-header">
-                    <span className="login-badge">Uma Wiki</span>
+                    <img src={logo} alt="Uma-Wiki logo" className="login-logo" />
                     <h2>Member Login</h2>
                     <p>Enter your credentials to continue to the wiki.</p>
                 </div>
