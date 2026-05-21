@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Navbar from "./components/Navbar"
+import Login from "./components/Login"
 import MainPage from "./components/pages/Mainpage"
 import TierlistPage from "./components/pages/TierlistPage"
 import BannerPage from "./components/pages/BannerPage"
@@ -8,42 +9,6 @@ import SupportPage from "./components/pages/SupportPage"
 import SkillPage from "./components/pages/SkillPage"
 import EventPage from "./components/pages/EventPage"
 import './index.css' 
-
-const Login = ({adminEventHandler, loginEventHandler}) => {
-    const [user, setUser] = useState('')
-    const [password, setPassword] = useState('')
-
-    const login = (event) => {
-        event.preventDefault()
-
-        if(user === 'Admin' && password === 'Admin') {
-            adminEventHandler(true)
-            loginEventHandler(true)
-        } else if (user !== '' && password !== '') {
-            loginEventHandler(true)
-        }
-    }
-
-    return(
-        <form onSubmit={login}>
-            <input
-                className="login-input" 
-                type="text" 
-                placeholder="Username"
-                onChange={event => setUser(event.target.value)}/>
-
-            <input 
-                className="login-input"
-                type="password" 
-                placeholder="Password"
-                onChange={event => setPassword(event.target.value)}/>
-
-            <button
-                className="login-button" 
-                type="submit">Enter</button>
-        </form>
-    )
-}
 
 const App = () => {
     const [isAdmin, setIsAdmin] = useState(false)
@@ -63,12 +28,7 @@ const App = () => {
     }
 
     return(
-        <div>
-            {
-                isLogged
-                ? null
-                : <Login adminEventHandler={setIsAdmin} loginEventHandler={setIsLogged}></Login>
-            }
+        <div className="app-shell">
             <Navbar eventHandler={setView}></Navbar>
             
             <main>
@@ -78,6 +38,14 @@ const App = () => {
             <footer className="main-footer">
                 <p>© 2026 Uma-Wiki Project | Dedicated to Umamusume fans.</p>
             </footer>
+
+            {
+                !isLogged && (
+                    <div className="login-overlay">
+                        <Login adminEventHandler={setIsAdmin} loginEventHandler={setIsLogged}></Login>
+                    </div>
+                )
+            }
         </div>
     )
 }

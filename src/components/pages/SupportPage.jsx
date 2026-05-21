@@ -44,8 +44,9 @@ const SupportPage = ({isAdmin}) => {
     const renderAddSection = () => {
         return (
             <div>
-                <form onSubmit={addSupport}>
+                <form onSubmit={addSupport} className="data-form">
                     <input
+                        className="form-input"
                         type='text'
                         placeholder='Support name'
                         name='name'
@@ -53,6 +54,7 @@ const SupportPage = ({isAdmin}) => {
                         onChange={handleNewSupportChange}/>
 
                     <input
+                        className="form-input"
                         type='text'
                         placeholder='Support rarity'
                         name='rarity'
@@ -60,6 +62,7 @@ const SupportPage = ({isAdmin}) => {
                         onChange={handleNewSupportChange} />
 
                     <input
+                        className="form-input"
                         type='text'
                         placeholder='Support tier'
                         name='tier'
@@ -67,6 +70,7 @@ const SupportPage = ({isAdmin}) => {
                         onChange={handleNewSupportChange} />
 
                     <button
+                        className="add-button"
                         type='submit'>Add</button>
                 </form>
             </div>

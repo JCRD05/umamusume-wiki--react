@@ -98,6 +98,139 @@ header {
 }
 
 /* ============================================================
+   LOGIN CARD
+   ============================================================ */
+.login-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(8, 14, 41, 0.8);
+    backdrop-filter: blur(8px);
+    padding: 24px;
+}
+
+.login-wrap {
+    width: min(430px, 100%);
+    max-width: 100%;
+}
+
+.login-card {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 32px;
+    padding: 36px 28px;
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(12px);
+    position: relative;
+    overflow: hidden;
+}
+
+.login-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top left, rgba(52, 94, 248, 0.18), transparent 42%);
+    pointer-events: none;
+}
+
+.login-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at bottom right, rgba(255, 105, 180, 0.12), transparent 30%);
+    pointer-events: none;
+}
+
+.login-card > * {
+    position: relative;
+    z-index: 1;
+}
+
+.login-header {
+    margin-bottom: 28px;
+}
+
+.login-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    background: #345EF8;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+}
+
+.login-card h2 {
+    margin: 18px 0 10px;
+    font-size: 2rem;
+    color: #1f2a47;
+    line-height: 1.1;
+}
+
+.login-card p {
+    color: #555;
+    font-size: 0.98rem;
+    line-height: 1.55;
+    max-width: 95%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.login-input {
+    width: 100%;
+    border: 1px solid rgba(52, 94, 248, 0.22);
+    border-radius: 18px;
+    padding: 16px 18px;
+    font-size: 0.98rem;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.9);
+    color: #222;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.login-input:focus {
+    border-color: #345EF8;
+    box-shadow: 0 0 0 6px rgba(52, 94, 248, 0.12);
+    transform: translateY(-1px);
+}
+
+.login-button {
+    width: 100%;
+    border: none;
+    border-radius: 999px;
+    padding: 16px 20px;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+    background: linear-gradient(135deg, #345EF8, #4870ff);
+    box-shadow: 0 14px 28px rgba(52, 94, 248, 0.22);
+    cursor: pointer;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.login-button:hover {
+    filter: brightness(1.06);
+    transform: translateY(-1px);
+}
+
+.login-button:active {
+    transform: translateY(0);
+}
+
+/* ============================================================
    FOOTER (compartida)
    ============================================================ */
 .main-footer {
@@ -220,6 +353,70 @@ header {
 .search-btn.trainee  { background: #7a58ff; }
 
 /* ============================================================
+   DATA FORM INPUTS
+   ============================================================ */
+.data-form {
+    display: grid;
+    gap: 14px;
+    margin: 22px 0 24px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 14px 18px;
+    border-radius: 18px;
+    border: 1px solid rgba(52, 94, 248, 0.22);
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.08);
+    font-size: 0.98rem;
+    font-weight: 600;
+    color: #222;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.form-input:focus {
+    border-color: #345EF8;
+    box-shadow: 0 0 0 6px rgba(52, 94, 248, 0.12);
+    transform: translateY(-1px);
+}
+
+.data-table input.form-input {
+    width: 100%;
+    margin: 0;
+    padding: 12px 14px;
+    border-radius: 14px;
+    font-size: 0.95rem;
+}
+
+.data-table input.form-input:focus {
+    box-shadow: 0 0 0 4px rgba(52, 94, 248, 0.1);
+}
+
+.add-button {
+    align-self: start;
+    margin-top: 4px;
+    padding: 14px 26px;
+    border-radius: 999px;
+    border: none;
+    background: linear-gradient(135deg, #ff69b4, #ff8ad6);
+    color: white;
+    font-weight: 800;
+    font-size: 0.98rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.add-button:hover {
+    filter: brightness(1.5);
+    transform: translateY(-1px);
+}
+
+.add-button:active {
+    transform: translateY(0);
+}
+
+/* ============================================================
    CONTENEDOR CÁPSULA BLANCA (tabla de datos)
    ============================================================ */
 .data-container,
@@ -328,11 +525,11 @@ header {
     text-align: center;
 }
 
-.tier-badge.ss { background-color: #ff6161; }
-.tier-badge.s  { background-color: #ffb84e; }
-.tier-badge.a  { background-color: #718fac; }
-.tier-badge.b  { background-color: #8d75c2; }
-.tier-badge.c  { background-color: #90c485; }
+.tier-badge.ss { background-color: #ff4d4d; }
+.tier-badge.s  { background-color: #ffae42; }
+.tier-badge.a  { background-color: #4da6ff; }
+.tier-badge.b  { background-color: #8d59ff; }
+.tier-badge.c  { background-color: #23d200; }
 
 /* Variante cuadrada (Trainee) */
 .tier-badge.square { border-radius: 4px; }
@@ -600,16 +797,6 @@ main {
     flex-wrap: wrap;
     gap: 10px;
     align-items: center;
-}
-
-/* Imágenes dentro de tierlist */
-.tierlist-table .trainee-image {
-    width: 60px;
-    height: 60px;
-    border-radius: 12px;
-    border: 2px solid white;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    transition: all 0.2s ease;
 }
 
 .tierlist-table .support-image {

@@ -44,8 +44,9 @@ const TraineePage = ({isAdmin}) => {
     const renderAddSection = () => {
         return (
             <div>
-                <form onSubmit={addTrainee}>
+                <form onSubmit={addTrainee} className="data-form">
                     <input
+                        className="form-input"
                         type='text'
                         placeholder='Trainee name'
                         name='name'
@@ -53,6 +54,7 @@ const TraineePage = ({isAdmin}) => {
                         onChange={handleNewTraineeChange}/>
 
                     <input
+                        className="form-input"
                         type='text'
                         placeholder='Trainee rarity'
                         name='rarity'
@@ -60,6 +62,7 @@ const TraineePage = ({isAdmin}) => {
                         onChange={handleNewTraineeChange} />
 
                     <input
+                        className="form-input"
                         type='text'
                         placeholder='Trainee tier'
                         name='tier'
@@ -67,6 +70,7 @@ const TraineePage = ({isAdmin}) => {
                         onChange={handleNewTraineeChange} />
 
                     <button
+                        className="add-button"
                         type='submit'>Add</button>
                 </form>
             </div>

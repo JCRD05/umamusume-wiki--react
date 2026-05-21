@@ -101,6 +101,7 @@ const TierDataSheet = ({data, className, isAdmin, type, onEditSuccess, onDeleteS
                         rowInEdition === element.id
                         ?
                             <input
+                                className="form-input"
                                 type='text'
                                 placeholder="input a name"
                                 name='name'
@@ -121,6 +122,7 @@ const TierDataSheet = ({data, className, isAdmin, type, onEditSuccess, onDeleteS
                         rowInEdition === element.id 
                         ?
                             <input
+                                className="form-input"
                                 type='text'
                                 placeholder="Input a rarity"
                                 name='rarity'
@@ -135,6 +137,7 @@ const TierDataSheet = ({data, className, isAdmin, type, onEditSuccess, onDeleteS
                         rowInEdition === element.id
                         ? 
                             <input
+                                className="form-input"
                                 type='text'
                                 placeholder="Input a tier"
                                 name='tier'
