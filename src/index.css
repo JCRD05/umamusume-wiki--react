@@ -225,8 +225,8 @@ header {
 .data-container,
 .data-table-container {
     background-color: white;
-    width: 92%;
-    max-width: 1100px;
+    width: 95%;
+    max-width: 1150px;
     margin: 30px auto 50px auto;
     border-radius: 100px;
     padding: 60px;
@@ -250,18 +250,27 @@ header {
 .data-table {
     width: 100%;
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 .data-table th {
-    text-align: center;
+    text-align: left;
     color: #8b5a2b;
     font-weight: 900;
     text-transform: uppercase;
-    padding-bottom: 15px;
+    /* CORRECCIÓN DE ALINEACIÓN: Se agregan 20px a los lados para igualar al td */
+    padding: 0 20px 15px 20px; 
     border-bottom: 2px solid #eee;
 }
 
-.data-table th:first-child{ text-align: left;}
+.data-table th:nth-child(1) {
+    width: 75%; 
+}
+
+.data-table th:nth-child(2),
+.data-table th:nth-child(3) {
+    width: 15%; 
+}
 
 .data-table td {
     padding: 20px 20px;
@@ -270,9 +279,11 @@ header {
     text-align: left;
 }
 
-.data-table td:nth-child(2),
-.data-table td:nth-child(3) {
-    text-align: center;
+/* MODIFICACIÓN: Quita cursivas y negritas SOLO de la columna "TYPE" en Skills */
+.data-container.skills .data-table td:nth-child(3) {
+    font-weight: normal;
+    font-style: normal;
+    color: #000;
 }
 
 .cell-flex {
@@ -301,17 +312,6 @@ header {
     font-size: 0.9rem;
     color: #777;
     font-weight: 600;
-}
-
-/* Columnas compactas (Trainee) */
-.data-container.trainee .data-table th:nth-child(2),
-.data-container.trainee .data-table td:nth-child(2),
-.data-container.trainee .data-table th:nth-child(3),
-.data-container.trainee .data-table td:nth-child(3) {
-    width: 1%;
-    white-space: nowrap;
-    text-align: center;
-    padding: 20px 12px;
 }
 
 /* ============================================================
