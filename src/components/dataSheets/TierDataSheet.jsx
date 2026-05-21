@@ -5,10 +5,10 @@ const TierDataSheet = ({data, className}) => {
                 <td>
                     <div className='cell-flex'>
                         <img 
-                            className={className}
+                            className={`list-image ${className}`}
                             src={element.image} 
                             title={element.name}/>
-                        <span className={`${className}-trainee`}>{element.name}</span>
+                        <span className="list-name">{element.name}</span>
                     </div>
                 </td>
                 <td>{element.rarity}</td>

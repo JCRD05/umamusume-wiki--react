@@ -66,7 +66,7 @@ const SkillPage = () => {
                 <p>Explore the complete list of Umamusume skills. Master the different types of active and passive abilities to gain the edge in every race.</p>
             </section>
 
-            <section className="data-container">
+            <section className="data-container skills">
                 <table className="data-table">
                     <thead>
                         <tr>

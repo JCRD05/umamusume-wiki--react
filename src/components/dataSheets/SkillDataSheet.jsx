@@ -5,12 +5,12 @@ const SkillDataSheet = ({data}) => {
                 <td>
                     <div className='cell-flex'>
                         <img 
-                            className={'tier'}
+                            className="list-image tier"
                             src={element.image} 
                             title={element.name}/>
                         <div className="details">
-                            <span className="name">{element.name}</span>
-                            <span className="desc">{element.description}</span>
+                            <span className="list-name">{element.name}</span>
+                            <span className="list-desc">{element.description}</span>
                         </div>
                     </div>
                 </td>

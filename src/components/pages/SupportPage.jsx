@@ -66,8 +66,8 @@ const SupportPage = () => {
                 <p>Browse through the complete database of Support Cards for Umamusume: Pretty Derby. Filter by type, rarity, and tier to find the perfect supplements for your training sessions and maximize your strategy.</p>
             </section>
 
-            <section className="data-table-container">
-                <table className="supports-table">
+            <section className="data-container supports">
+                <table className="data-table">
                     <thead>
                         <tr>
                             <th>Support Card</th>

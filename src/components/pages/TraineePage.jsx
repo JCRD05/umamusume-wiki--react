@@ -63,7 +63,7 @@ const TraineePage = () => {
                 <p>Explore the complete roster of playable Uma Musume. View. Sort by rarity or even competitive viability depending on your needs.</p>
             </section>
 
-            <section className="data-container">
+            <section className="data-container trainee">
                 <table className="data-table">
                     <thead className="data-head">
                         <tr>

@@ -233,11 +233,12 @@ header {
 }
 
 /* Variantes de borde según sección */
-.data-container.skills    { border: 2px solid #b3efff; }
-.data-container.trainee   { border: 2px solid #a0c4ff; }
-.data-table-container.supports { border: 2px solid #ffcc80; }
+.data-container.skills    { border: 2px solid #00ccff; }
+.data-container.trainee   { border: 2px solid #7a58ff; }
+.data-container.supports  { border: 2px solid #ff9d00; }
 .data-table-container.banner   {
-    border: 2px solid #ffcc80;
+    border: 2px solid #ff9d00;
+    background-color: rgba(255, 157, 0, 0.08);
     border-radius: 50px;
     padding: 40px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
@@ -246,15 +247,13 @@ header {
 /* ============================================================
    TABLAS DE DATOS (Skills, Supports, Trainee)
    ============================================================ */
-.data-table,
-.supports-table {
+.data-table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.data-table th,
-.supports-table th {
-    text-align: left;
+.data-table th {
+    text-align: center;
     color: #8b5a2b;
     font-weight: 900;
     text-transform: uppercase;
@@ -262,11 +261,18 @@ header {
     border-bottom: 2px solid #eee;
 }
 
-.data-table td,
-.supports-table td {
-    padding: 20px 0;
+.data-table th:first-child{ text-align: left;}
+
+.data-table td {
+    padding: 20px 20px;
     border-bottom: 1px solid #f5f5f5;
     vertical-align: middle;
+    text-align: left;
+}
+
+.data-table td:nth-child(2),
+.data-table td:nth-child(3) {
+    text-align: center;
 }
 
 .cell-flex {
@@ -284,14 +290,6 @@ header {
     border: 1px solid #ddd;
 }
 
-/* Imagen de support (portrait) */
-.supports-table .table-img {
-    width: 65px;
-    height: 85px;
-    border-radius: 8px;
-    border: none;
-}
-
 .name {
     display: block;
     font-weight: 800;
@@ -306,14 +304,14 @@ header {
 }
 
 /* Columnas compactas (Trainee) */
-.data-table th:nth-child(2),
-.data-table td:nth-child(2),
-.data-table th:nth-child(3),
-.data-table td:nth-child(3) {
+.data-container.trainee .data-table th:nth-child(2),
+.data-container.trainee .data-table td:nth-child(2),
+.data-container.trainee .data-table th:nth-child(3),
+.data-container.trainee .data-table td:nth-child(3) {
     width: 1%;
     white-space: nowrap;
     text-align: center;
-    padding-left: 40px;
+    padding: 20px 12px;
 }
 
 /* ============================================================
@@ -338,6 +336,27 @@ header {
 
 /* Variante cuadrada (Trainee) */
 .tier-badge.square { border-radius: 4px; }
+
+/* Imagen de lista en tablas (Skills, Trainee, Supports) */
+.list-image {
+    width: 50px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.list-name {
+    display: block;
+    font-weight: 800;
+    color: #8b5a2b;
+    font-size: 1.2rem;
+}
+
+.list-desc {
+    font-size: 0.9rem;
+    color: #777;
+    font-weight: 600;
+}
 
 /* ============================================================
    IMAGEN DE TRAINEE
@@ -632,7 +651,7 @@ main {
     border-bottom: 3px solid #ffcc80;
 }
 
-.data-body tr td {
+.banners-table .data-body tr td {
     padding: 30px 15px;
     border-bottom: 1px solid #f5f5f5;
     vertical-align: middle;
