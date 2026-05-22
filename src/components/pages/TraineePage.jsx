@@ -4,6 +4,8 @@ import dbService from '../../services/db'
 import TierDataSheet from '../dataSheets/TierDataSheet'
 
 const TraineePage = ({isAdmin}) => {
+    const placeholderImage = '/assets/images/miscellaneous/placeholder.png'
+    
     const [trainees, setTrainees] = useState([])
     const [isLoading, setIsLoading] = useState(true)
     const [search, setSearch] = useState('')
@@ -12,8 +14,10 @@ const TraineePage = ({isAdmin}) => {
     const [newTrainee, setNewTrainee] =  useState({
         name: '',
         rarity: '',
-        tier: ''
+        tier: '',
+        image: placeholderImage
     })
+    const [newImage, setNewImage] = useState(null)
 
     useEffect(() => {
         const controller = new AbortController
@@ -47,6 +51,12 @@ const TraineePage = ({isAdmin}) => {
                 <form onSubmit={addTrainee} className="data-form">
                     <input
                         className="form-input"
+                        type='file'
+                        accept="image/*"
+                        onChange={handleNewTraineeChange}/>
+
+                    <input
+                        className="form-input"
                         type='text'
                         placeholder='Trainee name'
                         name='name'
@@ -78,12 +88,15 @@ const TraineePage = ({isAdmin}) => {
     }
 
     const handleNewTraineeChange = (event) => {
-        const { name, value} = event.target
-
-        setNewTrainee({
-            ...newTrainee,
-            [name]: value
-        })
+        if(event.target.type === 'file') {
+            setNewImage(event.target.files[0])
+        } else {
+            const { name, value} = event.target
+            setNewTrainee({
+                ...newTrainee,
+                [name]: value
+            })
+        }
     }
 
     const addTrainee = (event) => {
@@ -92,18 +105,54 @@ const TraineePage = ({isAdmin}) => {
         if(newTrainee.name == '' || newTrainee.rarity == '' || newTrainee.tier == '' ) {
             return window.alert('please fill out all the form fields')
         }
-        
-        dbService
-            .addData('trainee', newTrainee)
-            .then(returnedTrainee => {
-                setTrainees(trainees.concat(returnedTrainee))
-                setNewTrainee({
-                    name: '',
-                    rarity: '',
-                    tier: ''
+
+        if(!newImage) {
+            return(
+                dbService
+                .addData('trainee', newTrainee)
+                .then(returnedTrainee => {
+                    setTrainees(trainees.concat(returnedTrainee))
+                    setNewTrainee({
+                        name: '',
+                        rarity: '',
+                        tier: '',
+                        image: placeholderImage
+                    })
                 })
-            })
-            .catch(error => console.error(error))
+                .catch(error => console.error(error))
+            )
+        }
+
+        const imagePayload = new FormData()
+
+        imagePayload.append('file', newImage)
+        imagePayload.append('upload_preset', 'uma-wiki')
+        imagePayload.append('folder', 'trainees')
+        
+        axios.post('https://api.cloudinary.com/v1_1/dqzyrqr58/image/upload', imagePayload)
+            .then(response => {
+                const imageUrl = response.data.secure_url
+
+                const trainee = {
+                    ...newTrainee,
+                    image: imageUrl
+                }
+
+                dbService
+                .addData('trainee', trainee)
+                .then(returnedTrainee => {
+                    setTrainees(trainees.concat(returnedTrainee))
+                    setNewTrainee({
+                        name: '',
+                        rarity: '',
+                        tier: '',
+                        image: placeholderImage
+                    })
+                    setNewImage(null)
+                })
+                .catch(error => console.error(error))
+            }
+        )
     }
 
     const checkUpdatedTrainee = updatedTrainee => {
