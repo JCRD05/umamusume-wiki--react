@@ -4,6 +4,8 @@ import dbService from '../../services/db'
 import TierDataSheet from '../dataSheets/TierDataSheet'
 
 const SupportPage = ({isAdmin}) => {
+    const placeholderImage = '/assets/images/miscellaneous/placeholder.png'
+
     const [supports, setSupports] = useState([])
     const [isLoading, setIsLoading] = useState(true)
     const [search, setSearch] = useState('')
@@ -12,8 +14,10 @@ const SupportPage = ({isAdmin}) => {
     const [newSupport, setNewSupport] =  useState({
         name: '',
         rarity: '',
-        tier: ''
+        tier: '',
+        image: placeholderImage
     })
+    const [newImage, setNewImage] = useState(null)
 
     useEffect(() => {
         const controller = new AbortController
@@ -47,6 +51,12 @@ const SupportPage = ({isAdmin}) => {
                 <form onSubmit={addSupport} className="data-form">
                     <input
                         className="form-input"
+                        type='file'
+                        accept="image/*"
+                        onChange={handleNewSupportChange}/>
+                    
+                    <input
+                        className="form-input"
                         type='text'
                         placeholder='Support name'
                         name='name'
@@ -78,12 +88,15 @@ const SupportPage = ({isAdmin}) => {
     }
 
     const handleNewSupportChange = (event) => {
-        const { name, value} = event.target
-
-        setNewSupport({
-            ...newSupport,
-            [name]: value
-        })
+        if(event.target.type === 'file') {
+            setNewImage(event.target.files[0])
+        } else {
+            const { name, value} = event.target
+            setNewSupport({
+                ...newSupport,
+                [name]: value
+            })
+        }
     }
 
     const addSupport = (event) => {
@@ -92,18 +105,55 @@ const SupportPage = ({isAdmin}) => {
         if(newSupport.name == '' || newSupport.rarity == '' || newSupport.tier == '' ) {
             return window.alert('please fill out all the form fields')
         }
+
         
-        dbService
-            .addData('supports', newSupport)
-            .then(returnedSupport => {
-                setSupports(supports.concat(returnedSupport))
-                setNewSupport({
-                    name: '',
-                    rarity: '',
-                    tier: ''
+        if(!newImage) {
+            return(
+                dbService
+                .addData('supports', newSupport)
+                .then(returnedSupport => {
+                    setSupports(supports.concat(returnedSupport))
+                    setNewSupport({
+                        name: '',
+                        rarity: '',
+                        tier: '',
+                        image: placeholderImage
+                    })
                 })
-            })
-            .catch(error => console.error(error))
+                .catch(error => console.error(error))
+            )
+        }
+
+        const imagePayload = new FormData()
+
+        imagePayload.append('file', newImage)
+        imagePayload.append('upload_preset', 'uma-wiki')
+        imagePayload.append('folder', 'supports')
+        
+        axios.post('https://api.cloudinary.com/v1_1/dqzyrqr58/image/upload', imagePayload)
+            .then(response => {
+                const imageUrl = response.data.secure_url
+
+                const trainee = {
+                    ...newSupport,
+                    image: imageUrl
+                }
+
+                dbService
+                .addData('supports', trainee)
+                .then(returnedSupport => {
+                    setSupports(supports.concat(returnedSupport))
+                    setNewSupport({
+                        name: '',
+                        rarity: '',
+                        tier: '',
+                        image: placeholderImage
+                    })
+                    setNewImage(null)
+                })
+                .catch(error => console.error(error))
+            }
+        )
     }
 
     const checkUpdateSupport = updatedSupport => {

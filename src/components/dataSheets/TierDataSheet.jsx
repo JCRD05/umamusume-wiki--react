@@ -1,4 +1,5 @@
 import { useState } from "react"
+import axios from "axios"
 import dbService from '../../services/db'
 
 const TierDataSheet = ({data, className, isAdmin, type, onEditSuccess, onDeleteSuccess}) => {
@@ -10,6 +11,7 @@ const TierDataSheet = ({data, className, isAdmin, type, onEditSuccess, onDeleteS
         tier: '',
         image: ''
     })
+    const [newImage, setNewImage] = useState(null)
 
     const renderAdminButtons = (element) => {
         if(isAdmin === false) return null
@@ -20,7 +22,16 @@ const TierDataSheet = ({data, className, isAdmin, type, onEditSuccess, onDeleteS
                     <button
                         onClick={() => editTrainee(element.id)}>💾</button>
                     <button
-                        onClick={() => setRowInEdition(null)}>❌</button>
+                        onClick={() => {
+                            setRowInEdition(null)
+                            setDraft({
+                                name: '',
+                                rarity: '',
+                                tier: '',
+                                image: ''
+                            })
+                            setNewImage(null)
+                        }}>❌</button>
                 </div>
             )
         } else if(rowToDelete === element.id) {
@@ -53,12 +64,15 @@ const TierDataSheet = ({data, className, isAdmin, type, onEditSuccess, onDeleteS
     }
 
     const handleDraftChange = (event) => {
-        const { name, value} = event.target
-
-        setDraft({
-            ...draft,
-            [name]: value
-        })
+        if(event.target.type === 'file') {
+            setNewImage(event.target.files[0])
+        } else {
+            const { name, value} = event.target
+            setDraft({
+                ...draft,
+                [name]: value
+            })
+        }
     }
 
     const editTrainee = (id) => {
@@ -66,19 +80,56 @@ const TierDataSheet = ({data, className, isAdmin, type, onEditSuccess, onDeleteS
             return window.alert('please fill out all the form fields')
         }
 
-        dbService
-            .editData(draft, `${type}/${id}`)
-            .then(() => {
-                setDraft({
-                    name: '',
-                    rarity: '',
-                    tier: ''
+        if(!newImage) {
+            return(
+                dbService
+                .editData(draft, `${type}/${id}`)
+                .then(() => {
+                    setDraft({
+                        name: '',
+                        rarity: '',
+                        tier: '',
+                        image: ''
+                    })
+                    setRowInEdition(null)
+                    onEditSuccess({ id:id, ...draft})
                 })
-                setRowInEdition(null)
-                onEditSuccess({ id:id, ...draft})
+                .catch(error => console.error(error))
+            )
+        }
+
+        const imagePayload = new FormData()
+
+        imagePayload.append('file', newImage)
+        imagePayload.append('upload_preset', 'uma-wiki')
+        imagePayload.append('folder', type)
+        
+        axios.post('https://api.cloudinary.com/v1_1/dqzyrqr58/image/upload', imagePayload)
+            .then(response => {
+                const imageUrl = response.data.secure_url
+
+                const data = {
+                    ...draft,
+                    image: imageUrl
+                }
+
+                dbService
+                .editData(data, `${type}/${id}`)
+                .then(() => {
+                    setDraft({
+                        name: '',
+                        rarity: '',
+                        tier: '',
+                        image: ''
+                    })
+                    setRowInEdition(null)
+                    setNewImage(null)
+                    onEditSuccess({ id:id, ...data})
+                })
+                .catch(error => console.error(error))
             })
-            .catch(error => console.error(error))
     }
+
     const deleteTrainee = (id) => {
         dbService
             .deleteData(`${type}/${id}`)
@@ -100,13 +151,21 @@ const TierDataSheet = ({data, className, isAdmin, type, onEditSuccess, onDeleteS
                     {
                         rowInEdition === element.id
                         ?
-                            <input
-                                className="form-input"
-                                type='text'
-                                placeholder="input a name"
-                                name='name'
-                                value={draft.name}
-                                onChange={handleDraftChange} />
+                            <div>
+                                <input
+                                    className="form-input"
+                                    type='file'
+                                    accept="image/*"
+                                    onChange={handleDraftChange}/>
+
+                                <input
+                                    className="form-input"
+                                    type='text'
+                                    placeholder="input a name"
+                                    name='name'
+                                    value={draft.name}
+                                    onChange={handleDraftChange} />
+                            </div>
                         :
                             <div className='cell-flex'>
                                 <img 
